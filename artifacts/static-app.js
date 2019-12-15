@@ -802,7 +802,6 @@ function PictureTextBlock(props) {
   };
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitSection, sectionProps, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitPicture, {
     id: "laptopStock",
-    src: props.backgroundImage,
     backgroundImage: props.backgroundImage
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitContent, null, props.children));
 }
