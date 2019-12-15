@@ -5,7 +5,7 @@ import { extractCritical } from "emotion-server";
 import { renderToString } from "react-dom/server";
 
 export default {
-  basePath: 'americanattorney',
+  siteRoot:'https://usaatty.com',
   paths: {
     root: process.cwd(), // The root of your project. Don't change this unless you know what you're doing.
     src: "src", // The source directory. Must include an index.js entry file.

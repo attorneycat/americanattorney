@@ -13,7 +13,7 @@
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
   "entry": "index.js",
-  "basePath": "americanattorney",
+  "siteRoot": "https://usaatty.com",
   "paths": {
     "ROOT": "/Users/cat/Documents/GitHub/americanattorney",
     "SRC": "/Users/cat/Documents/GitHub/americanattorney/src",
@@ -40,8 +40,8 @@
     "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-sitemap/dist/node.api.js",
     "/Users/cat/Documents/GitHub/americanattorney"
   ],
-  "siteRoot": "/",
-  "publicPath": "/americanattorney/",
+  "basePath": "",
+  "publicPath": "https://usaatty.com/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,
