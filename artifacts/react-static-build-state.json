@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "paths": {
+    "ROOT": "/Users/cat/Documents/GitHub/americanattorney",
+    "SRC": "/Users/cat/Documents/GitHub/americanattorney/src",
+    "DIST": "/Users/cat/Documents/GitHub/americanattorney/docs",
+    "ASSETS": "/Users/cat/Documents/GitHub/americanattorney/docs",
+    "PLUGINS": "/Users/cat/Documents/GitHub/americanattorney/plugins",
+    "TEMP": "/Users/cat/Documents/GitHub/americanattorney/tmp",
+    "ARTIFACTS": "/Users/cat/Documents/GitHub/americanattorney/artifacts",
+    "PUBLIC": "/Users/cat/Documents/GitHub/americanattorney/public",
+    "NODE_MODULES": "/Users/cat/Documents/GitHub/americanattorney/node_modules",
+    "EXCLUDE_MODULES": "/Users/cat/Documents/GitHub/americanattorney/node_modules",
+    "PACKAGE": "/Users/cat/Documents/GitHub/americanattorney/package.json",
+    "HTML_TEMPLATE": "/Users/cat/Documents/GitHub/americanattorney/docs/index.html",
+    "STATIC_DATA": "/Users/cat/Documents/GitHub/americanattorney/docs/staticData"
+  },
+  "plugins": [
+    [
+      "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/cat/Documents/GitHub/americanattorney/src/pages"
+      }
+    ],
+    "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/cat/Documents/GitHub/americanattorney"
+  ],
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

@@ -4,13 +4,13 @@ import styled from "@emotion/styled";
 //Import Core
 import { Button } from "./core";
 //Import assets
-import mountainSplash from "assets/mountainSplash.jpg";
+import ny2 from "assets/ny2.jpg";
 
 const SectionBG = styled("header")`
   height: 85vh;
   position: relative;
   width: 100vw;
-  background-image: url(${mountainSplash});
+  background-image: url(${ny2});
   background-size: cover;
 `;
 
@@ -38,9 +38,9 @@ export default function Hero(props) {
       <Content>
         <h1>AMERICAN TRADEMARK ATTORNEY</h1>
         <h3>
-          PROTECT AND GROW YOUR BUSINESS <br /> TODDAY WITH A US LICESNED LAWER.
+          PROTECT AND GROW YOUR BUSINESS TODAY WITH A US LICENSED LAWYER.
         </h3>
-        <ButtonRow>
+        <ButtonRow><br></br>
           <a href="">
             <Button> BOOK A FREE CONSULTATION </Button>
           </a>

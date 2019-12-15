@@ -4,11 +4,6 @@ import styled from "@emotion/styled";
 //Import core
 import { Section, SectionContent } from "./core";
 
-//Import assets
-import reiki from "assets/reiki.png";
-import firstplace from "assets/firstplace.png";
-import certGreen from "assets/cert-green.png";
-import certPurp from "assets/cert-purp.png";
 
 const Row = styled("div")`
   margin-top: 50px;
@@ -37,22 +32,72 @@ export default function Testimonials(props) {
   return (
     <Section backgroundColor={"white"} color={"black"}>
       <SectionContent>
-        <h2 style={{ color: "#b73954" }}>Testimonials</h2>
+        <h2 style={{ color: "#85c6d4" }}>Testimonials</h2>
         <Row>
           <Testimonial>
-            I love doing stuff with cat because my name is Landon.. and i love big fat motorbikes and small cars
-            <br /><br />- Landon
+            Catherine was able to navigate the complexity of my issue within
+            minutes and provide accurate and detailed advice. Her advice led me
+            to the exact outcome I had hoped for. For any future issues, I will
+            be using CAT Law.
+            <br />
+            <br />
+            <h4>- Tierra</h4>
           </Testimonial>
           <Testimonial>
-            I love doing stuff with cat because my name is Landon.. and i love big fat motorbikes and small cars
-            <br /><br />- Landon
+            I am a business owner and had a great experience meeting with
+            Catherine who helped me re-do a contract that needed serious help.
+            She caught so many issues that my previous attorneys missed.
+            Appreciate the support and patience she took with understanding my
+            needs and breaking it down for me in terms for a non-lawyer type
+            person. Thanks so much, highly recommended and I will definitely be
+            using her firm again for my business needs.
+            <br />
+            <br /><b>- Rick</b>
           </Testimonial>
           <Testimonial>
-            I love doing stuff with cat because my name is Landon.. and i love big fat motorbikes and small cars
-            <br /><br />- Landon
+            Catherine was incredibly helpful in providing advice in a
+            challenging situation. Her responses were quick, professional &
+            detailed. I would highly recommended Attorney Cat.
+            <br />
+            <br /><b>- Leia</b>
           </Testimonial>
         </Row>
       </SectionContent>
+      <SectionContent>
+        <Row>
+          <Testimonial>
+            Catherine was able to navigate the complexity of my issue within
+            minutes and provide accurate and detailed advice. Her advice led me
+            to the exact outcome I had hoped for. For any future issues, I will
+            be using CAT Law.
+            <br />
+            <br />
+            <h4>- Tierra</h4>
+          </Testimonial>
+          <Testimonial>
+            I am a business owner and had a great experience meeting with
+            Catherine who helped me re-do a contract that needed serious help.
+            She caught so many issues that my previous attorneys missed.
+            Appreciate the support and patience she took with understanding my
+            needs and breaking it down for me in terms for a non-lawyer type
+            person. Thanks so much, highly recommended and I will definitely be
+            using her firm again for my business needs.
+            <br />
+            <br /><b>- Rick</b>
+          </Testimonial>
+          <Testimonial>
+            Catherine was incredibly helpful in providing advice in a
+            challenging situation. Her responses were quick, professional &
+            detailed. I would highly recommended Attorney Cat.
+            <br />
+            <br /><b>- Leia</b>
+          </Testimonial>
+        </Row>
+
+
+      </SectionContent>
     </Section>
+
+
   );
 }

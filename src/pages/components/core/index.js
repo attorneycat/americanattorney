@@ -29,7 +29,7 @@ export const Button = styled("button")`
   color: ${props => props.color || "black"};
   border: 0px solid ${props => props.color || "black"};
   /* background-color: rgba(0, 171, 0, 0); */
-  background-color: #6495ED;
+  background-color: #85c6d4;
   border-radius: ${props => (props.small ? "5px" : "10px")};
   padding: ${props =>
     props.small ? "5px 10px 5px 10px" : "10px 20px 10px 20px"};
@@ -37,8 +37,8 @@ export const Button = styled("button")`
   font-size: ${props => (props.small ? "1em" : "1.7em")};
   min-width: ${props => (props.small ? "120px" : "230px")};
   @media (max-width: 750px) {
-    font-size: 1.2em;
-    min-width: 180px;
+    font-size: 1em;
+    min-width: 150px;
     margin: 2px;
   }
   @media (max-width: 500px) {
@@ -47,10 +47,10 @@ export const Button = styled("button")`
     margin: 2px;
   }
   &:hover {
-    background-color: rgba(0, 171, 0, 0.2);
+    background-color: rgba(63, 127, 191, 0.6);
   }
   &:active {
-    background-color: rgba(0, 171, 0, 0.4);
+    background-color: rgba(0, 171, 0, 0.6);
   }
   transition: all 0.3s;
 `;

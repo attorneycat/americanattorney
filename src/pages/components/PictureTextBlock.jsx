@@ -37,7 +37,7 @@ export default function PictureTextBlock(props) {
   };
   return (
     <SplitSection {...sectionProps}>
-      <SplitPicture backgroundImage={props.backgroundImage}/>
+      <SplitPicture id='laptopStock' src={props.backgroundImage} backgroundImage={props.backgroundImage}/>
       <SplitContent>{props.children}</SplitContent>
     </SplitSection>
   );

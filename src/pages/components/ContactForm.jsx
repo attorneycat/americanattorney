@@ -4,11 +4,7 @@ import styled from "@emotion/styled";
 //Import core
 import { Section, SectionContent, Button } from "./core";
 
-//Import assets
-import reiki from "assets/reiki.png";
-import firstplace from "assets/firstplace.png";
-import certGreen from "assets/cert-green.png";
-import certPurp from "assets/cert-purp.png";
+
 
 const FormRow = styled("div")`
   margin-top: 50px;
@@ -68,24 +64,24 @@ const BoldHeading = styled("h4")`
 
 export default function ContactForm(props) {
   return (
-    <Section backgroundColor={"darkblue"} color={"black"}>
+    <Section backgroundColor={"#85c6d4"} color={"black"}>
       <SectionContent>
-        <h2 style={{ color: "#b73954" }}>FREE CASE EVALUATION</h2>
-        <h3 style={{ color: "grey" }}>
-          Are you in a bit of a pickle? <br />
-          Call me at 1-800-999-9999 or fill out the form below for a NEIN obligation consultation!
+        <h2 style={{ color: "#b73954" }}>Book your FREE consultation today!</h2>
+        <h3 style={{ color: "white" }}>
+
+          Your initial consultation with Attorney Cat is free, just fill out your information below:
+
         </h3>
-        <br/>
         <hr/>
         <br/>
         <form>
 
-            <Input placeholder={'First Name'}/>
-            <Input placeholder={'Last Name'}/>
+            <Input placeholder={'Name'}/>
             <Input placeholder={'Email'}/>
             <Input placeholder={'Phone Number'}/>
+            <Input placeholder={'Whatsapp'}/>
             <InputArea placeholder={'Describe Your Issue'} name="Text1" rows="5"/>
-            <Button>SEND EMAIL</Button>
+            <Button style={{ color: "white" }}>SEND EMAIL</Button>
         </form>
       </SectionContent>
     </Section>

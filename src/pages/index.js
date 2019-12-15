@@ -17,6 +17,12 @@ import ContactForm from "./components/ContactForm";
 import mountainSplash from "assets/mountainSplash.jpg";
 import laptopStock from "assets/laptopStock.jpg";
 import pinkCouch from "assets/pinkCouch.jpg";
+import windowpic from "assets/windowpic.jpg";
+import nypic from "assets/nypic.jpg";
+import ny3 from "assets/ny3.jpg";
+import ny6 from "assets/nypic6.jpg";
+import attorneycat from "assets/attorneycat.jpg";
+import homeoffice from "assets/homeoffice.jpg";
 
 const WhiteBreak = styled("div")`
   height: 5em;
@@ -35,88 +41,132 @@ export default () => (
     <WhiteBreak />
     <br />
     <HomePageContents>
-      <PictureTextBlock pictureLeft backgroundImage={laptopStock}>
-        <h2>Who Are We?</h2>
-        <p>Legal advice doesn't have to be intimidating and out of reach.</p>
+      <PictureTextBlock id='laptopStock' pictureLeft backgroundImage={laptopStock}>
+        <h2>Do You Need An American Trademark Registration?</h2>
+        <p>We can help!</p>
         <p>
-          The CAT Law is a boutique law firm offering bespoke legal services for
-          entreprenuers, influencers, and business owners. We offer high quality
-          legal services at affordable prices for business owners just like you.
+          In 2019, the United States passed a law requiring all persons not
+          living in the U.S. to use an American licensed attorney to process
+          their US trademark application.
         </p>
         <p>
-          Frustrated with her own experience seeking legal counsel, our founder
-          sought to solve the problems she encountered and be a lawyer who not
-          only does good work, but also cares about her clients.
+          The Law Offices of Catherine Tang can help you register your trademark
+          today. We assist with all stages of your trademark and business needs,
+          from initial trademark registration and USPTO office action reponses,
+          to growing and protecting your business.
         </p>
         <p>
-          Beyond helping businesses grow, CAT Law gives back. We aim to be a
-          sustainable lean practice and dedicate a portion of our practice
-          towards giving back to the community through pro bono service helping
-          to bridge the legal gap.
+          Conveniently located in both the United States and Asia, we work in
+          your time zone to provide you with a seamless trademark registration
+          process.
         </p>
         <br />
 
-        <Button> Get Started Now </Button>
+        <center>
+          <Button style={{ color: "#ffffff" }}> Get Started Now </Button>
+        </center>
       </PictureTextBlock>
 
       <PictureTextBlock pictureRight backgroundImage={pinkCouch}>
-        Prior to law, Attorney Catherine Tang had an extensive background in
-        marketing/business development. Like you, she is an entrepreneur and
-        business owner starting her own company when she was only 15 years old.
-        Cat has worked with companies like Yelp, MySpace, YouTube, and countless
-        other small businesses. She is uniquely situated to help entrepreneurs,
-        influencers, and business owners navigate their legal and growth
-        challenges having been in all their shoes. She decided to pursue a law
-        degree because she knew the how much business and every day life is
-        intertwined with law and that knowledge of the law has the power to make
-        a difference in the world. She embarked her law school journey with two
-        kids under two years old, her youngest being only 3 months old when she
-        started her first day, while continuing to manage a business in the
-        medical field. After graduating in the top of her law school class, she
-        worked for one of the largest international corporate law firms in the
-        Asia and quickly realized that working law firm hours in “big law”
-        environments would not allow her to achieve her own goals of both being
-        able to be present for her family, and also to help others grow their
-        business so she quit to do what she enjoys most: start a company and
-        grow it organically, and helping others do the same. CONSULT WITH
-        ATTORNEY CAT Next
-      </PictureTextBlock>
-      <PictureTextBlock pictureLeft />
+        <h2>Our Comprehensive Search & Application Package</h2>
 
-      <PictureTextBlock pictureRight />
+        <p>
+          Complete search on federal, state, and federal databases for potential
+          conflicts.
+        </p>
+        <p>Attorney drafted opinion letter prepared by Catherine Tang</p>
+        <p>
+          Trademark application prepared and filed by a US licensed attorney
+        </p>
+        <p>Monitoring of your trademark application</p>
+        <p>Phone consultation with Attorney Cat</p>
+<p> </p>
+        <center>
+          <Button style={{ color: "#ffffff" }}>Start Your Application</Button>
+          <b>
+            <p>$650 + government filing fee ($275)</p>
+          </b>
+        </center>
+      </PictureTextBlock>
+
+      <TextOverPictureBlock backgroundImage={homeoffice} />
+      <ServicesIOffer />
+
       <TextOverPictureBlock
         backgroundImage={mountainSplash}
         overlayColor={"rgba(0,0,0,0.2)"}
       >
-        <h1> I love to eat hotdogs and cococola and im a cat </h1>
+        <h3>Legal advice doesn't have to be intimidating and out of reach.</h3>
+        <h1>
+          {" "}
+          Whether you're in Asia, Europe, Americas, or anywhere else in the
+          world... we can process your American trademark for you.{" "}
+        </h1>
 
         <h3>
-          We work with creatives and influencers of all kinds to protect their
-          work. You made it... don't let someone else steal it and profit off
-          what you've done!
+          We work with business owners, creatives, and influencers of all kinds
+          to protect their work. You made it... don't let someone else steal it
+          and profit off what you've done!
         </h3>
 
         <h3>
-          We work with creatives and influencers of all kinds to protect their
-          work. You made it... don't let someone else steal it and profit off
-          what you've done!
+          Our boutique law firm offers bespoke legal services for entreprenuers,
+          influencers, and business owners. We offer high quality legal services
+          at affordable prices for business owners just like you.
         </h3>
-
-        <h2>
-          We work with creatives and influencers of all kinds to protect their
-          work. You made it... don't let someone else steal it and profit off
-          what you've done!You made it... don't let someone else steal it and
-          profit off what you've done!
-        </h2>
       </TextOverPictureBlock>
 
-      <ServicesIOffer />
 
-      <TextOverPictureBlock backgroundImage={mountainSplash} />
+
+            <PictureTextBlock pictureLeft backgroundImage={attorneycat}>
+              <h2>Meet Our Attorney</h2>
+              <p>
+                Prior to law, Attorney Catherine Tang had an extensive background in
+                marketing and business development. Like you, she is an entrepreneur
+                and business owner starting her own company at 15 years old.
+              </p>
+              <p>
+                Catherine has worked with companies like Yelp, MySpace, YouTube, and
+                countless other small businesses. She is uniquely situated to help
+                entrepreneurs, influencers, and business owners navigate their legal
+                and growth challenges having been in all their shoes.
+              </p>{" "}
+              <p>
+                She decided to pursue a law degree because she knew the how much
+                business and every day life is intertwined with law and that knowledge
+                of the law has the power to make a difference in the world.
+              </p>
+              <p>
+                She embarked her law school journey with two kids under two years old,
+                her youngest being only 3 months old when she started her first day,
+                while continuing to manage a business in the medical field.{" "}
+              </p>{" "}
+              <p>
+                After graduating in the top of her law school class, she worked for
+                one of the largest international corporate law firms in the Asia and
+                quickly realized that working law firm hours in “big law” environments
+                would not allow her to achieve her own goals of both being able to be
+                present for her family, and also to help others grow their business so
+                she quit to do what she enjoys most: start a company and grow it
+                organically, and helping others do the same.{" "}
+              </p>
+              <center>
+                <br></br>
+                <Button style={{ color: "#ffffff" }}> Book a Consult Today </Button>
+
+                <b>
+                  <p>Initial Consultations with Attorney Cat are Free</p>
+                </b>
+              </center>
+            </PictureTextBlock>
+
+
+
+                  <TextOverPictureBlock backgroundImage={ny6} />
 
       <Testimonials />
-      <TextOverPictureBlock backgroundImage={mountainSplash} />
 
+      <TextOverPictureBlock backgroundImage={nypic} />
       <ContactForm />
 
       <Contact />
