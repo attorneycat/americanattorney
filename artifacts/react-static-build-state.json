@@ -13,6 +13,7 @@
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
   "entry": "index.js",
+  "basePath": "americanattorney",
   "paths": {
     "ROOT": "/Users/cat/Documents/GitHub/americanattorney",
     "SRC": "/Users/cat/Documents/GitHub/americanattorney/src",
@@ -40,8 +41,7 @@
     "/Users/cat/Documents/GitHub/americanattorney"
   ],
   "siteRoot": "/",
-  "basePath": "",
-  "publicPath": "/",
+  "publicPath": "/americanattorney/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,

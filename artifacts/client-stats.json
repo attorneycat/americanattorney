@@ -4,10 +4,10 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  static/ny2.18e57ca5.jpg (4.84 MiB)\n  static/mountainSplash.240031c1.jpg (611 KiB)\n  static/laptopStock.17fbef5b.jpg (1.77 MiB)\n  static/pinkCouch.2b4ca946.jpg (913 KiB)\n  static/windowpic.728fc4c1.jpg (2.9 MiB)\n  static/nypic.c3221f64.jpg (3.6 MiB)\n  static/ny3.847b0c31.jpg (3.65 MiB)\n  static/nypic6.2130e3a8.jpg (1.97 MiB)\n  static/attorneycat.e8805af1.jpg (394 KiB)\n  static/homeoffice.5c1bdd30.jpg (2.77 MiB)"
   ],
   "version": "4.41.2",
-  "hash": "e4991dcd829c4bc1aa4e",
-  "time": 10842,
-  "builtAt": 1576395536975,
-  "publicPath": "/",
+  "hash": "19f3d1057a1be3d186b4",
+  "time": 6486,
+  "builtAt": 1576395925941,
+  "publicPath": "/americanattorney/",
   "outputPath": "/Users/cat/Documents/GitHub/americanattorney/docs",
   "assetsByChunkName": {
     "vendors~Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx~Users/cat/Docum~daa20281": "templates/vendors~Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx~Users/cat/Docum~daa20281.1e9781f5.js",
@@ -21,17 +21,17 @@
     "Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx": "templates/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx.f6ddd6d3.js",
     "Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index": "templates/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.f3d3224f.js",
     "Users/cat/Documents/GitHub/americanattorney/src/pages/index": "templates/Users/cat/Documents/GitHub/americanattorney/src/pages/index.27ecc503.js",
-    "main": "main.e4991dcd.js",
+    "main": "main.19f3d105.js",
     "styles": [
-      "styles.1280d157.css",
-      "templates/styles.1280d157.js"
+      "styles.700bd8f8.css",
+      "templates/styles.700bd8f8.js"
     ],
-    "vendors~main": "templates/vendors~main.26346f2e.js"
+    "vendors~main": "templates/vendors~main.1c94108d.js"
   },
   "assets": [
     {
-      "name": "main.e4991dcd.js",
-      "size": 12583,
+      "name": "main.19f3d105.js",
+      "size": 12600,
       "chunks": [
         11
       ],
@@ -166,7 +166,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "styles.1280d157.css",
+      "name": "styles.700bd8f8.css",
       "size": 388,
       "chunks": [
         12
@@ -335,7 +335,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.1280d157.js",
+      "name": "templates/styles.700bd8f8.js",
       "size": 83,
       "chunks": [
         12
@@ -363,8 +363,8 @@
       "emitted": true
     },
     {
-      "name": "templates/vendors~main.26346f2e.js",
-      "size": 247672,
+      "name": "templates/vendors~main.1c94108d.js",
+      "size": 247788,
       "chunks": [
         13
       ],
@@ -386,10 +386,10 @@
         11
       ],
       "assets": [
-        "styles.1280d157.css",
-        "templates/styles.1280d157.js",
-        "templates/vendors~main.26346f2e.js",
-        "main.e4991dcd.js"
+        "styles.700bd8f8.css",
+        "templates/styles.700bd8f8.js",
+        "templates/vendors~main.1c94108d.js",
+        "main.19f3d105.js"
       ],
       "children": {},
       "childAssets": {}
@@ -403,10 +403,10 @@
         11
       ],
       "assets": [
-        "styles.1280d157.css",
-        "templates/styles.1280d157.js",
-        "templates/vendors~main.26346f2e.js",
-        "main.e4991dcd.js"
+        "styles.700bd8f8.css",
+        "templates/styles.700bd8f8.js",
+        "templates/vendors~main.1c94108d.js",
+        "main.19f3d105.js"
       ],
       "children": {},
       "childAssets": {}
@@ -947,9 +947,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "issuerId": 52,
-              "issuerName": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
+              "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "issuerId": 51,
+              "issuerName": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
               "issuerPath": [
                 {
                   "id": 61,
@@ -967,9 +967,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 }
               ],
               "failed": false,
@@ -1353,9 +1353,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -1429,9 +1429,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -1510,9 +1510,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -1656,9 +1656,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -1800,9 +1800,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -1898,9 +1898,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -2002,9 +2002,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -2106,9 +2106,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -2192,9 +2192,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -2278,9 +2278,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -2364,9 +2364,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -2468,9 +2468,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -2559,9 +2559,9 @@
                   "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 52,
-                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+                  "id": 51,
+                  "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+                  "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
                 },
                 {
                   "id": null,
@@ -2624,9 +2624,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-          "issuerId": 52,
-          "issuerName": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
+          "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+          "issuerId": 51,
+          "issuerName": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
           "issuerPath": [
             {
               "id": 61,
@@ -2644,9 +2644,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             }
           ],
           "failed": false,
@@ -3023,9 +3023,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -9065,9 +9065,9 @@
         "main"
       ],
       "files": [
-        "main.e4991dcd.js"
+        "main.19f3d105.js"
       ],
-      "hash": "de9ba8736f46cd3f95e2",
+      "hash": "936eace2e7162437a927",
       "siblings": [
         12,
         13
@@ -9758,10 +9758,10 @@
         "styles"
       ],
       "files": [
-        "styles.1280d157.css",
-        "templates/styles.1280d157.js"
+        "styles.700bd8f8.css",
+        "templates/styles.700bd8f8.js"
       ],
-      "hash": "1280d1576a587d13733a",
+      "hash": "700bd8f8cff0a8f296f0",
       "siblings": [
         11,
         13
@@ -9842,7 +9842,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1576395530077\n      var cssReload = require(\"/Users/cat/Documents/GitHub/americanattorney/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1576395921186\n      var cssReload = require(\"/Users/cat/Documents/GitHub/americanattorney/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -9930,9 +9930,9 @@
         "vendors~main"
       ],
       "files": [
-        "templates/vendors~main.26346f2e.js"
+        "templates/vendors~main.1c94108d.js"
       ],
-      "hash": "26346f2ed8f72e54f32c",
+      "hash": "1c94108d1342e9a15dcd",
       "siblings": [
         11,
         12
@@ -13490,9 +13490,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -13655,9 +13655,9 @@
           "chunks": [
             13
           ],
-          "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 62,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "issuerId": 118,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 61,
@@ -13665,9 +13665,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -13780,9 +13780,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -13995,9 +13995,9 @@
           "chunks": [
             13
           ],
-          "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 62,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "issuerId": 118,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 61,
@@ -14005,9 +14005,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -14191,9 +14191,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -14485,9 +14485,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -14801,7 +14801,7 @@
             "globalHistory"
           ],
           "optimizationBailout": [
-            "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/@babel/runtime/helpers/esm/typeof.js because of /Users/cat/Documents/GitHub/americanattorney/node_modules/@emotion/core/dist/core.browser.esm.js",
+            "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/@babel/runtime/helpers/esm/typeof.js because of /Users/cat/Documents/GitHub/americanattorney/node_modules/@emotion/serialize/dist/serialize.browser.esm.js",
             "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/create-react-context/lib/index.js (<- Module is not an ECMAScript module)",
             "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/invariant/browser.js (<- Module is not an ECMAScript module)",
             "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/react/index.js (<- Module is not an ECMAScript module)"
@@ -15936,9 +15936,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16002,9 +16002,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16073,9 +16073,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16139,9 +16139,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16205,9 +16205,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16281,9 +16281,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16362,9 +16362,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16438,9 +16438,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16585,9 +16585,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16666,9 +16666,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16752,9 +16752,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16828,9 +16828,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -16904,9 +16904,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -17468,9 +17468,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -18732,9 +18732,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -18794,9 +18794,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -18856,9 +18856,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -18918,9 +18918,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -18975,9 +18975,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19037,9 +19037,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19099,9 +19099,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19161,9 +19161,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19223,9 +19223,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19295,9 +19295,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19362,9 +19362,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19434,9 +19434,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19506,9 +19506,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19583,9 +19583,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19655,9 +19655,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19732,9 +19732,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19814,9 +19814,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19891,9 +19891,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -19968,9 +19968,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -20045,9 +20045,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -20122,9 +20122,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -20199,9 +20199,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -20266,9 +20266,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -20333,9 +20333,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -20398,9 +20398,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 7,
@@ -25737,9 +25737,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -25902,9 +25902,9 @@
       "chunks": [
         13
       ],
-      "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 62,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+      "issuerId": 118,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 61,
@@ -25912,9 +25912,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -26027,9 +26027,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -26242,9 +26242,9 @@
       "chunks": [
         13
       ],
-      "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 62,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+      "issuerId": 118,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 61,
@@ -26252,9 +26252,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -26438,9 +26438,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -26732,9 +26732,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -27048,7 +27048,7 @@
         "globalHistory"
       ],
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/@babel/runtime/helpers/esm/typeof.js because of /Users/cat/Documents/GitHub/americanattorney/node_modules/@emotion/core/dist/core.browser.esm.js",
+        "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/@babel/runtime/helpers/esm/typeof.js because of /Users/cat/Documents/GitHub/americanattorney/node_modules/@emotion/serialize/dist/serialize.browser.esm.js",
         "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/create-react-context/lib/index.js (<- Module is not an ECMAScript module)",
         "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/invariant/browser.js (<- Module is not an ECMAScript module)",
         "ModuleConcatenation bailout: Cannot concat with /Users/cat/Documents/GitHub/americanattorney/node_modules/react/index.js (<- Module is not an ECMAScript module)"
@@ -28604,9 +28604,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -28670,9 +28670,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -28741,9 +28741,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -28807,9 +28807,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -28873,9 +28873,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -28949,9 +28949,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -29030,9 +29030,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -29106,9 +29106,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -29253,9 +29253,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -29334,9 +29334,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -29420,9 +29420,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -29496,9 +29496,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -29572,9 +29572,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -31150,9 +31150,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -32587,9 +32587,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -32649,9 +32649,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -32711,9 +32711,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -32773,9 +32773,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -32830,9 +32830,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -32892,9 +32892,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -32954,9 +32954,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33016,9 +33016,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33078,9 +33078,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33150,9 +33150,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33217,9 +33217,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33289,9 +33289,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33361,9 +33361,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33438,9 +33438,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33510,9 +33510,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33587,9 +33587,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33669,9 +33669,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33746,9 +33746,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33823,9 +33823,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33900,9 +33900,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -33977,9 +33977,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -34054,9 +34054,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -34121,9 +34121,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -34188,9 +34188,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -34253,9 +34253,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 7,
@@ -36162,7 +36162,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1576395530077\n      var cssReload = require(\"/Users/cat/Documents/GitHub/americanattorney/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1576395921186\n      var cssReload = require(\"/Users/cat/Documents/GitHub/americanattorney/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 133,
@@ -36609,9 +36609,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-          "issuerId": 52,
-          "issuerName": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
+          "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+          "issuerId": 51,
+          "issuerName": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
           "issuerPath": [
             {
               "id": 61,
@@ -36629,9 +36629,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             }
           ],
           "failed": false,
@@ -37015,9 +37015,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37091,9 +37091,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37172,9 +37172,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37318,9 +37318,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37462,9 +37462,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37560,9 +37560,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37664,9 +37664,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37768,9 +37768,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37854,9 +37854,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -37940,9 +37940,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -38026,9 +38026,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -38130,9 +38130,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -38221,9 +38221,9 @@
               "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
             },
             {
-              "id": 52,
-              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+              "id": 51,
+              "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+              "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
             },
             {
               "id": null,
@@ -38286,9 +38286,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-      "issuerId": 52,
-      "issuerName": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
+      "issuer": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+      "issuerId": 51,
+      "issuerName": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
       "issuerPath": [
         {
           "id": 61,
@@ -38306,9 +38306,9 @@
           "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-          "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+          "id": 51,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+          "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
         }
       ],
       "failed": false,
@@ -39065,9 +39065,9 @@
           "name": "/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js"
         },
         {
-          "id": 52,
-          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
-          "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx"
+          "id": 51,
+          "identifier": "/Users/cat/Documents/GitHub/americanattorney/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/cat/Documents/GitHub/americanattorney/node_modules/react-hot-loader/webpack.js!/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+          "name": "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx"
         },
         {
           "id": null,
@@ -39847,7 +39847,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "/",
+      "publicPath": "/americanattorney/",
       "outputPath": "/Users/cat/Documents/GitHub/americanattorney/docs",
       "assetsByChunkName": {},
       "assets": [],
@@ -39889,7 +39889,7 @@
           "files": [
             "*"
           ],
-          "hash": "8aceed7227ba022cde17",
+          "hash": "2c8613d21e3e5512770f",
           "siblings": [],
           "parents": [],
           "children": [],
