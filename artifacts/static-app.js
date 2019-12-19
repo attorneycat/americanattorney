@@ -239,6 +239,20 @@ module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
 /* 6 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(28);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Link"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Router"]; });
+
+
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -724,7 +738,7 @@ function universal(asyncModule) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(34)(module)))
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -788,20 +802,6 @@ function Hero(props) {
     href: "#bottom"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Button"], null, " BOOK A FREE CONSULTATION ")))));
 }
-
-/***/ }),
-/* 8 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(28);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Link"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Router"]; });
-
-
 
 /***/ }),
 /* 9 */
@@ -1044,7 +1044,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _components_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(3);
-/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(7);
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(8);
 /* harmony import */ var _components_PictureTextBlock__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(10);
 /* harmony import */ var _components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(9);
 /* harmony import */ var _components_ServicesIOffer__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(24);
@@ -1242,12 +1242,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(11);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8);
+/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(6);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _components_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(3);
 /* harmony import */ var _components_PostSummary__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(23);
-/* harmony import */ var pages_components_Hero__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(7);
+/* harmony import */ var pages_components_Hero__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(8);
 /* harmony import */ var assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(18);
 /* harmony import */ var assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var _components_posts_json__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(32);
@@ -1338,11 +1338,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
+/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
-/* harmony import */ var pages_components_Hero__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7);
+/* harmony import */ var pages_components_Hero__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8);
 /* harmony import */ var assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(18);
 /* harmony import */ var assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_6__);
 
@@ -1564,7 +1564,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
+/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
@@ -1876,7 +1876,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(11);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(8);
+/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6);
 /* harmony import */ var containers_Dynamic__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(31);
 /* harmony import */ var pages_components_Contact__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(17);
 /* harmony import */ var pages_components_ContactForm__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(22);
@@ -1933,22 +1933,22 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_7__["Root"], null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_burger_menu__WEBPACK_IMPORTED_MODULE_12__["slide"], {
         isOpen: this.state.menuOpen
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         onClick: this.showSettings,
         to: "/"
-      }, "Home"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Home"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         onClick: this.showSettings,
         to: "/blog#top"
-      }, "Blog"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Blog"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         onClick: this.showSettings,
         to: "/#services"
-      }, "Services"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Services"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         onClick: this.showSettings,
         to: "/#about"
-      }, "About"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "About"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         onClick: this.showSettings,
         to: "/#reviews"
-      }, "Reviews"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Reviews"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         onClick: this.showSettings,
         href: "#bottom",
         to: "#bottom"
@@ -1956,17 +1956,17 @@ function (_React$Component) {
         onClick: this.showSettings,
         className: "menu-item--small",
         href: ""
-      }, "Settings")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Settings")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/"
-      }, "Home"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Home"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/blog#top"
-      }, "Blog"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Blog"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/#services"
-      }, "Services"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Services"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/#about"
-      }, "About"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "About"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/#reviews"
-      }, "Reviews"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "Reviews"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         href: "#bottom",
         to: "#bottom"
       }, "Contact")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2391,25 +2391,25 @@ module.exports = require("@babel/runtime/helpers/defineProperty");
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(59);
-/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Users_cat_Documents_GitHub_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(59);
+/* harmony import */ var _Users_cat_Documents_GitHub_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_cat_Documents_GitHub_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
 
 var plugins = [{
-  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-source-filesystem",
+  location: "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-source-filesystem",
   plugins: [],
   hooks: {}
 }, {
-  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-reach-router",
+  location: "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-reach-router",
   plugins: [],
-  hooks: _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default()({})
+  hooks: _Users_cat_Documents_GitHub_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default()({})
 }, {
-  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-sitemap/dist",
+  location: "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-sitemap/dist",
   plugins: [],
   hooks: {}
 }, {
-  location: "/Users/tobiasgu/dev/american_attorney/americanattorney",
+  location: "/Users/cat/Documents/GitHub/americanattorney",
   plugins: [],
   hooks: {}
 }]; // Export em!
@@ -2420,7 +2420,7 @@ var plugins = [{
 /* 52 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static/lib/browser");
+module.exports = require("/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/browser");
 
 /***/ }),
 /* 53 */
@@ -2435,8 +2435,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6);
-/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
+/* harmony import */ var _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -2465,7 +2465,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
+Object(_Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
 var universalOptions = {
   loading: function loading() {
     return null;
@@ -2476,258 +2476,258 @@ var universalOptions = {
   },
   ignoreBabelRename: true
 };
-var t_0 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js",
+var t_0 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404 */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/404 */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(30);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/404";
   }
 }), universalOptions);
-t_0.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js';
-var t_1 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js",
+t_0.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js';
+var t_1 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(23);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary";
   }
 }), universalOptions);
-t_1.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js';
-var t_2 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js",
+t_1.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary.js';
+var t_2 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(20);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index";
   }
 }), universalOptions);
-t_2.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js';
-var t_3 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx",
+t_2.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index.js';
+var t_3 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 17))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(17);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx";
   }
 }), universalOptions);
-t_3.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx';
-var t_4 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx",
+t_3.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx';
+var t_4 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(22);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx";
   }
 }), universalOptions);
-t_4.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx';
-var t_5 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js",
+t_4.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx';
+var t_5 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.js",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 3))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(3);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index";
   }
 }), universalOptions);
-t_5.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js';
-var t_6 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx",
+t_5.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.js';
+var t_6 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx */).then(__webpack_require__.bind(null, 7))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx */).then(__webpack_require__.bind(null, 8))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(7);
+    return /*require.resolve*/(8);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx";
   }
 }), universalOptions);
-t_6.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx';
-var t_7 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx",
+t_6.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx';
+var t_7 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx */).then(__webpack_require__.bind(null, 10))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx */).then(__webpack_require__.bind(null, 10))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(10);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx";
   }
 }), universalOptions);
-t_7.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx';
-var t_8 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx",
+t_7.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx';
+var t_8 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(24);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx";
   }
 }), universalOptions);
-t_8.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx';
-var t_9 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx",
+t_8.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx';
+var t_9 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(25);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx";
   }
 }), universalOptions);
-t_9.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx';
-var t_10 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx",
+t_9.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx';
+var t_10 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx */).then(__webpack_require__.bind(null, 9))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx */).then(__webpack_require__.bind(null, 9))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(9);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx";
   }
 }), universalOptions);
-t_10.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx';
-var t_11 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js",
+t_10.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx';
+var t_11 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/index */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(19);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/index";
   }
 }), universalOptions);
-t_11.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js';
-var t_12 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js",
+t_11.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/index.js';
+var t_12 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/post/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/post/index */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/post/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(21);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index";
+    return "Users/cat/Documents/GitHub/americanattorney/src/pages/post/index";
   }
 }), universalOptions);
-t_12.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js'; // Template Map
+t_12.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/post/index.js'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js': t_0,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js': t_1,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js': t_2,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx': t_3,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx': t_4,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js': t_5,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx': t_6,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx': t_7,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx': t_8,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx': t_9,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx': t_10,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js': t_11,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js': t_12
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js': t_0,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary.js': t_1,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index.js': t_2,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx': t_3,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx': t_4,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.js': t_5,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx': t_6,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx': t_7,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx': t_8,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx': t_9,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx': t_10,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/index.js': t_11,
+  '/Users/cat/Documents/GitHub/americanattorney/src/pages/post/index.js': t_12
 }); // Not Found Template
 
-var notFoundTemplate = "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js";
+var notFoundTemplate = "/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
@@ -2927,7 +2927,7 @@ var _require = __webpack_require__(52),
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/tobiasgu/dev/american_attorney/americanattorney/artifacts/react-static-browser-plugins.js", function () {
+  module.hot.accept("/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-browser-plugins.js", function () {
     registerPlugins(__webpack_require__(51)["default"]);
   });
 }
@@ -2951,7 +2951,7 @@ var _require2 = __webpack_require__(53),
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/tobiasgu/dev/american_attorney/americanattorney/artifacts/react-static-templates.js", function () {
+  module.hot.accept("/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js", function () {
     var _require3 = __webpack_require__(53),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
@@ -3334,7 +3334,7 @@ var _hoistNonReactStatics = __webpack_require__(55);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(6);
+var _index = __webpack_require__(7);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -3468,7 +3468,7 @@ module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 /* 75 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static/lib/browser/hooks/useStaticInfo");
+module.exports = require("/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
 /* 76 */
@@ -3628,8 +3628,8 @@ var map = {
 	"./assets/whatsapp.png": 90,
 	"./assets/windowpic.jpg": 58,
 	"./assets/yt.png": 91,
-	"./components/Router": 8,
-	"./components/Router.js": 8,
+	"./components/Router": 6,
+	"./components/Router.js": 6,
 	"./containers/Dynamic": 31,
 	"./containers/Dynamic.js": 31,
 	"./index": 29,
@@ -3650,8 +3650,8 @@ var map = {
 	"./pages/components/Contact.jsx": 17,
 	"./pages/components/ContactForm": 22,
 	"./pages/components/ContactForm.jsx": 22,
-	"./pages/components/Hero": 7,
-	"./pages/components/Hero.jsx": 7,
+	"./pages/components/Hero": 8,
+	"./pages/components/Hero.jsx": 8,
 	"./pages/components/PictureTextBlock": 10,
 	"./pages/components/PictureTextBlock.jsx": 10,
 	"./pages/components/ServicesIOffer": 24,
