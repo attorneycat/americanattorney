@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <Root>
         <Menu isOpen={this.state.menuOpen}>
-          <Link onClick={this.showSettings} to="/">
+          <Link onClick={this.showSettings} to="/#top">
             Home
           </Link>
           <Link onClick={this.showSettings} to="/blog#top">
