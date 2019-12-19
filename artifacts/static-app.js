@@ -1935,7 +1935,7 @@ function (_React$Component) {
         isOpen: this.state.menuOpen
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         onClick: this.showSettings,
-        to: "/"
+        to: "/#top"
       }, "Home"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         onClick: this.showSettings,
         to: "/blog#top"
