@@ -3,14 +3,12 @@ import styled from "@emotion/styled";
 
 //Import Core
 import { Button } from "./core";
-//Import assets
-import ny2 from "assets/ny2.jpg";
 
 const SectionBG = styled("header")`
-  height: 85vh;
+  height: ${props => (props.size === "small" ? "40vh" : "85vh")};
   position: relative;
   width: 100vw;
-  background-image: url(${ny2});
+  background-image: url(${props => props.image});
   background-size: cover;
 `;
 
@@ -34,14 +32,13 @@ const ButtonRow = styled("div")`
 
 export default function Hero(props) {
   return (
-    <SectionBG>
+    <SectionBG image={props.image} size={props.size}>
       <Content>
         <h1>AMERICAN TRADEMARK ATTORNEY</h1>
-        <h3>
-          PROTECT AND GROW YOUR BUSINESS TODAY WITH A US LICENSED LAWYER.
-        </h3>
-        <ButtonRow><br></br>
-          <a href="">
+        <h3>PROTECT AND GROW YOUR BUSINESS TODAY WITH A US LICENSED LAWYER.</h3>
+        <ButtonRow>
+          <br></br>
+          <a href="#bottom">
             <Button> BOOK A FREE CONSULTATION </Button>
           </a>
         </ButtonRow>

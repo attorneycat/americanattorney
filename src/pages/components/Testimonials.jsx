@@ -18,7 +18,10 @@ const Row = styled("div")`
 const Testimonial = styled("div")`
   width: 30%;
   @media (max-width: 550px) {
-    width: 100px;
+    width: 250px;
+  }
+  @media (max-width: 950px) {
+    width: 90%;
   }
   display: block;
   margin: auto;

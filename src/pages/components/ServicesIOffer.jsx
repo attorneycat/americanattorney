@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 
 //Import core
-import { Section, SectionContent } from "./core";
+import { Section, SectionContent, Button } from "./core";
 
 //Import assets
 import reiki from "assets/reiki.png";
@@ -23,6 +23,9 @@ const IconGroup = styled("div")`
   flex: 1;
   display: flex;
   justify-content: space-evenly;
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
 `;
 const Qualification = styled("div")`
   display: inline;
@@ -85,9 +88,12 @@ export default function ServicesIOffer(props) {
               <h2 style={{ color: "#85c6d4" }}>Trademark Registration</h2>
               <p>
                 Your package includes free phone consultations with Attorney
-                Cat.</p>
-                <p> Once your search has been cleared, Attorney Cat will call
-                you to discuss your results with you and proceed with your USPTO
+                Cat.
+              </p>
+              <p>
+                {" "}
+                Once your search has been cleared, Attorney Cat will call you to
+                discuss your results with you and proceed with your USPTO
                 application.{" "}
               </p>
               <p>
@@ -127,7 +133,12 @@ export default function ServicesIOffer(props) {
             </Qualification>
           </IconGroup>
         </IconRow>
-
+        <br/>
+        <a href="#bottom">
+          <Button style={{ color: "#ffffff" }}>
+            Book a Consult Today{" "}
+          </Button>
+        </a>
       </SectionContent>
     </Section>
   );

@@ -1,5 +1,11 @@
 import styled from "@emotion/styled";
 
+export const PageContents = styled("div")`
+  max-width: 1100px;
+  margin: auto;
+  box-shadow: 0px 15px 15px grey;
+`;
+
 export const Section = styled("div")`
   position: relative;
   min-height: 60vh;
@@ -7,6 +13,7 @@ export const Section = styled("div")`
   background-image: url(${props => props.backgroundImage});
   background-color: ${props => props.backgroundColor};
   background-size: cover;
+  background-position: center;
   background-blend-mode: multiply;
   color: ${props=>props.color}
 `;

@@ -4,21 +4,43 @@ import axios from "axios";
 import { extractCritical } from "emotion-server";
 import { renderToString } from "react-dom/server";
 
+import postsJson from "./src/pages/blog/components/posts.json";
+
+import { ContactSection, ContactDetails } from "./src/pages/components/Contact";
+import ContactForm from "./src/pages/components/ContactForm";
+
 export default {
-  siteRoot:'https://usaatty.com',
+  siteRoot: "https://usaatty.com",
   paths: {
     root: process.cwd(), // The root of your project. Don't change this unless you know what you're doing.
     src: "src", // The source directory. Must include an index.js entry file.
     temp: "tmp", // Temp output directory for build files not to be published.
     dist: "docs", // The production output directory.
     devDist: "tmp/dev-server", // The development scratch directory.
-    public: "public", // The public directory (files copied to dist during build)
+    public: "public" // The public directory (files copied to dist during build)
   },
-  getRoutes: async () => [
-        {
-      path: "/",
-      component: "src/pages/index.js"
-    }],
+  getRoutes: async () => {
+    return [
+      {
+        path: "/",
+        component: "src/pages/index.js"
+      },
+      {
+        path: "/blog",
+        component: "src/pages/blog/index.js",
+        getData: () => ({
+          postsJson
+        }),
+        children: postsJson.map(post => ({
+          path: `/post/${post.id}`,
+          template: "src/pages/post/index.js",
+          getData: () => ({
+            post
+          })
+        }))
+      }
+    ];
+  },
   plugins: [
     [
       require.resolve("react-static-plugin-source-filesystem"),
@@ -37,15 +59,19 @@ export default {
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <title>Cat Law</title>
-          <meta
-            name="description"
-            content="Cat - Kickass attorney"
-          />
+          <meta name="description" content="American Trademark Attorney" />
           <meta property="og:title" content="Attorney Cat" />
           {React.styleTags}
           <style type="text/css">{extractedComp.css}</style>
         </Head>
-        <Body style={{ margin: 0 }}>{children}</Body>
+        <Body style={{ margin: 0 }}>
+          <section id="top" />
+          {children}
+        </Body>
+        <script
+          type="text/javascript"
+          src="https://assets.calendly.com/assets/external/widget.js"
+        ></script>
       </Html>
     );
   }

@@ -12,12 +12,18 @@ const SplitSection = styled("div")`
   text-align: left;
   color: grey;
   display:flex;
+  @media (max-width: 750px) {
+    flex-direction: column;
+  }
 `;
 
 const SplitContent = styled("div")`
   max-width: 500px;
   padding: 30px;
   margin: auto;
+  @media (max-width: 750px) {
+    margin:0 auto 0 auto
+  }
 `;
 
 export const SplitPicture = styled("img")`
@@ -26,7 +32,14 @@ export const SplitPicture = styled("img")`
   ${props=>props.backgroundImage &&
     'background-image: url(' + props.backgroundImage + ');'
   }
+  background-position:center;
   background-size: cover;
+  @media (max-width: 750px) {
+    /* width:100vw; */
+    width:initial;
+    height:60vh
+    /* height:30vh; */
+  }
 `
 
 
