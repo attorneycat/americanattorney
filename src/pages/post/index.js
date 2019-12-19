@@ -18,10 +18,10 @@ export default function Post({ title, date, content }) {
       <br />
       <Link to="/blog/">{'<'} Back</Link>
       <PageContents style={{ padding: "15px" }}>
-        <h1 style={{ textAlign: "center" }}>{post.title}</h1>
-        <h3 style={{ textAlign: "center" }}>{post.date}</h3>
+        <h1 style={{ textAlign: "center" }}>{title}</h1>
+        <h3 style={{ textAlign: "center" }}>{date}</h3>
         <br />
-        <div dangerouslySetInnerHTML={{ __html: post.content }} />
+        <div dangerouslySetInnerHTML={{ __html: content }} />
       </PageContents>
       <br />
     </div>

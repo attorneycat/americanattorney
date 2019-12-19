@@ -6,8 +6,6 @@ import { renderToString } from "react-dom/server";
 
 import postsJson from "./src/pages/blog/components/posts.json";
 
-import { ContactSection, ContactDetails } from "./src/pages/components/Contact";
-import ContactForm from "./src/pages/components/ContactForm";
 
 export default {
   siteRoot: "https://usaatty.com",

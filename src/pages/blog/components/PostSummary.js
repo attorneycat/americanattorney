@@ -1,10 +1,9 @@
 import React from "react";
-import { useRouteData } from "react-static";
-//
+
 import { Link } from "components/Router";
 
 import styled from "@emotion/styled";
-import { Button, PageContents } from "../../components/core";
+import { Button } from "../../components/core";
 
 import placeholder from "assets/placeholderBlog.png";
 
@@ -51,9 +50,10 @@ const Date = styled("h3")`
 `;
 
 export default function PostSummary({ image, title, summary, date, id }) {
+  let postImage = image ? require(`../../../${image}`) : placeholder
   return (
     <PostContainer>
-      <PostImage img={require(`../../../${image}`) || placeholder} />
+      <PostImage img={postImage} />
       <WhiteBreak  />
       <Wording>
         <Link to={`/blog/post/${id}`}>

@@ -30,37 +30,37 @@ class App extends React.Component {
     return (
       <Root>
         <Menu isOpen={this.state.menuOpen}>
-          <Link onClick={this.showSettings} to="/">
+          <a onClick={this.showSettings} to="/">
             Home
-          </Link>
-          <Link onClick={this.showSettings} to="/blog#top">
+          </a>
+          <a onClick={this.showSettings} to="/blog#top">
             Blog
-          </Link>
-          <Link onClick={this.showSettings} to="/#services">
+          </a>
+          <a onClick={this.showSettings} to="/#services">
             Services
-          </Link>
-          <Link onClick={this.showSettings} to="/#about">
+          </a>
+          <a onClick={this.showSettings} to="/#about">
             About
-          </Link>
-          <Link onClick={this.showSettings} to="/#reviews">
+          </a>
+          <a onClick={this.showSettings} to="/#reviews">
             Reviews
-          </Link>
-          <Link onClick={this.showSettings} href="#bottom" to="#bottom">
+          </a>
+          <a onClick={this.showSettings} href="#bottom" to="#bottom">
             Contact
-          </Link>
+          </a>
           <a onClick={this.showSettings} className="menu-item--small" href="">
             Settings
           </a>
         </Menu>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/blog#top">Blog</Link>
-          <Link to="/#services">Services</Link>
-          <Link to="/#about">About</Link>
-          <Link to="/#reviews">Reviews</Link>
-          <Link href="#bottom" to="#bottom">
+          <a to="/">Home</a>
+          <a to="/blog#top">Blog</a>
+          <a to="/#services">Services</a>
+          <a to="/#about">About</a>
+          <a to="/#reviews">Reviews</a>
+          <a href="#bottom" to="#bottom">
             Contact
-          </Link>
+          </a>
         </nav>
         <div className="content">
           <React.Suspense fallback={<em>Loading...</em>}>

@@ -10,7 +10,7 @@ import PictureTextBlock from "./components/PictureTextBlock";
 import TextOverPictureBlock from "./components/TextOverPictureBlock";
 import ServicesIOffer from "./components/ServicesIOffer";
 import Testimonials from "./components/Testimonials";
-import ContactForm from "./components/ContactForm";
+
 
 //Import Assets
 import mountainSplash from "assets/mountainSplash.jpg";

@@ -22,7 +22,9 @@ const Paragraph = styled("p")`
   margin: 0px 5px;
   width: 100%;
 `;
-export function ContactSection(props) {
+
+
+export const ContactSection = props => {
   return (
     <Section green style={{ minHeight: "auto" }}>
       <SectionContent style={{ whiteSpace: "normal" }}>
@@ -36,9 +38,9 @@ export function ContactSection(props) {
       </SectionContent>
     </Section>
   );
-}
+};
 
-export function ContactDetails(props) {
+export const ContactDetails = props => {
   return (
     <Section>
       <SectionContent>
@@ -71,8 +73,4 @@ export function ContactDetails(props) {
       </SectionContent>
     </Section>
   );
-}
-
-export default {
-  ContactSection, ContactDetails
-}
+};
