@@ -11,7 +11,6 @@ import TextOverPictureBlock from "./components/TextOverPictureBlock";
 import ServicesIOffer from "./components/ServicesIOffer";
 import Testimonials from "./components/Testimonials";
 
-
 //Import Assets
 import mountainSplash from "assets/mountainSplash.jpg";
 import laptopStock from "assets/laptopStock.jpg";
@@ -23,6 +22,8 @@ import ny3 from "assets/ny3.jpg";
 import ny6 from "assets/nypic6.jpg";
 import attorneycat from "assets/attorneycat.jpg";
 import homeoffice from "assets/homeoffice.jpg";
+import coverCat from "assets/cover-cat.jpg";
+import catProfile from "assets/catprofileshot.png"
 
 const WhiteBreak = styled("div")`
   height: 5em;
@@ -53,7 +54,10 @@ export default class Home extends React.Component {
   render() {
     return (
       <div style={{ textAlign: "center" }}>
-        <Hero image={ny2} />
+        {
+          // <Hero image={ny2} />
+        }
+        <Hero image={coverCat} />
         <WhiteBreak />
         <br />
         <PageContents>
@@ -155,7 +159,8 @@ export default class Home extends React.Component {
           <PictureTextBlock
             id="about"
             pictureLeft
-            backgroundImage={attorneycat}
+            backgroundImage={catProfile}
+      
           >
             <h2>Meet Our Attorney</h2>
             <p>
@@ -206,7 +211,7 @@ export default class Home extends React.Component {
           </PictureTextBlock>
           <TextOverPictureBlock backgroundImage={ny6} />
           <a id="reviews" />
-          <Testimonials  />
+          <Testimonials />
 
           <TextOverPictureBlock backgroundImage={nypic} />
         </PageContents>

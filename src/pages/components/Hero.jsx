@@ -10,6 +10,7 @@ const SectionBG = styled("header")`
   width: 100vw;
   background-image: url(${props => props.image});
   background-size: cover;
+  background-position:center;
 `;
 
 const Content = styled("div")`
