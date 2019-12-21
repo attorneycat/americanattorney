@@ -44,8 +44,8 @@ export default function Testimonials(props) {
             be using the Law Offices of Catherine Tang.
             <br />
             <br />
-            <h4>- Tierra, Network Security Professional</h4>
-
+            <h4>- Tierra, Security Professional</h4>
+<i>Honolulu, Hawaii</i>
           </Testimonial>
           <Testimonial>
             I am a business owner and had a great experience meeting with
@@ -57,7 +57,8 @@ export default function Testimonials(props) {
             using her firm again for my business needs.
             <br />
             <br />
-            <h4>- Rick, Business Owner</h4>
+            <h4>- Richard, Business Owner</h4>
+            <i>Illinois & Thailand</i>
           </Testimonial>
           <Testimonial>
             Catherine was incredibly helpful in providing advice in a
@@ -66,33 +67,36 @@ export default function Testimonials(props) {
             <br />
             <br />
             <h4>- Leia, Marketing Manager</h4>
+            <i>Australia & Thailand</i>
           </Testimonial>
         </Row>
       </SectionContent>
       <SectionContent>
         <Row>
           <Testimonial>
-          Catherine is amazing - she has helped my business review and negotiate multiple contracts, broke down the trademark process in an easy to understand way, gave tons of valuable advice, and then even referred me clients!
+          Catherine is amazing - she has helped my business review and negotiate contracts, broke down the trademark process in an easy to understand way, gave tons of valuable advice, and then even referred me clients!
 
   She's not only a fantastic lawyer, but someone who goes above and beyond and truly cares for those that she works with.
             <br />
             <br />
             <h4>- Toby, Startup Founder</h4>
+            <i>Canadian Digital Nomad</i>
           </Testimonial>
           <Testimonial>
-          Catherine helped me with several contract reviews. She was easy to talk to and super helpful! All the legal jargon you see on paper, she can define that to simple english :)
+          Catherine helped me with several contract reviews. She was easy to talk to and super helpful! All the legal jargon you see on paper, she can define that to simple english. My go-to attorney for all trademark and business needs.
 
             <br />
             <br />
             <h4>- Alex, Senior Producer</h4>
+            <i>Los Angeles, California</i>
           </Testimonial>
           <Testimonial>
-            Catherine was incredibly helpful in providing advice in a
-            challenging situation. Her responses were quick, professional &
-            detailed. I would highly recommended Attorney Cat.
+
+Catherine is everything you could want in a lawyer... AND MORE! No one else I would trust with my businesses and their trademarks. She has helped me grow with awesome tips, and she's incredibly intelligent and pleasant to work with. 
             <br />
             <br />
-            <h4>- Leia</h4>
+            <h4>- Jessica, Founder</h4>
+            <i>Bay Area, California</i>
           </Testimonial>
         </Row>
 
