@@ -80,7 +80,7 @@ class App extends React.Component {
               Contact
             </Link>
 
-            <a style={{ marginLeft: "auto" }} href="https://wa.me/66923673347">
+            <a style={{ marginLeft: "auto" }} target="_blank" href="https://wa.me/18083979999">
               <Icon icon={Wa} />
             </a>
             <a href="https://instagram.com">

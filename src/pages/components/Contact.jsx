@@ -109,7 +109,7 @@ export const ContactDetails = props => {
           </HorizBlock>
         </Row>
         <SocialMediaRow>
-          <Link href="https://instagram.com">
+            <Link style={{ marginLeft: "auto" }} target="_blank" href="https://wa.me/18083979999">
             <Icon icon={Wa} />
           </Link>
           <Link href="https://instagram.com">
