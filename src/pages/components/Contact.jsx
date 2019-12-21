@@ -72,68 +72,65 @@ export const ContactDetails = props => {
   return (
     <Section id="footer">
       <SectionContent>
-      <Row>
-      <HorizBlock>
-        <Title>Contact</Title>
-        <Paragraph>
-          mail@usaatty.com
-          <br />
-          <br /> +1 808 397 9999 <br />
-          <br /> +66 92 367 3347
-        </Paragraph>
-      </HorizBlock>
-      </Row>
+
         <Row>
           <HorizBlock>
-            <Title>California & United States </Title>
+            <Title>California </Title>
             <Paragraph>
               {" "}
               125 12th St., Suite 100
               <br /> Oakland, CA <br />{" "}
+              <br /> +1 808 397 9999 <br />
             </Paragraph>
           </HorizBlock>
           <HorizBlock>
-            <Title>Hawaii & United States </Title>
+            <Title>Hawaii </Title>
             <Paragraph>
               {" "}
               125 12th St., Suite 100
               <br /> Oakland, CA <br />{" "}
+              <br /> +1 808 397 9999 <br />
             </Paragraph>
           </HorizBlock>
           <HorizBlock>
-            <Title>Thailand & Asia </Title>
+            <Title>Asia </Title>
             <Paragraph>
               140 Sukhumvit Rd #1804 <br />
-              Bangkok 10110
+              Bangkok, Thailand 10110<br />{" "}
+              <br /> +66 92 367 3347<br />
             </Paragraph>
           </HorizBlock>
         </Row>
+
         <SocialMediaRow>
+        <center><br /><br /><br />
             <Link style={{ marginLeft: "auto" }} target="_blank" href="https://wa.me/18083979999">
             <Icon icon={Wa} />
           </Link>
-          <Link href="https://instagram.com">
+          <Link target="_blank" href="http://line.me/ti/p/~amojuris">
             <Icon icon={Ln} />
           </Link>
-          <Link href="https://instagram.com">
+          <Link target="_blank" href="https://instagram.com">
             <Icon icon={Wc} />
           </Link>
-          <Link href="https://instagram.com">
+          <Link target="_blank" href="https://www.linkedin.com/in/cattang/">
             <Icon icon={Li} />
           </Link>
-          <Link href="https://instagram.com">
+          <Link target="_blank" href="https://instagram.com/americanattorney">
             <Icon icon={Ig} />
           </Link>
-          <Link href="https://instagram.com">
+          <Link target="_blank" href="https://facebook.com/usaatty">
             <Icon icon={Fb} />
           </Link>
-          <Link href="https://instagram.com">
+          <Link target="_blank" href="https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber">
             <Icon icon={Yt} />
           </Link>
-          <Link href="https://instagram.com">
+          <Link target="_blank" href="mailto:mail@usaatty.com">
             <Icon icon={Mail} />
           </Link>
+              </center>
         </SocialMediaRow>
+
       </SectionContent>
     </Section>
   );

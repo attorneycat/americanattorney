@@ -1066,39 +1066,50 @@ var ContactSection = function ContactSection(props) {
 var ContactDetails = function ContactDetails(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["Section"], {
     id: "footer"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Contact"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, "mail@usaatty.com", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +66 92 367 3347"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "California & United States "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Hawaii & United States "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Thailand & Asia "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, "140 Sukhumvit Rd #1804 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Bangkok 10110"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialMediaRow, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    href: "https://instagram.com"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "California "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Hawaii "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Asia "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, "140 Sukhumvit Rd #1804 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Bangkok, Thailand 10110", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +66 92 367 3347", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialMediaRow, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+    style: {
+      marginLeft: "auto"
+    },
+    target: "_blank",
+    href: "https://wa.me/18083979999"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faWhatsapp"]
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    href: "https://instagram.com"
+    target: "_blank",
+    href: "http://line.me/ti/p/~amojuris"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faLine"]
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+    target: "_blank",
     href: "https://instagram.com"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faWeixin"]
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    href: "https://instagram.com"
+    target: "_blank",
+    href: "https://www.linkedin.com/in/cattang/"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faLinkedin"]
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    href: "https://instagram.com"
+    target: "_blank",
+    href: "https://instagram.com/americanattorney"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faInstagram"]
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    href: "https://instagram.com"
+    target: "_blank",
+    href: "https://facebook.com/usaatty"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faFacebook"]
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    href: "https://instagram.com"
+    target: "_blank",
+    href: "https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faYoutube"]
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    href: "https://instagram.com"
+    target: "_blank",
+    href: "mailto:mail@usaatty.com"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
     icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faEnvelope"]
-  })))));
+  }))))));
 };
 
 /***/ }),
@@ -1610,7 +1621,7 @@ function (_React$Component) {
         style: {
           color: "white"
         }
-      }, "Your initial consultation with Attorney Cat is free, just fill out your information below:"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
+      }, "Just fill out the information below:"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
         onSubmit: this.submitForm
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
         name: "name",
@@ -1940,7 +1951,7 @@ function Testimonials(props) {
     style: {
       color: "#85c6d4"
     }
-  }, "Testimonials"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was able to navigate the complexity of my issue within minutes and provide accurate and detailed advice. Her advice led me to the exact outcome I had hoped for. For any future issues, I will be using CAT Law.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Tierra")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "I am a business owner and had a great experience meeting with Catherine who helped me re-do a contract that needed serious help. She caught so many issues that my previous attorneys missed. Appreciate the support and patience she took with understanding my needs and breaking it down for me in terms for a non-lawyer type person. Thanks so much, highly recommended and I will definitely be using her firm again for my business needs.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "- Rick")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was incredibly helpful in providing advice in a challenging situation. Her responses were quick, professional & detailed. I would highly recommended Attorney Cat.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "- Leia")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was able to navigate the complexity of my issue within minutes and provide accurate and detailed advice. Her advice led me to the exact outcome I had hoped for. For any future issues, I will be using CAT Law.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Tierra")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "I am a business owner and had a great experience meeting with Catherine who helped me re-do a contract that needed serious help. She caught so many issues that my previous attorneys missed. Appreciate the support and patience she took with understanding my needs and breaking it down for me in terms for a non-lawyer type person. Thanks so much, highly recommended and I will definitely be using her firm again for my business needs.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "- Rick")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was incredibly helpful in providing advice in a challenging situation. Her responses were quick, professional & detailed. I would highly recommended Attorney Cat.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "- Leia")))));
+  }, "Testimonials"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was able to navigate the complexity of my issue within minutes and provide accurate and detailed advice. Her advice led me to the exact outcome I had hoped for. For any future issues, I will be using the Law Offices of Catherine Tang.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Tierra, Network Security Professional")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "I am a business owner and had a great experience meeting with Catherine who helped me re-do a contract that needed serious help. She caught so many issues that my previous attorneys missed. Appreciate the support and patience she took with understanding my needs and breaking it down for me in terms for a non-lawyer type person. Thanks so much, highly recommended and I will definitely be using her firm again for my business needs.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Rick, Business Owner")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was incredibly helpful in providing advice in a challenging situation. Her responses were quick, professional & detailed. I would highly recommended Attorney Cat.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Leia, Marketing Manager")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine is amazing - she has helped my business review and negotiate multiple contracts, broke down the trademark process in an easy to understand way, gave tons of valuable advice, and then even referred me clients! She's not only a fantastic lawyer, but someone who goes above and beyond and truly cares for those that she works with.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Toby, Startup Founder")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine helped me with several contract reviews. She was easy to talk to and super helpful! All the legal jargon you see on paper, she can define that to simple english :)", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Alex, Senior Producer")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was incredibly helpful in providing advice in a challenging situation. Her responses were quick, professional & detailed. I would highly recommended Attorney Cat.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Leia")))));
 }
 
 /***/ }),
@@ -2091,34 +2102,42 @@ function (_React$Component) {
         style: {
           marginLeft: "auto"
         },
-        href: "https://wa.me/66923673347"
+        target: "_blank",
+        href: "https://wa.me/18083979999"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faWhatsapp"]
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "https://instagram.com"
+        target: "_blank",
+        href: "http://line.me/ti/p/~amojuris"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faLine"]
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "https://instagram.com"
+        target: "_blank",
+        href: "https://msng.link/o/?ctang88=wc"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faWeixin"]
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "https://instagram.com"
+        target: "_blank",
+        href: "https://www.linkedin.com/in/cattang/"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faLinkedin"]
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "https://instagram.com"
+        target: "_blank",
+        href: "https://instagram.com/americanattorney"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faInstagram"]
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "https://instagram.com"
+        target: "_blank",
+        href: "https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faYoutube"]
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "https://instagram.com"
+        target: "_blank",
+        href: "https://facebook.com/usaatty"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faFacebook"]
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        target: "_blank",
         href: "mailto:mail@usaatty.com"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_17__["faEnvelope"]

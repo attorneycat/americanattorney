@@ -83,25 +83,25 @@ class App extends React.Component {
             <a style={{ marginLeft: "auto" }} target="_blank" href="https://wa.me/18083979999">
               <Icon icon={Wa} />
             </a>
-            <a href="https://instagram.com">
+            <a target="_blank" href="http://line.me/ti/p/~amojuris">
               <Icon icon={Ln} />
             </a>
-            <a href="https://instagram.com">
+            <a target="_blank" href="https://msng.link/o/?ctang88=wc">
               <Icon icon={Wc} />
             </a>
-            <a href="https://instagram.com">
+            <a target="_blank" href="https://www.linkedin.com/in/cattang/">
               <Icon icon={Li} />
             </a>
-            <a href="https://instagram.com">
+            <a target="_blank" href="https://instagram.com/americanattorney">
               <Icon icon={Ig} />
             </a>
-            <a href="https://instagram.com">
+            <a target="_blank" href="https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber">
               <Icon icon={Yt} />
             </a>
-            <a href="https://instagram.com">
+            <a target="_blank" href="https://facebook.com/usaatty">
               <Icon icon={Fb} />
             </a>
-            <a href="mailto:mail@usaatty.com">
+            <a target="_blank" href="mailto:mail@usaatty.com">
               <Icon icon={Mail} />
             </a>
           </NavBar>

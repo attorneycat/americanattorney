@@ -90,8 +90,8 @@ export default class ContactForm extends React.Component {
             Book your FREE consultation today!
           </h2>
           <h3 style={{ color: "white" }}>
-            Your initial consultation with Attorney Cat is free, just fill out
-            your information below:
+            Just fill out
+            the information below:
           </h3>
           <hr />
           <br />

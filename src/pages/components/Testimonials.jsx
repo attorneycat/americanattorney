@@ -41,10 +41,11 @@ export default function Testimonials(props) {
             Catherine was able to navigate the complexity of my issue within
             minutes and provide accurate and detailed advice. Her advice led me
             to the exact outcome I had hoped for. For any future issues, I will
-            be using CAT Law.
+            be using the Law Offices of Catherine Tang.
             <br />
             <br />
-            <h4>- Tierra</h4>
+            <h4>- Tierra, Network Security Professional</h4>
+
           </Testimonial>
           <Testimonial>
             I am a business owner and had a great experience meeting with
@@ -55,45 +56,43 @@ export default function Testimonials(props) {
             person. Thanks so much, highly recommended and I will definitely be
             using her firm again for my business needs.
             <br />
-            <br /><b>- Rick</b>
+            <br />
+            <h4>- Rick, Business Owner</h4>
           </Testimonial>
           <Testimonial>
             Catherine was incredibly helpful in providing advice in a
             challenging situation. Her responses were quick, professional &
             detailed. I would highly recommended Attorney Cat.
             <br />
-            <br /><b>- Leia</b>
+            <br />
+            <h4>- Leia, Marketing Manager</h4>
           </Testimonial>
         </Row>
       </SectionContent>
       <SectionContent>
         <Row>
           <Testimonial>
-            Catherine was able to navigate the complexity of my issue within
-            minutes and provide accurate and detailed advice. Her advice led me
-            to the exact outcome I had hoped for. For any future issues, I will
-            be using CAT Law.
+          Catherine is amazing - she has helped my business review and negotiate multiple contracts, broke down the trademark process in an easy to understand way, gave tons of valuable advice, and then even referred me clients!
+
+  She's not only a fantastic lawyer, but someone who goes above and beyond and truly cares for those that she works with.
             <br />
             <br />
-            <h4>- Tierra</h4>
+            <h4>- Toby, Startup Founder</h4>
           </Testimonial>
           <Testimonial>
-            I am a business owner and had a great experience meeting with
-            Catherine who helped me re-do a contract that needed serious help.
-            She caught so many issues that my previous attorneys missed.
-            Appreciate the support and patience she took with understanding my
-            needs and breaking it down for me in terms for a non-lawyer type
-            person. Thanks so much, highly recommended and I will definitely be
-            using her firm again for my business needs.
+          Catherine helped me with several contract reviews. She was easy to talk to and super helpful! All the legal jargon you see on paper, she can define that to simple english :)
+
             <br />
-            <br /><b>- Rick</b>
+            <br />
+            <h4>- Alex, Senior Producer</h4>
           </Testimonial>
           <Testimonial>
             Catherine was incredibly helpful in providing advice in a
             challenging situation. Her responses were quick, professional &
             detailed. I would highly recommended Attorney Cat.
             <br />
-            <br /><b>- Leia</b>
+            <br />
+            <h4>- Leia</h4>
           </Testimonial>
         </Row>
 
