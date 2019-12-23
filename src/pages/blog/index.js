@@ -11,7 +11,7 @@ import Hero from "pages/components/Hero";
 
 import ny2 from "assets/ny2.jpg";
 
-import postsJson from "./components/posts.json";
+import postsJson from "assets/posts.js";
 
 
 
@@ -37,14 +37,15 @@ export default class Blog extends React.Component {
           <h1 style={{ textAlign: "center" }}>Blog Time</h1>
           <br />
           {postsJson.map((postJson, index) => {
+            let post = postJson || {};
             return (
               <PostSummary
-                key={index}
-                title={postJson.title}
-                date={postJson.date}
-                summary={postJson.summary}
-                image={postJson.image}
-                id={postJson.id}
+                key={post.id}
+                title={post.title}
+                date={post.date}
+                summary={post.summary}
+                image={post.image}
+                id={post.id}
               />
             );
           })}

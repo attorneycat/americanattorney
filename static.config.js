@@ -4,7 +4,7 @@ import axios from "axios";
 import { extractCritical } from "emotion-server";
 import { renderToString } from "react-dom/server";
 
-import postsJson from "./src/pages/blog/components/posts.json";
+import postsJson from "./src/assets/posts.js";
 
 export default {
   siteRoot: "https://usaatty.com",

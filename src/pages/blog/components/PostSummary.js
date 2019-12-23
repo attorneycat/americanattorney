@@ -9,7 +9,7 @@ import placeholder from "assets/placeholderBlog.png";
 
 const PostContainer = styled("div")`
   display: flex;
-  height: 25vh;
+  height: 35vh;
   padding: 0px 30px 30px 30px;
   @media (max-width: 750px) {
     flex-direction: column;
@@ -39,7 +39,7 @@ const Wording = styled("div")`
 
 const Title = styled("h2")`
   margin: 0 0 5px 0;
-  font-size: 2em;
+  font-size: 1.5em;
   @media (max-width: 750px) {
     font-size:1.5em;
   }
@@ -62,7 +62,7 @@ export default function PostSummary({ image, title, summary, date, id }) {
         <Date> {`${date}`} </Date>
         <p> {`${summary}`} </p>
         <Link to={`/blog/post/${id}`}>
-          <Button> Read More </Button>
+          <Button small> Read More </Button>
         </Link>
       </Wording>
     </PostContainer>

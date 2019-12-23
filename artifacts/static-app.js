@@ -970,7 +970,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject6() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n@media (max-width: 1100px) {\n  font-size: 1em;\n}\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  @media (max-width: 1100px) {\n    font-size: 1em;\n  }\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -1040,8 +1040,8 @@ var Row = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div")(_templat
 var HorizBlock = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div")(_templateObject2());
 var Paragraph = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("p")(_templateObject3());
 var SocialMediaRow = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()(Row)(_templateObject4());
-var Link = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()('a')(_templateObject5());
-var Title = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()('h3')(_templateObject6());
+var Link = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("a")(_templateObject5());
+var Title = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("h3")(_templateObject6());
 var ContactSection = function ContactSection(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["Section"], {
     id: "contactsection",
@@ -1065,6 +1065,9 @@ var ContactSection = function ContactSection(props) {
 };
 var ContactDetails = function ContactDetails(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["Section"], {
+    style: {
+      minHeight: "30vh"
+    },
     id: "footer"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "California "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Hawaii "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Asia "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, "140 Sukhumvit Rd #1804 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Bangkok, Thailand 10110", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +66 92 367 3347", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialMediaRow, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
     style: {
@@ -1350,8 +1353,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var pages_components_Hero__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(10);
 /* harmony import */ var assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(27);
 /* harmony import */ var assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _components_posts_json__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(34);
-var _components_posts_json__WEBPACK_IMPORTED_MODULE_13___namespace = /*#__PURE__*/__webpack_require__.t(34, 1);
+/* harmony import */ var assets_posts_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(34);
 
 
 
@@ -1406,14 +1408,15 @@ function (_React$Component) {
         style: {
           textAlign: "center"
         }
-      }, "Blog Time"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), _components_posts_json__WEBPACK_IMPORTED_MODULE_13__.map(function (postJson, index) {
+      }, "Blog Time"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), assets_posts_js__WEBPACK_IMPORTED_MODULE_13__["default"].map(function (postJson, index) {
+        var post = postJson || {};
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_PostSummary__WEBPACK_IMPORTED_MODULE_10__["default"], {
-          key: index,
-          title: postJson.title,
-          date: postJson.date,
-          summary: postJson.summary,
-          image: postJson.image,
-          id: postJson.id
+          key: post.id,
+          title: post.title,
+          date: post.date,
+          summary: post.summary,
+          image: post.image,
+          id: post.id
         });
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "All Posts:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "#top",
@@ -1461,6 +1464,7 @@ function Post(_ref) {
   var _useRouteData = Object(react_static__WEBPACK_IMPORTED_MODULE_1__["useRouteData"])(),
       post = _useRouteData.post;
 
+  var postToRender = post || {};
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(pages_components_Hero__WEBPACK_IMPORTED_MODULE_5__["default"], {
     image: assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
     size: "small"
@@ -1474,13 +1478,13 @@ function Post(_ref) {
     style: {
       textAlign: "center"
     }
-  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, postToRender.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     style: {
       textAlign: "center"
     }
-  }, date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, postToRender.date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     dangerouslySetInnerHTML: {
-      __html: content
+      __html: postToRender.content
     }
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
 }
@@ -1683,7 +1687,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  margin: 0 0 5px 0;\n  font-size: 2em;\n  @media (max-width: 750px) {\n    font-size:1.5em;\n  }\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  margin: 0 0 5px 0;\n  font-size: 1.5em;\n  @media (max-width: 750px) {\n    font-size:1.5em;\n  }\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -1723,7 +1727,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  display: flex;\n  height: 25vh;\n  padding: 0px 30px 30px 30px;\n  @media (max-width: 750px) {\n    flex-direction: column;\n    height: 80vh;\n  }\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  display: flex;\n  height: 35vh;\n  padding: 0px 30px 30px 30px;\n  @media (max-width: 750px) {\n    flex-direction: column;\n    height: 80vh;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1758,7 +1762,9 @@ function PostSummary(_ref) {
     to: "/blog/post/".concat(id)
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, " ", "".concat(title), " ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Date, null, " ", "".concat(date), " "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " ", "".concat(summary), " "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/blog/post/".concat(id)
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_4__["Button"], null, " Read More "))));
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+    small: true
+  }, " Read More "))));
 }
 
 /***/ }),
@@ -2262,9 +2268,61 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 34 */
-/***/ (function(module) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = JSON.parse("[{\"id\":1,\"title\":\"TOBY IS THE worst I love to eat chocolate\",\"summary\":\"I love to eat chocolate \\n new line \\n Food is my favorite. Absolute favorite.\",\"date\":\"December 18, 2019\",\"content\":\"<b> this should be bold </b> This is not bold\",\"image\":\"assets/pinkCouch.jpg\"},{\"title\":\"I love to eat chocolate\",\"id\":2,\"summary\":\"I love to eat chocolate \\n new line \\n Food is my favorite. Absolute favorite.\",\"date\":\"December 18, 2019\",\"image\":\"assets/pinkCouch.jpg\"},{\"title\":\"I love to eat chocolate\",\"id\":3,\"summary\":\"I love to eat chocolate \\n new line \\n Food is my favorite. Absolute favorite.\",\"date\":\"December 18, 2019\",\"image\":\"assets/pinkCouch.jpg\"},{\"title\":\"I love to eat chocolate\",\"id\":4,\"summary\":\"I love to eat chocolate \\n new line \\n Food is my favorite. Absolute favorite.\",\"date\":\"December 18, 2019\",\"image\":\"assets/pinkCouch.jpg\"},{\"title\":\"I love to eat chocolate\",\"id\":5,\"summary\":\"I love to eat chocolate \\n new line \\n Food is my favorite. Absolute favorite.\",\"date\":\"December 18, 2019\",\"image\":\"assets/pinkCouch.jpg\"},{\"title\":\"I love to eat chocolate\",\"id\":5,\"summary\":\"I love to eat chocolate \\n new line \\n Food is my favorite. Absolute favorite.\",\"date\":\"December 18, 2019\",\"image\":\"assets/pinkCouch.jpg\"},{\"title\":\"I love to eat chocolate5\",\"id\":7,\"summary\":\" 5 I love to eat chocolate \\n new line \\n Food is my favorite. Absolute favorite.\",\"content\":\"<b> this should be bold </b> This is not bold\",\"date\":\"December 14, 2019\",\"image\":\"assets/pinkCouch.jpg\"}]");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var posts = [{
+  id: 1,
+  title: "TOBY IS THE worst I love to eat chocolate",
+  summary: "I love to eat chocolate \n new line \n Food is my favorite. Absolute favorite na.",
+  date: "December 18, 2019",
+  content: "<b> this should be bold </b> This is not bold",
+  image: "assets/pinkCouch.jpg"
+}, {
+  title: "I love to eat chocolate",
+  id: 2,
+  summary: "I love to eat chocolate \n new line \n Food is my favorite. Absolute favorite.",
+  date: "December 18, 2019",
+  content: "<b> this should be bold </b> This is not bold",
+  image: "assets/pinkCouch.jpg"
+}, {
+  title: "I love to eat chocolate",
+  id: 3,
+  summary: "I love to eat chocolate \n new line \n Food is my favorite. Absolute favorite.",
+  date: "December 18, 2019",
+  content: "<b> this should be bold </b> This is not bold",
+  image: "assets/pinkCouch.jpg"
+}, {
+  title: "I love to eat chocolate",
+  id: 4,
+  summary: "I love to eat chocolate \n new line \n Food is my favorite. Absolute favorite.",
+  date: "December 18, 2019",
+  content: "<b> this should be bold </b> This is not bold",
+  image: "assets/pinkCouch.jpg"
+}, {
+  title: "I love to eat chocolate",
+  id: 5,
+  summary: "I love to eat chocolate \n new line \n Food is my favorite. Absolute favorite.",
+  date: "December 18, 2019",
+  content: "<b> this should be bold </b> This is not bold",
+  image: "assets/pinkCouch.jpg"
+}, {
+  title: "I love to eat chocolate",
+  id: 5,
+  summary: "I love to eat chocolate \n new line \n Food is my favorite. Absolute favorite.",
+  date: "December 18, 2019",
+  content: "<b> this should be bold </b> This is not bold",
+  image: "assets/pinkCouch.jpg"
+}, {
+  title: "I love to eat chocolate5",
+  id: 7,
+  summary: " 5 I love to eat chocolate \n new line \n Food is my favorite. Absolute favorite.",
+  content: "<b> this should be bold </b> This is not bold",
+  date: "December 14, 2019",
+  image: "assets/pinkCouch.jpg"
+}];
+/* harmony default export */ __webpack_exports__["default"] = (posts);
 
 /***/ }),
 /* 35 */
@@ -3810,6 +3868,8 @@ var map = {
 	"./assets/nypic6.jpg": 50,
 	"./assets/pinkCouch.jpg": 51,
 	"./assets/placeholderBlog.png": 40,
+	"./assets/posts": 34,
+	"./assets/posts.js": 34,
 	"./assets/reiki.png": 52,
 	"./assets/windowpic.jpg": 63,
 	"./components/Router": 6,
@@ -3826,8 +3886,6 @@ var map = {
 	"./pages/blog/": 21,
 	"./pages/blog/components/PostSummary": 24,
 	"./pages/blog/components/PostSummary.js": 24,
-	"./pages/blog/components/posts": 34,
-	"./pages/blog/components/posts.json": 34,
 	"./pages/blog/index": 21,
 	"./pages/blog/index.js": 21,
 	"./pages/components/Contact": 19,

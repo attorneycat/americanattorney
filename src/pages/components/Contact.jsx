@@ -42,19 +42,19 @@ const SocialMediaRow = styled(Row)`
   display: flex;
 `;
 
-const Link = styled('a')`
+const Link = styled("a")`
   padding: 1rem;
   display: inline-block;
 `;
 
-const Title = styled('h3')`
-@media (max-width: 1100px) {
-  font-size: 1em;
-}
-`
+const Title = styled("h3")`
+  @media (max-width: 1100px) {
+    font-size: 1em;
+  }
+`;
 export const ContactSection = props => {
   return (
-    <Section id='contactsection' green style={{ minHeight: "auto" }}>
+    <Section id="contactsection" green style={{ minHeight: "auto" }}>
       <SectionContent style={{ whiteSpace: "normal" }}>
         <h1 style={{ color: "#85c6d4" }}>
           Contact Us. <br />
@@ -70,17 +70,15 @@ export const ContactSection = props => {
 
 export const ContactDetails = props => {
   return (
-    <Section id="footer">
+    <Section style={{ minHeight: "30vh" }} id="footer">
       <SectionContent>
-
         <Row>
           <HorizBlock>
             <Title>California </Title>
             <Paragraph>
               {" "}
               125 12th St., Suite 100
-              <br /> Oakland, CA <br />{" "}
-              <br /> +1 808 397 9999 <br />
+              <br /> Oakland, CA <br /> <br /> +1 808 397 9999 <br />
             </Paragraph>
           </HorizBlock>
           <HorizBlock>
@@ -88,49 +86,58 @@ export const ContactDetails = props => {
             <Paragraph>
               {" "}
               125 12th St., Suite 100
-              <br /> Oakland, CA <br />{" "}
-              <br /> +1 808 397 9999 <br />
+              <br /> Oakland, CA <br /> <br /> +1 808 397 9999 <br />
             </Paragraph>
           </HorizBlock>
           <HorizBlock>
             <Title>Asia </Title>
             <Paragraph>
               140 Sukhumvit Rd #1804 <br />
-              Bangkok, Thailand 10110<br />{" "}
-              <br /> +66 92 367 3347<br />
+              Bangkok, Thailand 10110
+              <br /> <br /> +66 92 367 3347
+              <br />
             </Paragraph>
           </HorizBlock>
         </Row>
 
         <SocialMediaRow>
-        <center><br /><br /><br />
-            <Link style={{ marginLeft: "auto" }} target="_blank" href="https://wa.me/18083979999">
-            <Icon icon={Wa} />
-          </Link>
-          <Link target="_blank" href="http://line.me/ti/p/~amojuris">
-            <Icon icon={Ln} />
-          </Link>
-          <Link target="_blank" href="https://instagram.com">
-            <Icon icon={Wc} />
-          </Link>
-          <Link target="_blank" href="https://www.linkedin.com/in/cattang/">
-            <Icon icon={Li} />
-          </Link>
-          <Link target="_blank" href="https://instagram.com/americanattorney">
-            <Icon icon={Ig} />
-          </Link>
-          <Link target="_blank" href="https://facebook.com/usaatty">
-            <Icon icon={Fb} />
-          </Link>
-          <Link target="_blank" href="https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber">
-            <Icon icon={Yt} />
-          </Link>
-          <Link target="_blank" href="mailto:mail@usaatty.com">
-            <Icon icon={Mail} />
-          </Link>
-              </center>
+          <center>
+            <br />
+            <br />
+            <br />
+            <Link
+              style={{ marginLeft: "auto" }}
+              target="_blank"
+              href="https://wa.me/18083979999"
+            >
+              <Icon icon={Wa} />
+            </Link>
+            <Link target="_blank" href="http://line.me/ti/p/~amojuris">
+              <Icon icon={Ln} />
+            </Link>
+            <Link target="_blank" href="https://instagram.com">
+              <Icon icon={Wc} />
+            </Link>
+            <Link target="_blank" href="https://www.linkedin.com/in/cattang/">
+              <Icon icon={Li} />
+            </Link>
+            <Link target="_blank" href="https://instagram.com/americanattorney">
+              <Icon icon={Ig} />
+            </Link>
+            <Link target="_blank" href="https://facebook.com/usaatty">
+              <Icon icon={Fb} />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber"
+            >
+              <Icon icon={Yt} />
+            </Link>
+            <Link target="_blank" href="mailto:mail@usaatty.com">
+              <Icon icon={Mail} />
+            </Link>
+          </center>
         </SocialMediaRow>
-
       </SectionContent>
     </Section>
   );
