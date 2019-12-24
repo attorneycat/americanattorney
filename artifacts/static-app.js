@@ -1274,7 +1274,7 @@ function (_React$Component) {
         style: {
           color: "#ffffff"
         }
-      }, "Start Your Application")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "$650 + government filing fee ($275)")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, "Start Your Application")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Starting at $1000 + government filing fee ($275)")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
         backgroundImage: assets_homeoffice_jpg__WEBPACK_IMPORTED_MODULE_24___default.a
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         id: "services"

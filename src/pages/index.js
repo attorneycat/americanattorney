@@ -114,7 +114,7 @@ export default class Home extends React.Component {
                 </Button>
               </a>
               <b>
-                <p>$650 + government filing fee ($275)</p>
+                <p>Starting at $1000 + government filing fee ($275)</p>
               </b>
             </center>
           </PictureTextBlock>
@@ -160,7 +160,7 @@ export default class Home extends React.Component {
             id="about"
             pictureLeft
             backgroundImage={catProfile}
-      
+
           >
             <h2>Meet Our Attorney</h2>
             <p>
