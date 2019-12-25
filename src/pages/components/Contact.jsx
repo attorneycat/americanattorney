@@ -17,6 +17,8 @@ import { faEnvelope as Mail } from "@fortawesome/free-solid-svg-icons";
 //Import core
 import { Section, SectionContent } from "./core";
 
+import PrivacyPolicy from "assets/privacyPolicy.pdf";
+
 const Row = styled("div")`
   display: flex;
   @media (max-width: 750px) {
@@ -52,6 +54,7 @@ const Title = styled("h3")`
     font-size: 1em;
   }
 `;
+
 export const ContactSection = props => {
   return (
     <Section id="contactsection" green style={{ minHeight: "auto" }}>
@@ -103,6 +106,9 @@ export const ContactDetails = props => {
         <SocialMediaRow>
           <center>
             <br />
+            <a style={{ fontSize: "0.8em", fontWeight: 300, color: "grey" }} href={PrivacyPolicy}>
+              Privacy Policy
+            </a>
             <br />
             <br />
             <Link

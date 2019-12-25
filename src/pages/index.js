@@ -200,10 +200,9 @@ export default class Home extends React.Component {
               <br></br>
               <a href="#bottom">
                 <Button style={{ color: "#ffffff" }}>
-                  Book a Consult Today{" "}
+                  Book a Consult Today
                 </Button>
               </a>
-
               <b>
                 <p>Initial Consultations with Attorney Cat are Free</p>
               </b>

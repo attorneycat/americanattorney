@@ -31,6 +31,14 @@ const NavBar = styled("div")`
   max-width: 1500px;
 `;
 
+const MobileVisibleLink = styled("a")`
+  @media (max-width: 483px) {
+    display: initial;
+    font-size:1.6em;
+    padding:15px;
+  }
+`;
+
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(["dynamic"]);
 
@@ -80,30 +88,37 @@ class App extends React.Component {
               Contact
             </Link>
 
-            <a style={{ marginLeft: "auto" }} target="_blank" href="https://wa.me/18083979999">
+            <MobileVisibleLink
+              style={{ marginLeft: "auto" }}
+              target="_blank"
+              href="https://wa.me/18083979999"
+            >
               <Icon icon={Wa} />
-            </a>
-            <a target="_blank" href="http://line.me/ti/p/~amojuris">
+            </MobileVisibleLink>
+            <MobileVisibleLink target="_blank" href="http://line.me/ti/p/~amojuris">
               <Icon icon={Ln} />
-            </a>
-            <a target="_blank" href="https://msng.link/o/?ctang88=wc">
+            </MobileVisibleLink>
+            <MobileVisibleLink target="_blank" href="https://msng.link/o/?ctang88=wc">
               <Icon icon={Wc} />
-            </a>
+            </MobileVisibleLink>
             <a target="_blank" href="https://www.linkedin.com/in/cattang/">
               <Icon icon={Li} />
             </a>
             <a target="_blank" href="https://instagram.com/americanattorney">
               <Icon icon={Ig} />
             </a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber"
+            >
               <Icon icon={Yt} />
             </a>
             <a target="_blank" href="https://facebook.com/usaatty">
               <Icon icon={Fb} />
             </a>
-            <a target="_blank" href="mailto:mail@usaatty.com">
+            <MobileVisibleLink target="_blank" href="mailto:mail@usaatty.com">
               <Icon icon={Mail} />
-            </a>
+            </MobileVisibleLink>
           </NavBar>
         </nav>
         <div className="content">
