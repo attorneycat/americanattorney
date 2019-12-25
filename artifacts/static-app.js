@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 67);
+/******/ 	return __webpack_require__(__webpack_require__.s = 68);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -149,7 +149,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject5() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  cursor: pointer;\n  color: ", ";\n  border: 0px solid ", ";\n  /* background-color: rgba(0, 171, 0, 0); */\n  background-color: #85c6d4;\n  border-radius: ", ";\n  padding: ", ";\n  margin: ", ";\n  font-size: ", ";\n  min-width: ", ";\n  @media (max-width: 750px) {\n    font-size: 1em;\n    min-width: 150px;\n    margin: 2px;\n  }\n  @media (max-width: 500px) {\n    font-size: 1em;\n    min-width: 160px;\n    margin: 2px;\n  }\n  &:hover {\n    background-color: rgba(63, 127, 191, 0.6);\n  }\n  &:active {\n    background-color: rgba(0, 171, 0, 0.6);\n  }\n  transition: all 0.3s;\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  cursor: pointer;\n  color: ", ";\n  border: 0px solid ", ";\n  border-width: ", ";\n  /* background-color: rgba(0, 171, 0, 0); */\n  background-color: #85c6d4;\n  border-radius: ", ";\n  padding: ", ";\n  margin: ", ";\n  font-size: ", ";\n  min-width: ", ";\n  @media (max-width: 750px) {\n    font-size: 1em;\n    min-width: 150px;\n    margin: 2px;\n  }\n  @media (max-width: 500px) {\n    font-size: 1em;\n    min-width: 160px;\n    margin: 2px;\n  }\n  &:hover {\n    background-color: rgba(63, 127, 191, 0.6);\n  }\n  &:active {\n    background-color: rgba(0, 171, 0, 0.6);\n  }\n  transition: all 0.3s;\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -179,7 +179,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  position: relative;\n  min-height: 60vh;\n  text-align: center;\n  background-image: url(", ");\n  background-color: ", ";\n  background-size: cover;\n  background-position: center;\n  background-blend-mode: multiply;\n  color: ", "\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  position: relative;\n  min-height: 60vh;\n  text-align: center;\n  background-image: url(", ");\n  background-color: ", ";\n  background-size: cover;\n  background-position: center;\n  background-blend-mode: multiply;\n  color: ", ";\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -213,6 +213,8 @@ var Button = _emotion_styled__WEBPACK_IMPORTED_MODULE_1___default()("button")(_t
   return props.color || "black";
 }, function (props) {
   return props.color || "black";
+}, function (props) {
+  return props.color && "1px";
 }, function (props) {
   return props.small ? "5px" : "10px";
 }, function (props) {
@@ -303,7 +305,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(70);
+var _requireUniversalModule = __webpack_require__(71);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -318,7 +320,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(72);
+var _reportChunks = __webpack_require__(73);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -332,21 +334,21 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(58);
+var _propTypes = __webpack_require__(59);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(59);
+var _hoistNonReactStatics = __webpack_require__(60);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(73);
+var _vm = __webpack_require__(74);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
 var _utils = __webpack_require__(39);
 
-var _helpers = __webpack_require__(74);
+var _helpers = __webpack_require__(75);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -967,6 +969,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(36);
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3);
+/* harmony import */ var assets_privacyPolicy_pdf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(40);
+/* harmony import */ var assets_privacyPolicy_pdf__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(assets_privacyPolicy_pdf__WEBPACK_IMPORTED_MODULE_7__);
 
 
 function _templateObject6() {
@@ -1036,6 +1040,7 @@ function _templateObject() {
  //Import core
 
 
+
 var Row = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div")(_templateObject());
 var HorizBlock = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div")(_templateObject2());
 var Paragraph = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("p")(_templateObject3());
@@ -1069,7 +1074,14 @@ var ContactDetails = function ContactDetails(props) {
       minHeight: "30vh"
     },
     id: "footer"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "California "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Hawaii "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Asia "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, "140 Sukhumvit Rd #1804 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Bangkok, Thailand 10110", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +66 92 367 3347", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialMediaRow, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "California "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Hawaii "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Asia "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, "140 Sukhumvit Rd #1804 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Bangkok, Thailand 10110", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +66 92 367 3347", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialMediaRow, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    style: {
+      fontSize: "0.8em",
+      fontWeight: 300,
+      color: "grey"
+    },
+    href: assets_privacyPolicy_pdf__WEBPACK_IMPORTED_MODULE_7___default.a
+  }, "Privacy Policy"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
     style: {
       marginLeft: "auto"
     },
@@ -1146,29 +1158,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(11);
 /* harmony import */ var _components_ServicesIOffer__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(25);
 /* harmony import */ var _components_Testimonials__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(26);
-/* harmony import */ var assets_mountainSplash_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(48);
+/* harmony import */ var assets_mountainSplash_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(49);
 /* harmony import */ var assets_mountainSplash_jpg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(assets_mountainSplash_jpg__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var assets_laptopStock_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(47);
+/* harmony import */ var assets_laptopStock_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(48);
 /* harmony import */ var assets_laptopStock_jpg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(assets_laptopStock_jpg__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var assets_pinkCouch_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(51);
+/* harmony import */ var assets_pinkCouch_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(52);
 /* harmony import */ var assets_pinkCouch_jpg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(assets_pinkCouch_jpg__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var assets_windowpic_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(63);
+/* harmony import */ var assets_windowpic_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(64);
 /* harmony import */ var assets_windowpic_jpg__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(assets_windowpic_jpg__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var assets_nypic_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(49);
+/* harmony import */ var assets_nypic_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(50);
 /* harmony import */ var assets_nypic_jpg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(assets_nypic_jpg__WEBPACK_IMPORTED_MODULE_19__);
 /* harmony import */ var assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(27);
 /* harmony import */ var assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var assets_ny3_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(62);
+/* harmony import */ var assets_ny3_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(63);
 /* harmony import */ var assets_ny3_jpg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(assets_ny3_jpg__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var assets_nypic6_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(50);
+/* harmony import */ var assets_nypic6_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(51);
 /* harmony import */ var assets_nypic6_jpg__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(assets_nypic6_jpg__WEBPACK_IMPORTED_MODULE_22__);
-/* harmony import */ var assets_attorneycat_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(61);
+/* harmony import */ var assets_attorneycat_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(62);
 /* harmony import */ var assets_attorneycat_jpg__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(assets_attorneycat_jpg__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var assets_homeoffice_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(46);
+/* harmony import */ var assets_homeoffice_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(47);
 /* harmony import */ var assets_homeoffice_jpg__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(assets_homeoffice_jpg__WEBPACK_IMPORTED_MODULE_24__);
-/* harmony import */ var assets_cover_cat_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(44);
+/* harmony import */ var assets_cover_cat_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(45);
 /* harmony import */ var assets_cover_cat_jpg__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(assets_cover_cat_jpg__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var assets_catprofileshot_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(41);
+/* harmony import */ var assets_catprofileshot_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(42);
 /* harmony import */ var assets_catprofileshot_png__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(assets_catprofileshot_png__WEBPACK_IMPORTED_MODULE_26__);
 
 
@@ -1301,7 +1313,7 @@ function (_React$Component) {
         style: {
           color: "#ffffff"
         }
-      }, "Book a Consult Today", " ")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Initial Consultations with Attorney Cat are Free")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, "Book a Consult Today")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Initial Consultations with Attorney Cat are Free")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
         backgroundImage: assets_nypic6_jpg__WEBPACK_IMPORTED_MODULE_22___default.a
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         id: "reviews"
@@ -1496,7 +1508,7 @@ function Post(_ref) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ContactForm; });
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(54);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(55);
 /* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(14);
 /* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__);
@@ -1644,9 +1656,7 @@ function (_React$Component) {
         placeholder: "Describe Your Issue"
       }, _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(_React$createElement, "name", "Text1"), _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(_React$createElement, "rows", "5"), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(InputButton, {
         type: "submit",
-        style: {
-          color: "white"
-        },
+        color: "white",
         value: "SEND EMAIL"
       }))));
     }
@@ -1672,7 +1682,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
-/* harmony import */ var assets_placeholderBlog_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(40);
+/* harmony import */ var assets_placeholderBlog_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(41);
 /* harmony import */ var assets_placeholderBlog_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(assets_placeholderBlog_png__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -1755,7 +1765,7 @@ function PostSummary(_ref) {
       summary = _ref.summary,
       date = _ref.date,
       id = _ref.id;
-  var postImage = image ? __webpack_require__(83)("./".concat(image)) : assets_placeholderBlog_png__WEBPACK_IMPORTED_MODULE_5___default.a;
+  var postImage = image ? __webpack_require__(84)("./".concat(image)) : assets_placeholderBlog_png__WEBPACK_IMPORTED_MODULE_5___default.a;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostContainer, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostImage, {
     img: postImage
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(WhiteBreak, null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Wording, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -1781,13 +1791,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
-/* harmony import */ var assets_reiki_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(52);
+/* harmony import */ var assets_reiki_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(53);
 /* harmony import */ var assets_reiki_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(assets_reiki_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var assets_firstplace_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(45);
+/* harmony import */ var assets_firstplace_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(46);
 /* harmony import */ var assets_firstplace_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(assets_firstplace_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var assets_cert_green_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(42);
+/* harmony import */ var assets_cert_green_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(43);
 /* harmony import */ var assets_cert_green_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(assets_cert_green_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var assets_cert_purp_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(43);
+/* harmony import */ var assets_cert_purp_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(44);
 /* harmony import */ var assets_cert_purp_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(assets_cert_purp_png__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -1994,9 +2004,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var containers_Dynamic__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(33);
 /* harmony import */ var pages_components_Contact__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(19);
 /* harmony import */ var pages_components_ContactForm__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(23);
-/* harmony import */ var react_burger_menu__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(66);
+/* harmony import */ var react_burger_menu__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(67);
 /* harmony import */ var react_burger_menu__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_burger_menu__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(60);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(61);
 /* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(7);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__);
@@ -2013,6 +2023,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+function _templateObject2() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6___default()(["\n  @media (max-width: 483px) {\n    display: initial;\n    font-size:1.6em;\n    padding:15px;\n  }\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
 
 function _templateObject() {
   var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6___default()(["\n  width: 100%;\n  display: flex;\n  max-width: 1500px;\n"]);
@@ -2037,7 +2057,8 @@ function _templateObject() {
 
 
 
-var NavBar = _emotion_styled__WEBPACK_IMPORTED_MODULE_18___default()("div")(_templateObject()); // Any routes that start with 'dynamic' will be treated as non-static routes
+var NavBar = _emotion_styled__WEBPACK_IMPORTED_MODULE_18___default()("div")(_templateObject());
+var MobileVisibleLink = _emotion_styled__WEBPACK_IMPORTED_MODULE_18___default()("a")(_templateObject2()); // Any routes that start with 'dynamic' will be treated as non-static routes
 
 Object(react_static__WEBPACK_IMPORTED_MODULE_8__["addPrefetchExcludes"])(["dynamic"]);
 
@@ -2104,7 +2125,7 @@ function (_React$Component) {
       }, "Reviews"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
         href: "#bottom",
         to: "#bottom"
-      }, "Contact"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+      }, "Contact"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
         style: {
           marginLeft: "auto"
         },
@@ -2112,12 +2133,12 @@ function (_React$Component) {
         href: "https://wa.me/18083979999"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faWhatsapp"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
         target: "_blank",
         href: "http://line.me/ti/p/~amojuris"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faLine"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
         target: "_blank",
         href: "https://msng.link/o/?ctang88=wc"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
@@ -2142,7 +2163,7 @@ function (_React$Component) {
         href: "https://facebook.com/usaatty"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faFacebook"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
         target: "_blank",
         href: "mailto:mail@usaatty.com"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
@@ -2186,7 +2207,7 @@ var _utils = __webpack_require__(39);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(71)("" + id);
+    return __webpack_require__(72)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -2208,9 +2229,9 @@ module.exports = require("@reach/router");
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(53);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(54);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(65);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(66);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(28);
 
@@ -2238,7 +2259,7 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(81)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(82)(module)))
 
 /***/ }),
 /* 32 */
@@ -2539,119 +2560,125 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 
 /***/ }),
 /* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b25ab0a22474d04d753695cdc86db624.pdf";
+
+/***/ }),
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAP1BMVEX6+vqbqrWptb/v8PL+/v2WprG8xcza3uLn6eyfrbj5+fn//v7Q1tvk6Oqhr7nq7e6wvMTW29/CytGtucHJ0Nang/YpAAAC/UlEQVR4nO3c0XKqMBRAUcAE0AhI9f+/9YJoBUKokTDeydnrtZQZ9iQYLE2SAAAAAAAAAAAAAAAAAAAAAAAAAIAgRqnQp1TKhD7lf6LIs+Dy4ttXtQdTZVqnwWmdVdENLlPsUOrRq4islmp2a9XVaoLfC7/rsmOsNIsr1p4Dq9N8+/pCetyxsvIQWJn1543rrmXyPpY+B78mc76fOI8plhpi7bAmKoZYMd20iOWBWB6I5WEhljGnsiyTrQ/CEmKppM265zqdXtpk04UKiGWa63OVqi/NlsEVfyzTZK8Vvc62rL/jj3Wox08/uj59fub4Y+XTJ8UtC/DoY5XWg3D58Zljj2V+5l9B6NvHFxt9rIs1si7rF3tw/yj2WEltxVr99k61tXt1EX2soxWrXrnDq7b7vHTWij2W3zQ07b1m6Tgi9lgqt27wP86RpdrhkKNjbMUeK6msWJXrYp+turG1XCv6WMl1Fuvq+j3Tvg6qF/+YGn+sahbLtSZV7fioY7lQK/5Y0whp67hUdZ42XaoVf6xEFb+P0rouHFdqpkn7WvZMFBArMYe81r06Pzg+Ce1W/WfivIqEWH2u6na7Va5U1hx0jC0ZsfoX0VZebjOLrexaUmKtcbXq7/KTMMRyzMGlsUUs97iyaomPtd6qr/VqIy3W/PNwbQ4+71u/vyMsljpPH5H/Gld3vzNRVqz+DatxrbdadbUeeUTFur+NNvqy6u85+JiJ1XC8pFjDm3tp+nyMeXNc9bWGv8wKivVslT5m4vut5MV6tRoekd+dgxJjjVrdx5bHuBIXa9qqq+XTSlgsNWvlSVSsja1ExTK3jf+gIijW1nElKZbaOq4Exdo8BwXFmq8ZiDUxjRVgXImJdQqQSk4s+2U2Yo0QywOxPBDLA7E8EMsDsTzM1lk6gFRIrDIIGbGCIpYHYnkglocIY7Fxjwe2hPLRhFiHukW12Viisj1bRbaNHRsk+mDrTR9s6uqH7YI9sBE1AAAAAAAAAAAAAAAAAAAAAAAAAGz1D7FpMMlT3RklAAAAAElFTkSuQmCC"
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "c27d411c87b5e9896f7a2d4352405fb6.png";
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "a7ac5426f1ff1ef086baffcb9eb811d4.png";
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "6eb787e34140bf7174f07a1cf6d09a01.png";
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "91bf5021a95f0602ce6364082cdeef87.jpg";
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "115f0ac90dfc685ff3564a27cb9e11d1.png";
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5c1bdd30a47e21a1797b24f1a2b4c440.jpg";
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "17fbef5bb6546a785668317777e47675.jpg";
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "240031c1a1969b413b7dba87a0fbb40e.jpg";
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "c3221f643333164d1aa071d773b9108a.jpg";
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2130e3a8d30e08f9715578e135532e1d.jpg";
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2b4ca946fb10280d243a54104012ece3.jpg";
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "b5982a54bb636606c707a333539b8e36.png";
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/defineProperty");
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_cat_Documents_GitHub_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(64);
-/* harmony import */ var _Users_cat_Documents_GitHub_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_cat_Documents_GitHub_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(65);
+/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
 
 var plugins = [{
-  location: "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-source-filesystem",
+  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-source-filesystem",
   plugins: [],
   hooks: {}
 }, {
-  location: "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-reach-router",
+  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-reach-router",
   plugins: [],
-  hooks: _Users_cat_Documents_GitHub_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default()({})
+  hooks: _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default()({})
 }, {
-  location: "/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static-plugin-sitemap/dist",
+  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-sitemap/dist",
   plugins: [],
   hooks: {}
 }, {
-  location: "/Users/cat/Documents/GitHub/americanattorney",
+  location: "/Users/tobiasgu/dev/american_attorney/americanattorney",
   plugins: [],
   hooks: {}
 }]; // Export em!
@@ -2659,13 +2686,13 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/browser");
+module.exports = require("/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static/lib/browser");
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2677,8 +2704,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
-/* harmony import */ var _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
+/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -2707,7 +2734,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(_Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
+Object(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
 var universalOptions = {
   loading: function loading() {
     return null;
@@ -2718,302 +2745,302 @@ var universalOptions = {
   },
   ignoreBabelRename: true
 };
-var t_0 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js",
+var t_0 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/404 */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404 */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/404";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404";
   }
 }), universalOptions);
-t_0.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js';
-var t_1 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary.js",
+t_0.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js';
+var t_1 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(24);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary";
   }
 }), universalOptions);
-t_1.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary.js';
-var t_2 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index.js",
+t_1.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js';
+var t_2 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(21);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index";
   }
 }), universalOptions);
-t_2.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index.js';
-var t_3 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx",
+t_2.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js';
+var t_3 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(19);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx";
   }
 }), universalOptions);
-t_3.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx';
-var t_4 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx",
+t_3.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx';
+var t_4 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(23);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx";
   }
 }), universalOptions);
-t_4.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx';
-var t_5 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.js",
+t_4.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx';
+var t_5 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 3))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(3);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index";
   }
 }), universalOptions);
-t_5.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.js';
-var t_6 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx",
+t_5.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js';
+var t_6 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx */).then(__webpack_require__.bind(null, 10))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx */).then(__webpack_require__.bind(null, 10))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(10);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx";
   }
 }), universalOptions);
-t_6.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx';
-var t_7 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx",
+t_6.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx';
+var t_7 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx */).then(__webpack_require__.bind(null, 12))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx */).then(__webpack_require__.bind(null, 12))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(12);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx";
   }
 }), universalOptions);
-t_7.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx';
-var t_8 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx",
+t_7.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx';
+var t_8 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(25);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx";
   }
 }), universalOptions);
-t_8.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx';
-var t_9 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx",
+t_8.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx';
+var t_9 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx */).then(__webpack_require__.bind(null, 26))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx */).then(__webpack_require__.bind(null, 26))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(26);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx";
   }
 }), universalOptions);
-t_9.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx';
-var t_10 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx",
+t_9.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx';
+var t_10 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx */).then(__webpack_require__.bind(null, 11))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx */).then(__webpack_require__.bind(null, 11))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(11);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx";
   }
 }), universalOptions);
-t_10.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx';
-var t_11 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/index.js",
+t_10.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx';
+var t_11 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/index */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(20);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/index";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index";
   }
 }), universalOptions);
-t_11.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/index.js';
-var t_12 = _Users_cat_Documents_GitHub_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/cat/Documents/GitHub/americanattorney/src/pages/post/index.js",
+t_11.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js';
+var t_12 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/cat/Documents/GitHub/americanattorney/src/pages/post/index */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/cat/Documents/GitHub/americanattorney/src/pages/post/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(22);
   },
   chunkName: function chunkName() {
-    return "Users/cat/Documents/GitHub/americanattorney/src/pages/post/index";
+    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index";
   }
 }), universalOptions);
-t_12.template = '/Users/cat/Documents/GitHub/americanattorney/src/pages/post/index.js'; // Template Map
+t_12.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js': t_0,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/components/PostSummary.js': t_1,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/blog/index.js': t_2,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Contact.jsx': t_3,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ContactForm.jsx': t_4,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/core/index.js': t_5,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Hero.jsx': t_6,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/PictureTextBlock.jsx': t_7,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/ServicesIOffer.jsx': t_8,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/Testimonials.jsx': t_9,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/components/TextOverPictureBlock.jsx': t_10,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/index.js': t_11,
-  '/Users/cat/Documents/GitHub/americanattorney/src/pages/post/index.js': t_12
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js': t_0,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js': t_1,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js': t_2,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx': t_3,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx': t_4,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js': t_5,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx': t_6,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx': t_7,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx': t_8,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx': t_9,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx': t_10,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js': t_11,
+  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js': t_12
 }); // Not Found Template
 
-var notFoundTemplate = "/Users/cat/Documents/GitHub/americanattorney/src/pages/404.js";
+var notFoundTemplate = "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
-
-/***/ }),
-/* 58 */
-/***/ (function(module, exports) {
-
-module.exports = require("prop-types");
 
 /***/ }),
 /* 59 */
 /***/ (function(module, exports) {
 
-module.exports = require("hoist-non-react-statics");
+module.exports = require("prop-types");
 
 /***/ }),
 /* 60 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__(82)(false);
-// Module
-exports.push([module.i, "/* * {\r\n  scroll-behavior: smooth;\r\n} */\r\n\r\nbody {\r\n  font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\",\r\n    Helvetica, Arial, \"Lucida Grande\", sans-serif;\r\n  font-weight: 300;\r\n  font-size: 16px;\r\n  margin: 0;\r\n  padding: 0;\r\n  overflow-x: hidden;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: #108db8;\r\n  font-weight: bold;\r\n}\r\n\r\nimg {\r\n  max-width: 100%;\r\n}\r\n\r\nnav {\r\n  width: 100%;\r\n  background: #85c6d4;\r\n  position: fixed;\r\n  z-index: 2;\r\n  top: 0;\r\n  display:flex;\r\n  justify-content: center;\r\n}\r\n\r\nnav a {\r\n  color: white;\r\n  padding: 1rem;\r\n  display: inline-block;\r\n}\r\n@media (max-width: 750px) {\r\n  nav a {\r\n    padding: 0.5rem;\r\n  }\r\n}\r\n\r\n@media (max-width: 483px) {\r\n  nav a {\r\n    display: none;\r\n  }\r\n  nav {\r\n    height: 60px;\r\n  }\r\n}\r\n\r\nh1 {\r\n  font-size: 3em;\r\n}\r\n\r\nh2 {\r\n  @media (max-width: 750px) {\r\n    font-size: 1.5em;\r\n  }\r\n}\r\n\r\n/* Position and sizing of burger button */\r\n.bm-burger-button {\r\n  position: fixed;\r\n  width: 36px;\r\n  height: 30px;\r\n  left: 25px;\r\n  top: 15px;\r\n  color: white;\r\n  z-index:1001 !important;\r\n  @media (min-width: 750px) {\r\n    display: none;\r\n  }\r\n}\r\n\r\n/* Color/shape of burger icon bars */\r\n.bm-burger-bars {\r\n  background: white;\r\n}\r\n\r\n/* Color/shape of burger icon bars on hover*/\r\n.bm-burger-bars-hover {\r\n  background: #373a47;\r\n}\r\n\r\n/* Position and sizing of clickable cross button */\r\n.bm-cross-button {\r\n  height: 24px;\r\n  width: 24px;\r\n}\r\n\r\n/* Color/shape of close button cross */\r\n.bm-cross {\r\n  background: #bdc3c7;\r\n}\r\n\r\n/*\r\nSidebar wrapper styles\r\nNote: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases\r\n*/\r\n.bm-menu-wrap {\r\n  position: fixed;\r\n  height: 100%;\r\n}\r\n\r\n/* General sidebar styles */\r\n.bm-menu {\r\n  background: #373a47;\r\n  padding: 2.5em 1.5em 0;\r\n  font-size: 1.15em;\r\n}\r\n\r\n/* Morph shape necessary with bubble or elastic */\r\n.bm-morph-shape {\r\n  fill: #373a47;\r\n}\r\n\r\n/* Wrapper for item list */\r\n.bm-item-list {\r\n  color: #b8b7ad;\r\n  padding: 0.8em;\r\n  width: 50vw;\r\n  display:flex;\r\n  flex-direction: column;\r\n  justify-content:flex-start;\r\n  max-width:205px;\r\n}\r\n\r\n/* Individual item */\r\n.bm-item {\r\n  display: inline-block;\r\n}\r\n\r\n/* Styling of overlay */\r\n.bm-overlay {\r\n  background: rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n@media (min-width: 483px) {\r\n  .bm-overlay {\r\n    display: none;\r\n  }\r\n  .bm-burger-button {\r\n    display: none;\r\n  }\r\n  .bm-menu-wrap {\r\n    display: none;\r\n  }\r\n}\r\n", ""]);
-
-
+module.exports = require("hoist-non-react-statics");
 
 /***/ }),
 /* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e8805af1177cbeacc14fcb892201de91.jpg";
+exports = module.exports = __webpack_require__(83)(false);
+// Module
+exports.push([module.i, "/* * {\r\n  scroll-behavior: smooth;\r\n} */\r\n\r\nbody {\r\n  font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\",\r\n    Helvetica, Arial, \"Lucida Grande\", sans-serif;\r\n  font-weight: 300;\r\n  font-size: 16px;\r\n  margin: 0;\r\n  padding: 0;\r\n  overflow-x: hidden;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: #108db8;\r\n  font-weight: bold;\r\n}\r\n\r\nimg {\r\n  max-width: 100%;\r\n}\r\n\r\nnav {\r\n  width: 100%;\r\n  background: #85c6d4;\r\n  position: fixed;\r\n  z-index: 2;\r\n  top: 0;\r\n  display:flex;\r\n  justify-content: center;\r\n}\r\n\r\nnav a {\r\n  color: white;\r\n  padding: 1rem;\r\n  display: inline-block;\r\n}\r\n@media (max-width: 750px) {\r\n  nav a {\r\n    padding: 0.5rem;\r\n  }\r\n}\r\n\r\n@media (max-width: 483px) {\r\n  nav a {\r\n    display: none;\r\n  }\r\n  nav {\r\n    height: 60px;\r\n  }\r\n}\r\n\r\nh1 {\r\n  font-size: 3em;\r\n}\r\n\r\nh2 {\r\n  @media (max-width: 750px) {\r\n    font-size: 1.5em;\r\n  }\r\n}\r\n\r\n/* Position and sizing of burger button */\r\n.bm-burger-button {\r\n  position: fixed;\r\n  width: 36px;\r\n  height: 30px;\r\n  left: 25px;\r\n  top: 15px;\r\n  color: white;\r\n  z-index:1001 !important;\r\n  @media (min-width: 750px) {\r\n    display: none;\r\n  }\r\n}\r\n\r\n/* Color/shape of burger icon bars */\r\n.bm-burger-bars {\r\n  background: white;\r\n  border-radius:5px;\r\n}\r\n\r\n/* Color/shape of burger icon bars on hover*/\r\n.bm-burger-bars-hover {\r\n  background: #373a47;\r\n}\r\n\r\n/* Position and sizing of clickable cross button */\r\n.bm-cross-button {\r\n  height: 24px;\r\n  width: 24px;\r\n}\r\n\r\n/* Color/shape of close button cross */\r\n.bm-cross {\r\n  background: #bdc3c7;\r\n}\r\n\r\n/*\r\nSidebar wrapper styles\r\nNote: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases\r\n*/\r\n.bm-menu-wrap {\r\n  position: fixed;\r\n  height: 100%;\r\n}\r\n\r\n/* General sidebar styles */\r\n.bm-menu {\r\n  background: #373a47;\r\n  padding: 2.5em 1.5em 0;\r\n  font-size: 1.15em;\r\n}\r\n\r\n/* Morph shape necessary with bubble or elastic */\r\n.bm-morph-shape {\r\n  fill: #373a47;\r\n}\r\n\r\n/* Wrapper for item list */\r\n.bm-item-list {\r\n  color: #b8b7ad;\r\n  padding: 0.8em;\r\n  width: 50vw;\r\n  display:flex;\r\n  flex-direction: column;\r\n  justify-content:flex-start;\r\n  max-width:205px;\r\n}\r\n\r\n/* Individual item */\r\n.bm-item {\r\n  display: inline-block;\r\n}\r\n\r\n/* Styling of overlay */\r\n.bm-overlay {\r\n  background: rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n@media (min-width: 483px) {\r\n  .bm-overlay {\r\n    display: none;\r\n  }\r\n  .bm-burger-button {\r\n    display: none;\r\n  }\r\n  .bm-menu-wrap {\r\n    display: none;\r\n  }\r\n}\r\n", ""]);
+
+
 
 /***/ }),
 /* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "847b0c31c31336fc09fe8c9072eaa249.jpg";
+module.exports = __webpack_require__.p + "e8805af1177cbeacc14fcb892201de91.jpg";
 
 /***/ }),
 /* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "728fc4c134b42745d784c7200b06cfc6.jpg";
+module.exports = __webpack_require__.p + "847b0c31c31336fc09fe8c9072eaa249.jpg";
 
 /***/ }),
 /* 64 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "728fc4c134b42745d784c7200b06cfc6.jpg";
+
+/***/ }),
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3139,47 +3166,25 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-burger-menu");
 
 /***/ }),
-/* 67 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(68);
-__webpack_require__(69);
-module.exports = __webpack_require__(75);
-
-
-/***/ }),
 /* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
-/* eslint-disable import/no-dynamic-require */
+__webpack_require__(69);
+__webpack_require__(70);
+module.exports = __webpack_require__(76);
 
-var plugins = __webpack_require__(55)["default"];
-
-var _require = __webpack_require__(56),
-    registerPlugins = _require.registerPlugins;
-
-registerPlugins(plugins);
-
-if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-browser-plugins.js", function () {
-    registerPlugins(__webpack_require__(55)["default"]);
-  });
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(37)(module)))
 
 /***/ }),
 /* 69 */
@@ -3189,18 +3194,40 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */(function(module) {
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(56),
+var plugins = __webpack_require__(56)["default"];
+
+var _require = __webpack_require__(57),
+    registerPlugins = _require.registerPlugins;
+
+registerPlugins(plugins);
+
+if (typeof document !== 'undefined' && module && module.hot) {
+  module.hot.accept("/Users/tobiasgu/dev/american_attorney/americanattorney/artifacts/react-static-browser-plugins.js", function () {
+    registerPlugins(__webpack_require__(56)["default"]);
+  });
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(37)(module)))
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+/* eslint-disable import/no-dynamic-require */
+
+var _require = __webpack_require__(57),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(57),
+var _require2 = __webpack_require__(58),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/cat/Documents/GitHub/americanattorney/artifacts/react-static-templates.js", function () {
-    var _require3 = __webpack_require__(57),
+  module.hot.accept("/Users/tobiasgu/dev/american_attorney/americanattorney/artifacts/react-static-templates.js", function () {
+    var _require3 = __webpack_require__(58),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
 
@@ -3210,7 +3237,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(37)(module)))
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3421,7 +3448,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -3449,10 +3476,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 71;
+webpackContext.id = 72;
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3486,7 +3513,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(58);
+var _propTypes = __webpack_require__(59);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -3561,13 +3588,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3578,7 +3605,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(59);
+var _hoistNonReactStatics = __webpack_require__(60);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -3634,28 +3661,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(76);
+var _interopRequireWildcard = __webpack_require__(77);
 
-var _interopRequireDefault = __webpack_require__(77);
+var _interopRequireDefault = __webpack_require__(78);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(78));
+var _extends2 = _interopRequireDefault(__webpack_require__(79));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(79));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(80));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(80);
+var _useStaticInfo = __webpack_require__(81);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -3689,37 +3716,37 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/cat/Documents/GitHub/americanattorney/node_modules/react-static/lib/browser/hooks/useStaticInfo");
+module.exports = require("/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -3749,7 +3776,7 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3840,38 +3867,39 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"./": 31,
 	"./App": 28,
 	"./App.js": 28,
-	"./app.css": 60,
-	"./assets/1.jpg": 84,
-	"./assets/attorneycat.jpg": 61,
-	"./assets/attorneycat3.jpg": 85,
-	"./assets/catprofileshot.png": 41,
-	"./assets/cert-green.png": 42,
-	"./assets/cert-purp.png": 43,
-	"./assets/cover-cat.jpg": 44,
-	"./assets/firstplace.png": 45,
-	"./assets/homeoffice.jpg": 46,
-	"./assets/laptopStock.jpg": 47,
-	"./assets/leaves.jpg": 86,
-	"./assets/mountainSplash.jpg": 48,
+	"./app.css": 61,
+	"./assets/1.jpg": 85,
+	"./assets/attorneycat.jpg": 62,
+	"./assets/attorneycat3.jpg": 86,
+	"./assets/catprofileshot.png": 42,
+	"./assets/cert-green.png": 43,
+	"./assets/cert-purp.png": 44,
+	"./assets/cover-cat.jpg": 45,
+	"./assets/firstplace.png": 46,
+	"./assets/homeoffice.jpg": 47,
+	"./assets/laptopStock.jpg": 48,
+	"./assets/leaves.jpg": 87,
+	"./assets/mountainSplash.jpg": 49,
 	"./assets/ny2.jpg": 27,
-	"./assets/ny3.jpg": 62,
-	"./assets/ny4.jpg": 87,
-	"./assets/ny5.jpg": 88,
-	"./assets/nypic.jpg": 49,
-	"./assets/nypic6.jpg": 50,
-	"./assets/pinkCouch.jpg": 51,
-	"./assets/placeholderBlog.png": 40,
+	"./assets/ny3.jpg": 63,
+	"./assets/ny4.jpg": 88,
+	"./assets/ny5.jpg": 89,
+	"./assets/nypic.jpg": 50,
+	"./assets/nypic6.jpg": 51,
+	"./assets/pinkCouch.jpg": 52,
+	"./assets/placeholderBlog.png": 41,
 	"./assets/posts": 34,
 	"./assets/posts.js": 34,
-	"./assets/reiki.png": 52,
-	"./assets/windowpic.jpg": 63,
+	"./assets/privacyPolicy.pdf": 40,
+	"./assets/reiki.png": 53,
+	"./assets/windowpic.jpg": 64,
 	"./components/Router": 6,
 	"./components/Router.js": 6,
 	"./containers/Dynamic": 33,
@@ -3932,34 +3960,34 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 83;
+webpackContext.id = 84;
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "eeea3d187217637b6e47323eca32d731.jpg";
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QBYRXhpZgAATU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAqKADAAQAAAABAAAA6AAAAAD/4QoJaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA1LjQuMCI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgcGhvdG9zaG9wOkluc3RydWN0aW9ucz0iRkJNRDAxMDAwYWI4MDMwMDAwYmQyMTAwMDBmNTQ4MDAwMDE3NDkwMDAwNWU0OTAwMDA3YzYwMDAwMGNlOTMwMDAwYWU5YjAwMDBkMDliMDAwMDA2OWMwMDAwYTFmZDAwMDAiIHBob3Rvc2hvcDpUcmFuc21pc3Npb25SZWZlcmVuY2U9IlM3ZFlpUFpxa3VPWjJyeEdHMXpPIi8+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD94cGFja2V0IGVuZD0idyI/PgD/7QDIUGhvdG9zaG9wIDMuMAA4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"
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "6beffe8cf156c5f5a772d6f0e25e6418.jpg";
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "ace7ee5cbeb0124f6bcb97972118a7e6.jpg";
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "96ec5031d169800f5cc354c7e7337e76.jpg";
