@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{76:function(n,e,o){"use strict";o.r(e),o.d(e,"default",(function(){return a}));var r=o(0),t=o.n(r),c=(o(5),o(14));function a(n){return t.a.createElement(c.Section,{backgroundImage:n.backgroundImage,backgroundColor:n.overlayColor,color:"white"},t.a.createElement(c.SectionContent,null,n.children))}}}]);

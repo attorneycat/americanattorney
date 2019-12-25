@@ -111,7 +111,7 @@ export default class ContactForm extends React.Component {
             />
             <InputButton
               type="submit"
-              style={{ color: "white" }}
+              color='white'
               value="SEND EMAIL"
             />
           </form>

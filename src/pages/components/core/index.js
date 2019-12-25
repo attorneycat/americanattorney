@@ -15,7 +15,7 @@ export const Section = styled("div")`
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
-  color: ${props=>props.color}
+  color: ${props => props.color};
 `;
 export const SectionContent = styled("div")`
   max-width: 1200px;
@@ -35,6 +35,7 @@ export const Button = styled("button")`
   cursor: pointer;
   color: ${props => props.color || "black"};
   border: 0px solid ${props => props.color || "black"};
+  border-width: ${props => props.color && "1px"};
   /* background-color: rgba(0, 171, 0, 0); */
   background-color: #85c6d4;
   border-radius: ${props => (props.small ? "5px" : "10px")};
