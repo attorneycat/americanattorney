@@ -55,7 +55,7 @@ export default {
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Catherine Tang Law | Trademark & Business Attorney</title>
+          <title>Law Offices of Catherine Tang | Trademark & Business Attorney</title>
           <meta name="description" content="American Trademark Attorney" />
           <meta property="og:title" content="Attorney Cat" />
           {React.styleTags}
