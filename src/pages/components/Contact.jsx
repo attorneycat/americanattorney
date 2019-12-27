@@ -105,12 +105,7 @@ export const ContactDetails = props => {
 
         <SocialMediaRow>
           <center>
-            <br />
-            <a style={{ fontSize: "0.8em", fontWeight: 300, color: "grey" }} href={PrivacyPolicy}>
-              Privacy Policy
-            </a>
-            <br />
-            <br />
+
             <Link
               style={{ marginLeft: "auto" }}
               target="_blank"
@@ -142,6 +137,12 @@ export const ContactDetails = props => {
             <Link target="_blank" href="mailto:mail@usaatty.com">
               <Icon icon={Mail} />
             </Link>
+            <br /><br />
+            <a style={{ fontSize: "0.8em", fontWeight: 300, color: "grey" }} href={PrivacyPolicy}>
+              Privacy Policy
+            </a>
+            <br />
+            
           </center>
         </SocialMediaRow>
       </SectionContent>
