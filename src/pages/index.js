@@ -162,7 +162,7 @@ export default class Home extends React.Component {
             backgroundImage={catProfile}
 
           >
-            <h2>Meet Our Attorney</h2>
+            <h2>Meet Our Founder</h2>
             <p>
               Prior to law, Attorney Catherine Tang had an extensive background
               in marketing and business development. Like you, she is an

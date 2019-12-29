@@ -36,7 +36,12 @@ export default function Hero(props) {
     <SectionBG image={props.image} size={props.size}>
       <Content>
         <h1>AMERICAN TRADEMARK ATTORNEY</h1>
-        <h3>PROTECT AND GROW YOUR BUSINESS TODAY WITH A US LICENSED LAWYER.</h3>
+        <h3>> Trademark Search & Registration <br /><br />
+        > USPTO Office Action Response<br /><br />
+        > Copyright Registration
+
+
+        </h3>
         <ButtonRow>
           <br></br>
           <a href="#bottom">

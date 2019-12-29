@@ -75,21 +75,22 @@ export const ContactDetails = props => {
   return (
     <Section style={{ minHeight: "30vh" }} id="footer">
       <SectionContent>
+      <Row> </Row>
         <Row>
           <HorizBlock>
             <Title>California </Title>
             <Paragraph>
               {" "}
               125 12th St., Suite 100
-              <br /> Oakland, CA <br /> <br /> +1 808 397 9999 <br />
+              <br /> Oakland, CA 94607<br /> <br /> +1 808 397 9999 <br />
             </Paragraph>
           </HorizBlock>
           <HorizBlock>
             <Title>Hawaii </Title>
             <Paragraph>
               {" "}
-              125 12th St., Suite 100
-              <br /> Oakland, CA <br /> <br /> +1 808 397 9999 <br />
+              1631 Liliha St #2B
+              <br /> Honolulu, Hawaii 96817 <br /> <br /> +1 808 397 9999 <br />
             </Paragraph>
           </HorizBlock>
           <HorizBlock>
@@ -142,7 +143,7 @@ export const ContactDetails = props => {
               Privacy Policy
             </a>
             <br />
-            
+
           </center>
         </SocialMediaRow>
       </SectionContent>
