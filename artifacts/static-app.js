@@ -1004,7 +1004,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  white-space: nowrap;\n  margin: 0px 5px;\n  width: 100%;\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  white-space: nowrap;\n  margin: 0px 0px;\n  width: 100%;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;

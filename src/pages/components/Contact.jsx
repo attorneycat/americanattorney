@@ -35,7 +35,7 @@ const HorizBlock = styled("div")`
 `;
 const Paragraph = styled("p")`
   white-space: nowrap;
-  margin: 0px 5px;
+  margin: 0px 0px;
   width: 100%;
 `;
 
