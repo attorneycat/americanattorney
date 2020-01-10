@@ -2119,7 +2119,7 @@ function (_React$Component) {
       }, "Contact")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(NavBar, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
         to: "/"
       }, "Home"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        to: "/blog#top"
+        to: "http://blog.usaatty.com/"
       }, "Blog"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
         to: "/#services"
       }, "Services"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {

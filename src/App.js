@@ -80,7 +80,7 @@ class App extends React.Component {
         <nav>
           <NavBar>
             <Link to="/">Home</Link>
-            <Link to="/blog#top">Blog</Link>
+            <Link to="http://blog.usaatty.com/">Blog</Link>
             <Link to="/#services">Services</Link>
             <Link to="/#about">About</Link>
             <Link to="/#reviews">Reviews</Link>
