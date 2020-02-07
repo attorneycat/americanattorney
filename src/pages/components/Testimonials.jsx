@@ -80,7 +80,7 @@ export default function Testimonials(props) {
             <br />
             <br />
             <h4>- Vince, Startup Founder</h4>
-            <i>Canadian Digital Nomad</i>
+            <i>Vancouver, Canada</i>
           </Testimonial>
           <Testimonial>
           Catherine helped me with several contract reviews. She was easy to talk to and super helpful! All the legal jargon you see on paper, she can define that to simple english. My go-to attorney for all trademark and business needs.
