@@ -61,9 +61,9 @@ class App extends React.Component {
           <Link onClick={this.showSettings} to="/#top">
             Home
           </Link>
-          <Link onClick={this.showSettings} to="/blog#top">
+          <a onClick={this.showSettings} href="http://blog.usaatty.com/">
             Blog
-          </Link>
+          </a>
           <Link onClick={this.showSettings} to="/#services">
             Services
           </Link>
@@ -80,7 +80,7 @@ class App extends React.Component {
         <nav>
           <NavBar>
             <Link to="/">Home</Link>
-            <Link to="http://blog.usaatty.com/">Blog</Link>
+            <a href="http://blog.usaatty.com/">Blog</a>
             <Link to="/#services">Services</Link>
             <Link to="/#about">About</Link>
             <Link to="/#reviews">Reviews</Link>
