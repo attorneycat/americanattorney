@@ -79,7 +79,7 @@ export default function Testimonials(props) {
   She's not only a fantastic lawyer, but someone who goes above and beyond and truly cares for those that she works with.
             <br />
             <br />
-            <h4>- Toby, Startup Founder</h4>
+            <h4>- Vince, Startup Founder</h4>
             <i>Canadian Digital Nomad</i>
           </Testimonial>
           <Testimonial>
@@ -92,7 +92,7 @@ export default function Testimonials(props) {
           </Testimonial>
           <Testimonial>
 
-Catherine is everything you could want in a lawyer... AND MORE! No one else I would trust with my businesses and their trademarks. She has helped me grow with awesome tips, and she's incredibly intelligent and pleasant to work with. 
+Catherine is everything you could want in a lawyer... AND MORE! No one else I would trust with my businesses and their trademarks. She has helped me grow with awesome tips, and she's incredibly intelligent and pleasant to work with.
             <br />
             <br />
             <h4>- Jessica, Founder</h4>
