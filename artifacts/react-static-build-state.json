@@ -15,30 +15,30 @@
   "entry": "index.js",
   "siteRoot": "https://usaatty.com",
   "paths": {
-    "ROOT": "/Users/tobiasgu/dev/american_attorney/americanattorney",
-    "SRC": "/Users/tobiasgu/dev/american_attorney/americanattorney/src",
-    "DIST": "/Users/tobiasgu/dev/american_attorney/americanattorney/docs",
-    "ASSETS": "/Users/tobiasgu/dev/american_attorney/americanattorney/docs",
-    "PLUGINS": "/Users/tobiasgu/dev/american_attorney/americanattorney/plugins",
-    "TEMP": "/Users/tobiasgu/dev/american_attorney/americanattorney/tmp",
-    "ARTIFACTS": "/Users/tobiasgu/dev/american_attorney/americanattorney/artifacts",
-    "PUBLIC": "/Users/tobiasgu/dev/american_attorney/americanattorney/public",
-    "NODE_MODULES": "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules",
-    "EXCLUDE_MODULES": "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules",
-    "PACKAGE": "/Users/tobiasgu/dev/american_attorney/americanattorney/package.json",
-    "HTML_TEMPLATE": "/Users/tobiasgu/dev/american_attorney/americanattorney/docs/index.html",
-    "STATIC_DATA": "/Users/tobiasgu/dev/american_attorney/americanattorney/docs/staticData"
+    "ROOT": "/Users/tobiasgu/dev/americanattorney",
+    "SRC": "/Users/tobiasgu/dev/americanattorney/src",
+    "DIST": "/Users/tobiasgu/dev/americanattorney/docs",
+    "ASSETS": "/Users/tobiasgu/dev/americanattorney/docs",
+    "PLUGINS": "/Users/tobiasgu/dev/americanattorney/plugins",
+    "TEMP": "/Users/tobiasgu/dev/americanattorney/tmp",
+    "ARTIFACTS": "/Users/tobiasgu/dev/americanattorney/artifacts",
+    "PUBLIC": "/Users/tobiasgu/dev/americanattorney/public",
+    "NODE_MODULES": "/Users/tobiasgu/dev/americanattorney/node_modules",
+    "EXCLUDE_MODULES": "/Users/tobiasgu/dev/americanattorney/node_modules",
+    "PACKAGE": "/Users/tobiasgu/dev/americanattorney/package.json",
+    "HTML_TEMPLATE": "/Users/tobiasgu/dev/americanattorney/docs/index.html",
+    "STATIC_DATA": "/Users/tobiasgu/dev/americanattorney/docs/staticData"
   },
   "plugins": [
     [
-      "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      "/Users/tobiasgu/dev/americanattorney/node_modules/react-static-plugin-source-filesystem/node.api.js",
       {
-        "location": "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages"
+        "location": "/Users/tobiasgu/dev/americanattorney/src/pages"
       }
     ],
-    "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-reach-router/browser.api.js",
-    "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-sitemap/dist/node.api.js",
-    "/Users/tobiasgu/dev/american_attorney/americanattorney"
+    "/Users/tobiasgu/dev/americanattorney/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/tobiasgu/dev/americanattorney/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/tobiasgu/dev/americanattorney"
   ],
   "basePath": "",
   "publicPath": "https://usaatty.com/",

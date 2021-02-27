@@ -809,12 +809,37 @@ var SectionBG = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("header")
 var Content = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div")(_templateObject2());
 var ButtonRow = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div")(_templateObject3());
 function Hero(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SectionBG, {
-    image: props.image,
-    size: props.size
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Content, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "AMERICAN TRADEMARK ATTORNEY"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "> Trademark Search & Registration ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "> USPTO Office Action Response", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "> Copyright Registration"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ButtonRow, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "#bottom"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Button"], null, " BOOK A FREE CONSULTATION ")))));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SectionBG, {
+      image: props.image,
+      size: props.size
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Content, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "AMERICAN TRADEMARK ATTORNEY"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "> Trademark Search & Registration ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "> USPTO Office Action Response",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "> Copyright Registration"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ButtonRow, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+      href: "#bottom"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Button"], null, " BOOK A FREE CONSULTATION ")))))
+  );
 }
 
 /***/ }),
@@ -834,11 +859,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function TextOverPictureBlock(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_2__["Section"], {
-    backgroundImage: props.backgroundImage,
-    backgroundColor: props.overlayColor,
-    color: 'white'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_2__["SectionContent"], null, props.children));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_2__["Section"], {
+      backgroundImage: props.backgroundImage,
+      backgroundColor: props.overlayColor,
+      color: 'white'
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_2__["SectionContent"], null, props.children))
+  );
 }
 
 /***/ }),
@@ -906,10 +936,17 @@ function PictureTextBlock(props) {
     pictureRight: props.pictureRight,
     pictureLeft: props.pictureLeft
   };
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitSection, sectionProps, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitPicture, {
-    id: "laptopStock",
-    backgroundImage: props.backgroundImage
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitContent, null, props.children));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitSection, sectionProps,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitPicture, {
+      id: "laptopStock",
+      backgroundImage: props.backgroundImage
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SplitContent, null, props.children))
+  );
 }
 
 /***/ }),
@@ -1048,87 +1085,197 @@ var SocialMediaRow = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()(Row)
 var Link = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("a")(_templateObject5());
 var Title = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("h3")(_templateObject6());
 var ContactSection = function ContactSection(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["Section"], {
-    id: "contactsection",
-    green: true,
-    style: {
-      minHeight: "auto"
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], {
-    style: {
-      whiteSpace: "normal"
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    style: {
-      color: "#85c6d4"
-    }
-  }, "Contact Us. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    style: {
-      color: "#85c6d4"
-    }
-  }, "We try our best to respond within 24 hours or less."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["Section"], {
+      id: "contactsection",
+      green: true,
+      style: {
+        minHeight: "auto"
+      }
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], {
+      style: {
+        whiteSpace: "normal"
+      }
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+      style: {
+        color: "#85c6d4"
+      }
+    }, "Contact Us. ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+      style: {
+        color: "#85c6d4"
+      }
+    }, "We try our best to respond within 24 hours or less."),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))
+  );
 };
 var ContactDetails = function ContactDetails(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["Section"], {
-    style: {
-      minHeight: "30vh"
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["Section"], {
+      style: {
+        minHeight: "30vh"
+      },
+      id: "footer"
     },
-    id: "footer"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    dangerouslySetInnerHTML: {
-      __html: "<a rel=\"me\" target=\"_blank\" href=\"https://www.avvo.com/attorneys/94607-ca-catherine-tang-5079674.html\"><svg class=\"avvo-badge\" id=\"js-avvo-badge-rating\" style=\"enable-background:new 0 0 280 220; height: 120px; width: 155px;\" version=\"1.1\" viewbox=\"0 0 280 220\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><style type=\"text/css\">@font-face{font-family:'Circular-Bold';src:url(\"https://assets.avvo.com/avvo-ui/0.20.5/fonts/avvo_ui/circular/circular_bold.woff\") format(\"woff\")}.avvo-badge .st0{fill:#153860 !important}.avvo-badge .st1{fill:#010101 !important}.avvo-badge .st2{fill:#15467A !important}.avvo-badge .st3{fill:#FFFFFF !important}.avvo-badge .st4{fill:none !important}.avvo-badge .st5{fill:#F89838 !important}.avvo-badge .st6{fill:#ED514C !important}.avvo-badge .st7{font-family:'Circular-Bold', Avenir Next, Avenir, Century Gothic, sans-serif !important;font-weight:bold !important}.avvo-badge .st8{font-size:20px !important}.avvo-badge .st9{letter-spacing:-1px !important}.avvo-badge .st10{font-family:'Circular-Bold', Avenir Next, Avenir, Century Gothic, sans-serif !important;font-size:14px}.avvo-badge .st11{font-size:65px !important}.avvo-badge .st12{text-anchor:middle !important}.avvo-badge .st13{fill:#969696 !important}.avvo-badge .st14{display:none !important}</style><g><g><g><polygon class=\"st0\" points=\"82.612,160.003 1.433,160.003 20.448,142.715 1.433,125.206 82.612,125.206\"></polygon><polygon class=\"st1\" points=\"82.628,159.993 32.616,145.386 32.616,110.589 82.628,125.195\"></polygon></g><g><polygon class=\"st2\" points=\"192.651,160.003 273.831,160.003 254.816,142.715 273.831,125.206 192.651,125.206\"></polygon><polygon class=\"st1\" points=\"192.635,159.993 242.646,145.386 242.646,110.589 192.635,125.195\"></polygon></g></g><g><path class=\"st3\" d=\"M136.336,206.992c-17.217-6.189-52.512-18.813-72.559-25.983l-9.092-3.252V18.147l83.005-11.762l82.89,11.764 v159.607l-2.651,0.949c-9.44,3.38-57.609,20.627-78.883,28.287l-1.354,0.487L136.336,206.992z\"></path><path class=\"st2\" d=\"M137.689,10.425l78.889,11.196c0,35.66,0,153.319,0,153.319c-17.826,6.381-59.655,21.363-78.889,28.289 c-19.263-6.925-61.152-21.903-79.005-28.288c0,0,0-117.659,0-153.319L137.689,10.425 M137.69,2.345l-1.123,0.159L57.562,13.7 l-6.878,0.975v6.946V174.94v5.635l5.306,1.898l5.289,1.892c19.626,7.019,56.156,20.084,73.703,26.392l2.709,0.974l2.708-0.975 c18.259-6.574,58.171-20.872,78.875-28.283l5.304-1.899v-5.633V21.621v-6.945l-6.876-0.976L138.814,2.504L137.69,2.345 L137.69,2.345z\"></path></g><g><path class=\"st3\" d=\"M216.579,21.62l-78.889-11.196L58.685,21.62c0,35.66,0,153.319,0,153.319 c17.853,6.385,59.742,21.363,79.005,28.288c19.234-6.926,61.063-21.907,78.889-28.288 C216.579,174.94,216.579,57.281,216.579,21.62z\"></path></g><g><path class=\"st2\" d=\"M132.166,34.841c0-1.085-0.842-1.916-1.856-1.916c-1.015,0-1.839,0.831-1.839,1.916 c0,1.085,0.824,1.9,1.839,1.9C131.324,36.741,132.166,35.927,132.166,34.841 M125.738,34.841c0-2.509,2.063-4.494,4.588-4.494 c2.509,0,4.572,1.985,4.572,4.494c0,2.493-2.063,4.477-4.572,4.477C127.801,39.318,125.738,37.334,125.738,34.841 M117.558,38.845 l-0.773-8.361h2.904l0.395,5.19c0,0.068,0.052,0.119,0.138,0.034c1.083-0.899,1.907-2.697,2.234-5.224h2.955 c-0.206,3.918-3.265,8.802-7.27,8.802C117.867,39.285,117.592,39.183,117.558,38.845 M107.952,38.845l-0.773-8.361h2.904 l0.395,5.19c0,0.068,0.051,0.119,0.137,0.034c1.083-0.899,1.908-2.697,2.234-5.224h2.956c-0.206,3.918-3.265,8.802-7.27,8.802 C108.26,39.285,107.986,39.183,107.952,38.845 M99.1,34.722h3.334l-0.257-3.408c0-0.102-0.086-0.119-0.172-0.034 C101.146,32.009,100.097,33.23,99.1,34.722 M102.624,37.233H97.64c-0.343,0.645-0.653,1.323-0.91,2.001h-3.215 c1.667-4.698,6.548-11.175,10.501-11.65c0.584-0.068,0.928,0.068,0.963,0.526l0.996,11.124h-3.196L102.624,37.233z\"></path><g><path class=\"st2\" d=\"M141.668,34.827h-0.905v4.264h-2.552V27.639h4.539c2.261,0,3.715,1.551,3.715,3.586 c0,1.551-0.856,2.73-2.261,3.231l2.326,4.636h-2.811L141.668,34.827z M142.265,32.63c1.05,0,1.615-0.581,1.615-1.389 c0-0.856-0.565-1.389-1.615-1.389h-1.502v2.778H142.265z\"></path><path class=\"st2\" d=\"M149.277,34.456l1.89-0.291c0.436-0.065,0.581-0.275,0.581-0.549c0-0.468-0.404-0.872-1.179-0.872 c-0.856,0-1.325,0.581-1.373,1.179l-2.132-0.436c0.097-1.147,1.163-2.665,3.521-2.665c2.601,0,3.554,1.454,3.554,3.101v3.925 c0,0.63,0.081,1.163,0.097,1.244h-2.213c-0.016-0.065-0.081-0.355-0.081-0.905c-0.42,0.678-1.195,1.131-2.261,1.131 c-1.761,0-2.778-1.163-2.778-2.439C146.903,35.457,147.953,34.649,149.277,34.456z M151.748,35.942v-0.355l-1.518,0.242 c-0.517,0.081-0.905,0.323-0.905,0.888c0,0.42,0.275,0.824,0.953,0.824C151.005,37.541,151.748,37.185,151.748,35.942z\"></path><path class=\"st2\" d=\"M158.421,31.064h1.567v2.148h-1.567v3.004c0,0.662,0.355,0.84,0.888,0.84c0.258,0,0.501-0.048,0.646-0.081 v2.035c-0.097,0.048-0.501,0.226-1.276,0.226c-1.664,0-2.681-0.985-2.681-2.584v-3.441h-1.421v-2.148h0.404 c0.84,0,1.244-0.565,1.244-1.308v-1.034h2.197V31.064z\"></path><path class=\"st2\" d=\"M162.298,27.171c0.808,0,1.454,0.646,1.454,1.438c0,0.791-0.646,1.438-1.454,1.438 c-0.775,0-1.421-0.646-1.421-1.438C160.877,27.817,161.523,27.171,162.298,27.171z M161.087,39.091v-8.028h2.455v8.028H161.087z\"></path><path class=\"st2\" d=\"M167.5,39.091h-2.455v-8.028h2.374v0.921c0.436-0.759,1.421-1.131,2.245-1.131 c2.019,0,2.924,1.438,2.924,3.198v5.04h-2.455v-4.62c0-0.791-0.42-1.389-1.308-1.389c-0.808,0-1.325,0.598-1.325,1.405V39.091z\"></path><path class=\"st2\" d=\"M175.61,38.93c0.162,0.775,0.808,1.341,1.728,1.341c1.228,0,1.987-0.598,1.987-2.051v-0.372 c-0.291,0.436-0.985,0.905-2.148,0.905c-2.132,0-3.731-1.68-3.731-3.909c0-2.116,1.535-3.925,3.731-3.925 c1.308,0,2.003,0.581,2.229,1.001v-0.856h2.342v7.026c0,2.31-1.292,4.313-4.297,4.313c-2.31,0-3.78-1.421-4.006-2.859 L175.61,38.93z M179.342,34.843c0-1.098-0.791-1.777-1.712-1.777c-0.921,0-1.728,0.678-1.728,1.777s0.743,1.777,1.728,1.777 C178.631,36.62,179.342,35.942,179.342,34.843z\"></path></g></g><rect class=\"st2\" height=\"34.841\" width=\"210.276\" x=\"32.494\" y=\"110.567\"></rect><g><path class=\"st2\" d=\"M92.309,161.886v10.404h-2.502v-10.404h-4.032v-2.357H96.34v2.357H92.309z\"></path><path class=\"st2\" d=\"M99.725,163.164c0.66,0,1.275,0.117,1.845,0.351c0.57,0.234,1.062,0.559,1.477,0.973s0.738,0.909,0.972,1.484 c0.234,0.576,0.352,1.206,0.352,1.891c0,0.684-0.117,1.311-0.352,1.881c-0.233,0.57-0.558,1.065-0.972,1.485 s-0.906,0.746-1.477,0.98c-0.569,0.234-1.185,0.351-1.845,0.351s-1.275-0.116-1.845-0.351c-0.57-0.234-1.062-0.561-1.477-0.98 c-0.413-0.42-0.737-0.915-0.972-1.485s-0.351-1.197-0.351-1.881c0-0.685,0.116-1.314,0.351-1.891 c0.234-0.575,0.559-1.07,0.972-1.484c0.414-0.414,0.906-0.738,1.477-0.973C98.45,163.281,99.065,163.164,99.725,163.164z M99.725,170.382c0.288,0,0.57-0.054,0.846-0.162c0.276-0.107,0.517-0.267,0.721-0.477s0.369-0.471,0.495-0.783 c0.126-0.312,0.188-0.678,0.188-1.098s-0.062-0.786-0.188-1.099c-0.126-0.312-0.291-0.572-0.495-0.782s-0.444-0.369-0.721-0.478 c-0.275-0.107-0.558-0.162-0.846-0.162s-0.57,0.055-0.846,0.162c-0.276,0.108-0.517,0.268-0.72,0.478 c-0.205,0.21-0.369,0.471-0.495,0.782c-0.126,0.312-0.189,0.679-0.189,1.099s0.063,0.786,0.189,1.098 c0.126,0.312,0.29,0.573,0.495,0.783c0.203,0.21,0.443,0.369,0.72,0.477C99.155,170.328,99.437,170.382,99.725,170.382z\"></path><path class=\"st2\" d=\"M105.809,175.71v-12.276h2.321v1.08c0.204-0.348,0.54-0.647,1.009-0.899c0.468-0.252,1.037-0.378,1.71-0.378 c0.647,0,1.224,0.117,1.728,0.351c0.504,0.234,0.933,0.559,1.287,0.972c0.354,0.414,0.621,0.9,0.801,1.458 c0.181,0.559,0.271,1.168,0.271,1.827c0,0.673-0.1,1.294-0.297,1.863c-0.198,0.57-0.48,1.062-0.847,1.476 s-0.807,0.738-1.322,0.973c-0.517,0.233-1.087,0.351-1.711,0.351c-0.611,0-1.137-0.105-1.574-0.314 c-0.438-0.21-0.766-0.465-0.981-0.766v4.284H105.809z M112.576,167.862c0-0.792-0.213-1.404-0.639-1.836 c-0.427-0.433-0.945-0.648-1.558-0.648c-0.312,0-0.6,0.058-0.863,0.171c-0.265,0.114-0.498,0.276-0.702,0.486 s-0.363,0.468-0.478,0.773c-0.114,0.307-0.171,0.657-0.171,1.054c0,0.396,0.057,0.747,0.171,1.053s0.273,0.567,0.478,0.783 s0.438,0.381,0.702,0.495c0.264,0.114,0.552,0.171,0.863,0.171c0.612,0,1.131-0.219,1.558-0.657 C112.364,169.27,112.576,168.654,112.576,167.862z\"></path><path class=\"st2\" d=\"M128.146,169.374h-5.184l-1.062,2.916h-2.628l4.896-12.762h2.88l4.86,12.762h-2.7L128.146,169.374z M123.79,167.106h3.527l-1.764-4.824L123.79,167.106z\"></path><path class=\"st2\" d=\"M135.473,163.434h1.781v2.124h-1.781v3.708c0,0.385,0.087,0.651,0.261,0.802 c0.174,0.149,0.435,0.225,0.783,0.225c0.144,0,0.287-0.006,0.432-0.018c0.144-0.012,0.246-0.03,0.306-0.055v1.98 c-0.107,0.048-0.272,0.096-0.495,0.144c-0.222,0.048-0.507,0.072-0.854,0.072c-0.864,0-1.548-0.24-2.052-0.72 c-0.504-0.48-0.757-1.152-0.757-2.017v-4.122h-1.602v-2.124h0.45c0.468,0,0.812-0.135,1.035-0.404 c0.222-0.271,0.333-0.604,0.333-0.999v-1.242h2.16V163.434z\"></path><path class=\"st2\" d=\"M141.737,163.434h1.781v2.124h-1.781v3.708c0,0.385,0.086,0.651,0.26,0.802 c0.174,0.149,0.436,0.225,0.783,0.225c0.145,0,0.287-0.006,0.432-0.018s0.246-0.03,0.307-0.055v1.98 c-0.107,0.048-0.273,0.096-0.496,0.144c-0.221,0.048-0.506,0.072-0.854,0.072c-0.865,0-1.549-0.24-2.053-0.72 c-0.504-0.48-0.756-1.152-0.756-2.017v-4.122h-1.602v-2.124h0.449c0.469,0,0.812-0.135,1.035-0.404 c0.223-0.271,0.334-0.604,0.334-0.999v-1.242h2.16V163.434z\"></path><path class=\"st2\" d=\"M148.989,163.164c0.66,0,1.275,0.117,1.846,0.351c0.57,0.234,1.062,0.559,1.477,0.973 s0.738,0.909,0.971,1.484c0.234,0.576,0.352,1.206,0.352,1.891c0,0.684-0.117,1.311-0.352,1.881 c-0.232,0.57-0.557,1.065-0.971,1.485s-0.906,0.746-1.477,0.98s-1.186,0.351-1.846,0.351s-1.275-0.116-1.844-0.351 c-0.57-0.234-1.062-0.561-1.477-0.98s-0.738-0.915-0.973-1.485s-0.35-1.197-0.35-1.881c0-0.685,0.115-1.314,0.35-1.891 c0.234-0.575,0.559-1.07,0.973-1.484s0.906-0.738,1.477-0.973C147.714,163.281,148.329,163.164,148.989,163.164z M148.989,170.382 c0.289,0,0.57-0.054,0.846-0.162c0.277-0.107,0.518-0.267,0.721-0.477c0.205-0.21,0.369-0.471,0.496-0.783 c0.125-0.312,0.188-0.678,0.188-1.098s-0.062-0.786-0.188-1.099c-0.127-0.312-0.291-0.572-0.496-0.782 c-0.203-0.21-0.443-0.369-0.721-0.478c-0.275-0.107-0.557-0.162-0.846-0.162c-0.287,0-0.57,0.055-0.846,0.162 c-0.275,0.108-0.516,0.268-0.719,0.478c-0.205,0.21-0.369,0.471-0.496,0.782c-0.125,0.312-0.189,0.679-0.189,1.099 s0.064,0.786,0.189,1.098c0.127,0.312,0.291,0.573,0.496,0.783c0.203,0.21,0.443,0.369,0.719,0.477 C148.419,170.328,148.702,170.382,148.989,170.382z\"></path><path class=\"st2\" d=\"M160.473,165.81c-0.24-0.047-0.479-0.071-0.719-0.071c-0.312,0-0.607,0.042-0.883,0.126 s-0.516,0.222-0.719,0.414c-0.205,0.191-0.369,0.447-0.496,0.765c-0.125,0.318-0.189,0.717-0.189,1.197v4.05h-2.393v-8.856h2.32 v1.314c0.133-0.288,0.305-0.524,0.514-0.711c0.211-0.186,0.432-0.327,0.666-0.423s0.469-0.162,0.703-0.198 c0.232-0.036,0.445-0.054,0.639-0.054c0.096,0,0.188,0.003,0.279,0.009c0.09,0.006,0.182,0.015,0.277,0.027V165.81z\"></path><path class=\"st2\" d=\"M164.11,172.29h-2.395v-8.856h2.322v1.099c0.275-0.456,0.65-0.792,1.125-1.008 c0.475-0.217,0.951-0.324,1.432-0.324c0.551,0,1.027,0.093,1.43,0.279c0.402,0.186,0.736,0.435,1,0.746 c0.264,0.312,0.459,0.685,0.584,1.116c0.127,0.433,0.189,0.889,0.189,1.368v5.58h-2.395v-5.166c0-0.504-0.129-0.924-0.387-1.26 s-0.674-0.504-1.25-0.504c-0.529,0-0.938,0.177-1.225,0.53c-0.287,0.354-0.432,0.79-0.432,1.306V172.29z\"></path><path class=\"st2\" d=\"M179.716,169.752c-0.107,0.384-0.279,0.747-0.514,1.089s-0.52,0.64-0.855,0.892s-0.729,0.453-1.178,0.603 c-0.451,0.15-0.945,0.225-1.486,0.225c-0.611,0-1.193-0.104-1.744-0.314c-0.553-0.21-1.039-0.519-1.459-0.927 s-0.754-0.906-0.998-1.494c-0.246-0.588-0.369-1.254-0.369-1.998c0-0.708,0.119-1.351,0.359-1.926 c0.24-0.576,0.561-1.065,0.963-1.468c0.402-0.401,0.867-0.714,1.395-0.936s1.074-0.333,1.639-0.333 c1.379,0,2.453,0.408,3.223,1.224c0.768,0.816,1.15,1.938,1.15,3.366c0,0.168-0.006,0.327-0.018,0.478 c-0.012,0.149-0.018,0.236-0.018,0.261h-6.336c0.012,0.288,0.08,0.555,0.207,0.801c0.125,0.246,0.287,0.459,0.486,0.639 c0.197,0.181,0.428,0.321,0.693,0.424c0.264,0.102,0.545,0.152,0.846,0.152c0.562,0,1.004-0.126,1.322-0.378 s0.549-0.576,0.693-0.972L179.716,169.752z M177.483,166.854c-0.012-0.217-0.057-0.43-0.135-0.64s-0.197-0.396-0.359-0.558 s-0.367-0.294-0.613-0.396c-0.246-0.102-0.537-0.152-0.873-0.152c-0.312,0-0.588,0.054-0.828,0.162 c-0.24,0.107-0.443,0.246-0.611,0.413c-0.168,0.169-0.297,0.354-0.387,0.559s-0.141,0.408-0.152,0.612H177.483z\"></path><path class=\"st2\" d=\"M181.679,175.782l2.088-4.608l-3.762-7.74h2.682l2.357,5.185l2.178-5.185h2.557l-5.562,12.349H181.679z\"></path></g><rect class=\"st4\" height=\"47.524\" width=\"141\" x=\"66.567\" y=\"49.875\"></rect><text class=\"st6 st7 st11 st12\" id=\"js-avvo-rating-5079674\" transform=\"matrix(1 0 0 1 72.0684 96.9355)\" x=\"66.567\">9.5</text><text class=\"st3 st10 st12\" x=\"50%\" y=\"134\" style=\"font-size: 14px !important;\">Catherine Tang</text></g></svg></a><script>(function(context) {if(context.Avvo) return;function alertContents(httpRequest) {if(httpRequest.readyState == 4) {if((httpRequest.status == 200) || (httpRequest.status == 0)) {var payload = JSON.parse(httpRequest.responseText);if(!payload.avvo_rating) { return; }document.getElementById(\"js-avvo-rating-5079674\").textContent = payload.avvo_rating}}}function send_with_ajax(the_url) {var httpRequest = new XMLHttpRequest();httpRequest.onreadystatechange = function() {alertContents(httpRequest);};httpRequest.open(\"GET\", the_url, true);httpRequest.send(null);}send_with_ajax(\"https://www.avvo.com/attorney-badges/v3/lawyers/avvo-rating/5079674\");})(window);</script>"
-    }
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "California "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA 94607", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Hawaii "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "1631 Liliha St #2B", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Honolulu, Hawaii 96817 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Asia "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, "140 Sukhumvit Rd #1804 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Bangkok, Thailand 10110", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +66 92 367 3347", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialMediaRow, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    style: {
-      marginLeft: "auto"
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_6__["SectionContent"], null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      dangerouslySetInnerHTML: {
+        __html: "<a rel=\"me\" target=\"_blank\" href=\"https://www.avvo.com/attorneys/94607-ca-catherine-tang-5079674.html\"><svg class=\"avvo-badge\" id=\"js-avvo-badge-rating\" style=\"enable-background:new 0 0 280 220; height: 120px; width: 155px;\" version=\"1.1\" viewbox=\"0 0 280 220\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><style type=\"text/css\">@font-face{font-family:'Circular-Bold';src:url(\"https://assets.avvo.com/avvo-ui/0.20.5/fonts/avvo_ui/circular/circular_bold.woff\") format(\"woff\")}.avvo-badge .st0{fill:#153860 !important}.avvo-badge .st1{fill:#010101 !important}.avvo-badge .st2{fill:#15467A !important}.avvo-badge .st3{fill:#FFFFFF !important}.avvo-badge .st4{fill:none !important}.avvo-badge .st5{fill:#F89838 !important}.avvo-badge .st6{fill:#ED514C !important}.avvo-badge .st7{font-family:'Circular-Bold', Avenir Next, Avenir, Century Gothic, sans-serif !important;font-weight:bold !important}.avvo-badge .st8{font-size:20px !important}.avvo-badge .st9{letter-spacing:-1px !important}.avvo-badge .st10{font-family:'Circular-Bold', Avenir Next, Avenir, Century Gothic, sans-serif !important;font-size:14px}.avvo-badge .st11{font-size:65px !important}.avvo-badge .st12{text-anchor:middle !important}.avvo-badge .st13{fill:#969696 !important}.avvo-badge .st14{display:none !important}</style><g><g><g><polygon class=\"st0\" points=\"82.612,160.003 1.433,160.003 20.448,142.715 1.433,125.206 82.612,125.206\"></polygon><polygon class=\"st1\" points=\"82.628,159.993 32.616,145.386 32.616,110.589 82.628,125.195\"></polygon></g><g><polygon class=\"st2\" points=\"192.651,160.003 273.831,160.003 254.816,142.715 273.831,125.206 192.651,125.206\"></polygon><polygon class=\"st1\" points=\"192.635,159.993 242.646,145.386 242.646,110.589 192.635,125.195\"></polygon></g></g><g><path class=\"st3\" d=\"M136.336,206.992c-17.217-6.189-52.512-18.813-72.559-25.983l-9.092-3.252V18.147l83.005-11.762l82.89,11.764 v159.607l-2.651,0.949c-9.44,3.38-57.609,20.627-78.883,28.287l-1.354,0.487L136.336,206.992z\"></path><path class=\"st2\" d=\"M137.689,10.425l78.889,11.196c0,35.66,0,153.319,0,153.319c-17.826,6.381-59.655,21.363-78.889,28.289 c-19.263-6.925-61.152-21.903-79.005-28.288c0,0,0-117.659,0-153.319L137.689,10.425 M137.69,2.345l-1.123,0.159L57.562,13.7 l-6.878,0.975v6.946V174.94v5.635l5.306,1.898l5.289,1.892c19.626,7.019,56.156,20.084,73.703,26.392l2.709,0.974l2.708-0.975 c18.259-6.574,58.171-20.872,78.875-28.283l5.304-1.899v-5.633V21.621v-6.945l-6.876-0.976L138.814,2.504L137.69,2.345 L137.69,2.345z\"></path></g><g><path class=\"st3\" d=\"M216.579,21.62l-78.889-11.196L58.685,21.62c0,35.66,0,153.319,0,153.319 c17.853,6.385,59.742,21.363,79.005,28.288c19.234-6.926,61.063-21.907,78.889-28.288 C216.579,174.94,216.579,57.281,216.579,21.62z\"></path></g><g><path class=\"st2\" d=\"M132.166,34.841c0-1.085-0.842-1.916-1.856-1.916c-1.015,0-1.839,0.831-1.839,1.916 c0,1.085,0.824,1.9,1.839,1.9C131.324,36.741,132.166,35.927,132.166,34.841 M125.738,34.841c0-2.509,2.063-4.494,4.588-4.494 c2.509,0,4.572,1.985,4.572,4.494c0,2.493-2.063,4.477-4.572,4.477C127.801,39.318,125.738,37.334,125.738,34.841 M117.558,38.845 l-0.773-8.361h2.904l0.395,5.19c0,0.068,0.052,0.119,0.138,0.034c1.083-0.899,1.907-2.697,2.234-5.224h2.955 c-0.206,3.918-3.265,8.802-7.27,8.802C117.867,39.285,117.592,39.183,117.558,38.845 M107.952,38.845l-0.773-8.361h2.904 l0.395,5.19c0,0.068,0.051,0.119,0.137,0.034c1.083-0.899,1.908-2.697,2.234-5.224h2.956c-0.206,3.918-3.265,8.802-7.27,8.802 C108.26,39.285,107.986,39.183,107.952,38.845 M99.1,34.722h3.334l-0.257-3.408c0-0.102-0.086-0.119-0.172-0.034 C101.146,32.009,100.097,33.23,99.1,34.722 M102.624,37.233H97.64c-0.343,0.645-0.653,1.323-0.91,2.001h-3.215 c1.667-4.698,6.548-11.175,10.501-11.65c0.584-0.068,0.928,0.068,0.963,0.526l0.996,11.124h-3.196L102.624,37.233z\"></path><g><path class=\"st2\" d=\"M141.668,34.827h-0.905v4.264h-2.552V27.639h4.539c2.261,0,3.715,1.551,3.715,3.586 c0,1.551-0.856,2.73-2.261,3.231l2.326,4.636h-2.811L141.668,34.827z M142.265,32.63c1.05,0,1.615-0.581,1.615-1.389 c0-0.856-0.565-1.389-1.615-1.389h-1.502v2.778H142.265z\"></path><path class=\"st2\" d=\"M149.277,34.456l1.89-0.291c0.436-0.065,0.581-0.275,0.581-0.549c0-0.468-0.404-0.872-1.179-0.872 c-0.856,0-1.325,0.581-1.373,1.179l-2.132-0.436c0.097-1.147,1.163-2.665,3.521-2.665c2.601,0,3.554,1.454,3.554,3.101v3.925 c0,0.63,0.081,1.163,0.097,1.244h-2.213c-0.016-0.065-0.081-0.355-0.081-0.905c-0.42,0.678-1.195,1.131-2.261,1.131 c-1.761,0-2.778-1.163-2.778-2.439C146.903,35.457,147.953,34.649,149.277,34.456z M151.748,35.942v-0.355l-1.518,0.242 c-0.517,0.081-0.905,0.323-0.905,0.888c0,0.42,0.275,0.824,0.953,0.824C151.005,37.541,151.748,37.185,151.748,35.942z\"></path><path class=\"st2\" d=\"M158.421,31.064h1.567v2.148h-1.567v3.004c0,0.662,0.355,0.84,0.888,0.84c0.258,0,0.501-0.048,0.646-0.081 v2.035c-0.097,0.048-0.501,0.226-1.276,0.226c-1.664,0-2.681-0.985-2.681-2.584v-3.441h-1.421v-2.148h0.404 c0.84,0,1.244-0.565,1.244-1.308v-1.034h2.197V31.064z\"></path><path class=\"st2\" d=\"M162.298,27.171c0.808,0,1.454,0.646,1.454,1.438c0,0.791-0.646,1.438-1.454,1.438 c-0.775,0-1.421-0.646-1.421-1.438C160.877,27.817,161.523,27.171,162.298,27.171z M161.087,39.091v-8.028h2.455v8.028H161.087z\"></path><path class=\"st2\" d=\"M167.5,39.091h-2.455v-8.028h2.374v0.921c0.436-0.759,1.421-1.131,2.245-1.131 c2.019,0,2.924,1.438,2.924,3.198v5.04h-2.455v-4.62c0-0.791-0.42-1.389-1.308-1.389c-0.808,0-1.325,0.598-1.325,1.405V39.091z\"></path><path class=\"st2\" d=\"M175.61,38.93c0.162,0.775,0.808,1.341,1.728,1.341c1.228,0,1.987-0.598,1.987-2.051v-0.372 c-0.291,0.436-0.985,0.905-2.148,0.905c-2.132,0-3.731-1.68-3.731-3.909c0-2.116,1.535-3.925,3.731-3.925 c1.308,0,2.003,0.581,2.229,1.001v-0.856h2.342v7.026c0,2.31-1.292,4.313-4.297,4.313c-2.31,0-3.78-1.421-4.006-2.859 L175.61,38.93z M179.342,34.843c0-1.098-0.791-1.777-1.712-1.777c-0.921,0-1.728,0.678-1.728,1.777s0.743,1.777,1.728,1.777 C178.631,36.62,179.342,35.942,179.342,34.843z\"></path></g></g><rect class=\"st2\" height=\"34.841\" width=\"210.276\" x=\"32.494\" y=\"110.567\"></rect><g><path class=\"st2\" d=\"M92.309,161.886v10.404h-2.502v-10.404h-4.032v-2.357H96.34v2.357H92.309z\"></path><path class=\"st2\" d=\"M99.725,163.164c0.66,0,1.275,0.117,1.845,0.351c0.57,0.234,1.062,0.559,1.477,0.973s0.738,0.909,0.972,1.484 c0.234,0.576,0.352,1.206,0.352,1.891c0,0.684-0.117,1.311-0.352,1.881c-0.233,0.57-0.558,1.065-0.972,1.485 s-0.906,0.746-1.477,0.98c-0.569,0.234-1.185,0.351-1.845,0.351s-1.275-0.116-1.845-0.351c-0.57-0.234-1.062-0.561-1.477-0.98 c-0.413-0.42-0.737-0.915-0.972-1.485s-0.351-1.197-0.351-1.881c0-0.685,0.116-1.314,0.351-1.891 c0.234-0.575,0.559-1.07,0.972-1.484c0.414-0.414,0.906-0.738,1.477-0.973C98.45,163.281,99.065,163.164,99.725,163.164z M99.725,170.382c0.288,0,0.57-0.054,0.846-0.162c0.276-0.107,0.517-0.267,0.721-0.477s0.369-0.471,0.495-0.783 c0.126-0.312,0.188-0.678,0.188-1.098s-0.062-0.786-0.188-1.099c-0.126-0.312-0.291-0.572-0.495-0.782s-0.444-0.369-0.721-0.478 c-0.275-0.107-0.558-0.162-0.846-0.162s-0.57,0.055-0.846,0.162c-0.276,0.108-0.517,0.268-0.72,0.478 c-0.205,0.21-0.369,0.471-0.495,0.782c-0.126,0.312-0.189,0.679-0.189,1.099s0.063,0.786,0.189,1.098 c0.126,0.312,0.29,0.573,0.495,0.783c0.203,0.21,0.443,0.369,0.72,0.477C99.155,170.328,99.437,170.382,99.725,170.382z\"></path><path class=\"st2\" d=\"M105.809,175.71v-12.276h2.321v1.08c0.204-0.348,0.54-0.647,1.009-0.899c0.468-0.252,1.037-0.378,1.71-0.378 c0.647,0,1.224,0.117,1.728,0.351c0.504,0.234,0.933,0.559,1.287,0.972c0.354,0.414,0.621,0.9,0.801,1.458 c0.181,0.559,0.271,1.168,0.271,1.827c0,0.673-0.1,1.294-0.297,1.863c-0.198,0.57-0.48,1.062-0.847,1.476 s-0.807,0.738-1.322,0.973c-0.517,0.233-1.087,0.351-1.711,0.351c-0.611,0-1.137-0.105-1.574-0.314 c-0.438-0.21-0.766-0.465-0.981-0.766v4.284H105.809z M112.576,167.862c0-0.792-0.213-1.404-0.639-1.836 c-0.427-0.433-0.945-0.648-1.558-0.648c-0.312,0-0.6,0.058-0.863,0.171c-0.265,0.114-0.498,0.276-0.702,0.486 s-0.363,0.468-0.478,0.773c-0.114,0.307-0.171,0.657-0.171,1.054c0,0.396,0.057,0.747,0.171,1.053s0.273,0.567,0.478,0.783 s0.438,0.381,0.702,0.495c0.264,0.114,0.552,0.171,0.863,0.171c0.612,0,1.131-0.219,1.558-0.657 C112.364,169.27,112.576,168.654,112.576,167.862z\"></path><path class=\"st2\" d=\"M128.146,169.374h-5.184l-1.062,2.916h-2.628l4.896-12.762h2.88l4.86,12.762h-2.7L128.146,169.374z M123.79,167.106h3.527l-1.764-4.824L123.79,167.106z\"></path><path class=\"st2\" d=\"M135.473,163.434h1.781v2.124h-1.781v3.708c0,0.385,0.087,0.651,0.261,0.802 c0.174,0.149,0.435,0.225,0.783,0.225c0.144,0,0.287-0.006,0.432-0.018c0.144-0.012,0.246-0.03,0.306-0.055v1.98 c-0.107,0.048-0.272,0.096-0.495,0.144c-0.222,0.048-0.507,0.072-0.854,0.072c-0.864,0-1.548-0.24-2.052-0.72 c-0.504-0.48-0.757-1.152-0.757-2.017v-4.122h-1.602v-2.124h0.45c0.468,0,0.812-0.135,1.035-0.404 c0.222-0.271,0.333-0.604,0.333-0.999v-1.242h2.16V163.434z\"></path><path class=\"st2\" d=\"M141.737,163.434h1.781v2.124h-1.781v3.708c0,0.385,0.086,0.651,0.26,0.802 c0.174,0.149,0.436,0.225,0.783,0.225c0.145,0,0.287-0.006,0.432-0.018s0.246-0.03,0.307-0.055v1.98 c-0.107,0.048-0.273,0.096-0.496,0.144c-0.221,0.048-0.506,0.072-0.854,0.072c-0.865,0-1.549-0.24-2.053-0.72 c-0.504-0.48-0.756-1.152-0.756-2.017v-4.122h-1.602v-2.124h0.449c0.469,0,0.812-0.135,1.035-0.404 c0.223-0.271,0.334-0.604,0.334-0.999v-1.242h2.16V163.434z\"></path><path class=\"st2\" d=\"M148.989,163.164c0.66,0,1.275,0.117,1.846,0.351c0.57,0.234,1.062,0.559,1.477,0.973 s0.738,0.909,0.971,1.484c0.234,0.576,0.352,1.206,0.352,1.891c0,0.684-0.117,1.311-0.352,1.881 c-0.232,0.57-0.557,1.065-0.971,1.485s-0.906,0.746-1.477,0.98s-1.186,0.351-1.846,0.351s-1.275-0.116-1.844-0.351 c-0.57-0.234-1.062-0.561-1.477-0.98s-0.738-0.915-0.973-1.485s-0.35-1.197-0.35-1.881c0-0.685,0.115-1.314,0.35-1.891 c0.234-0.575,0.559-1.07,0.973-1.484s0.906-0.738,1.477-0.973C147.714,163.281,148.329,163.164,148.989,163.164z M148.989,170.382 c0.289,0,0.57-0.054,0.846-0.162c0.277-0.107,0.518-0.267,0.721-0.477c0.205-0.21,0.369-0.471,0.496-0.783 c0.125-0.312,0.188-0.678,0.188-1.098s-0.062-0.786-0.188-1.099c-0.127-0.312-0.291-0.572-0.496-0.782 c-0.203-0.21-0.443-0.369-0.721-0.478c-0.275-0.107-0.557-0.162-0.846-0.162c-0.287,0-0.57,0.055-0.846,0.162 c-0.275,0.108-0.516,0.268-0.719,0.478c-0.205,0.21-0.369,0.471-0.496,0.782c-0.125,0.312-0.189,0.679-0.189,1.099 s0.064,0.786,0.189,1.098c0.127,0.312,0.291,0.573,0.496,0.783c0.203,0.21,0.443,0.369,0.719,0.477 C148.419,170.328,148.702,170.382,148.989,170.382z\"></path><path class=\"st2\" d=\"M160.473,165.81c-0.24-0.047-0.479-0.071-0.719-0.071c-0.312,0-0.607,0.042-0.883,0.126 s-0.516,0.222-0.719,0.414c-0.205,0.191-0.369,0.447-0.496,0.765c-0.125,0.318-0.189,0.717-0.189,1.197v4.05h-2.393v-8.856h2.32 v1.314c0.133-0.288,0.305-0.524,0.514-0.711c0.211-0.186,0.432-0.327,0.666-0.423s0.469-0.162,0.703-0.198 c0.232-0.036,0.445-0.054,0.639-0.054c0.096,0,0.188,0.003,0.279,0.009c0.09,0.006,0.182,0.015,0.277,0.027V165.81z\"></path><path class=\"st2\" d=\"M164.11,172.29h-2.395v-8.856h2.322v1.099c0.275-0.456,0.65-0.792,1.125-1.008 c0.475-0.217,0.951-0.324,1.432-0.324c0.551,0,1.027,0.093,1.43,0.279c0.402,0.186,0.736,0.435,1,0.746 c0.264,0.312,0.459,0.685,0.584,1.116c0.127,0.433,0.189,0.889,0.189,1.368v5.58h-2.395v-5.166c0-0.504-0.129-0.924-0.387-1.26 s-0.674-0.504-1.25-0.504c-0.529,0-0.938,0.177-1.225,0.53c-0.287,0.354-0.432,0.79-0.432,1.306V172.29z\"></path><path class=\"st2\" d=\"M179.716,169.752c-0.107,0.384-0.279,0.747-0.514,1.089s-0.52,0.64-0.855,0.892s-0.729,0.453-1.178,0.603 c-0.451,0.15-0.945,0.225-1.486,0.225c-0.611,0-1.193-0.104-1.744-0.314c-0.553-0.21-1.039-0.519-1.459-0.927 s-0.754-0.906-0.998-1.494c-0.246-0.588-0.369-1.254-0.369-1.998c0-0.708,0.119-1.351,0.359-1.926 c0.24-0.576,0.561-1.065,0.963-1.468c0.402-0.401,0.867-0.714,1.395-0.936s1.074-0.333,1.639-0.333 c1.379,0,2.453,0.408,3.223,1.224c0.768,0.816,1.15,1.938,1.15,3.366c0,0.168-0.006,0.327-0.018,0.478 c-0.012,0.149-0.018,0.236-0.018,0.261h-6.336c0.012,0.288,0.08,0.555,0.207,0.801c0.125,0.246,0.287,0.459,0.486,0.639 c0.197,0.181,0.428,0.321,0.693,0.424c0.264,0.102,0.545,0.152,0.846,0.152c0.562,0,1.004-0.126,1.322-0.378 s0.549-0.576,0.693-0.972L179.716,169.752z M177.483,166.854c-0.012-0.217-0.057-0.43-0.135-0.64s-0.197-0.396-0.359-0.558 s-0.367-0.294-0.613-0.396c-0.246-0.102-0.537-0.152-0.873-0.152c-0.312,0-0.588,0.054-0.828,0.162 c-0.24,0.107-0.443,0.246-0.611,0.413c-0.168,0.169-0.297,0.354-0.387,0.559s-0.141,0.408-0.152,0.612H177.483z\"></path><path class=\"st2\" d=\"M181.679,175.782l2.088-4.608l-3.762-7.74h2.682l2.357,5.185l2.178-5.185h2.557l-5.562,12.349H181.679z\"></path></g><rect class=\"st4\" height=\"47.524\" width=\"141\" x=\"66.567\" y=\"49.875\"></rect><text class=\"st6 st7 st11 st12\" id=\"js-avvo-rating-5079674\" transform=\"matrix(1 0 0 1 72.0684 96.9355)\" x=\"66.567\">9.5</text><text class=\"st3 st10 st12\" x=\"50%\" y=\"134\" style=\"font-size: 14px !important;\">Catherine Tang</text></g></svg></a><script>(function(context) {if(context.Avvo) return;function alertContents(httpRequest) {if(httpRequest.readyState == 4) {if((httpRequest.status == 200) || (httpRequest.status == 0)) {var payload = JSON.parse(httpRequest.responseText);if(!payload.avvo_rating) { return; }document.getElementById(\"js-avvo-rating-5079674\").textContent = payload.avvo_rating}}}function send_with_ajax(the_url) {var httpRequest = new XMLHttpRequest();httpRequest.onreadystatechange = function() {alertContents(httpRequest);};httpRequest.open(\"GET\", the_url, true);httpRequest.send(null);}send_with_ajax(\"https://www.avvo.com/attorney-badges/v3/lawyers/avvo-rating/5079674\");})(window);</script>"
+      }
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "California "),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "125 12th St., Suite 100",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Oakland, CA 94607",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Hawaii "),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, " ", "1631 Liliha St #2B",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " Honolulu, Hawaii 96817 ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +1 808 397 9999 ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HorizBlock, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, "Asia "),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, null, "140 Sukhumvit Rd #1804 ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Bangkok, Thailand 10110",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), " +66 92 367 3347",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialMediaRow, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+      style: {
+        marginLeft: "auto"
+      },
+      target: "_blank",
+      href: "https://wa.me/18083979999"
     },
-    target: "_blank",
-    href: "https://wa.me/18083979999"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faWhatsapp"]
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    target: "_blank",
-    href: "http://line.me/ti/p/~amojuris"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faLine"]
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    target: "_blank",
-    href: "https://instagram.com"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faWeixin"]
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    target: "_blank",
-    href: "https://www.linkedin.com/in/cattang/"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faLinkedin"]
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    target: "_blank",
-    href: "https://instagram.com/americanattorney"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faInstagram"]
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    target: "_blank",
-    href: "https://facebook.com/usaatty"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faFacebook"]
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    target: "_blank",
-    href: "https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faYoutube"]
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
-    target: "_blank",
-    href: "mailto:mail@usaatty.com"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faEnvelope"]
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    style: {
-      fontSize: "0.8em",
-      fontWeight: 300,
-      color: "grey"
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faWhatsapp"]
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+      target: "_blank",
+      href: "http://line.me/ti/p/~amojuris"
     },
-    href: assets_privacyPolicy_pdf__WEBPACK_IMPORTED_MODULE_7___default.a
-  }, "Privacy Policy"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))));
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faLine"]
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+      target: "_blank",
+      href: "https://instagram.com"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faWeixin"]
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+      target: "_blank",
+      href: "https://www.linkedin.com/in/cattang/"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faLinkedin"]
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+      target: "_blank",
+      href: "https://instagram.com/americanattorney"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faInstagram"]
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+      target: "_blank",
+      href: "https://facebook.com/usaatty"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faFacebook"]
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+      target: "_blank",
+      href: "https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faYoutube"]
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, {
+      target: "_blank",
+      href: "mailto:mail@usaatty.com"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faEnvelope"]
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+      style: {
+        fontSize: "0.8em",
+        fontWeight: 300,
+        color: "grey"
+      },
+      href: assets_privacyPolicy_pdf__WEBPACK_IMPORTED_MODULE_7___default.a
+    }, "Privacy Policy"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))))
+  );
 };
 
 /***/ }),
@@ -1264,72 +1411,195 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        style: {
-          textAlign: "center"
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        image: assets_cover_cat_jpg__WEBPACK_IMPORTED_MODULE_25___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(WhiteBreak, null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["PageContents"], null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_PictureTextBlock__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        id: "laptopStock",
-        pictureLeft: true,
-        backgroundImage: assets_laptopStock_jpg__WEBPACK_IMPORTED_MODULE_16___default.a
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", null, "Do You Need An American Trademark Registration?"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "We can help!"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "In 2019, the United States passed a law requiring all persons not living in the U.S. to use an American licensed attorney to process their US trademark application."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "The Law Offices of Catherine Tang can help you register your trademark today. We assist with all stages of your trademark and business needs, from initial trademark registration and USPTO office action reponses, to growing and protecting your business."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Conveniently located in both the United States and Asia, we work in your time zone to provide you with a seamless trademark registration process."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "#bottom"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["Button"], {
-        style: {
-          color: "#ffffff"
-        }
-      }, " Get Started Now ")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_PictureTextBlock__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        pictureRight: true,
-        backgroundImage: assets_pinkCouch_jpg__WEBPACK_IMPORTED_MODULE_17___default.a
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", null, "Our Comprehensive Search & Application Package"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Complete search on federal, state, and federal databases for potential conflicts."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Attorney drafted opinion letter prepared by Catherine Tang"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Trademark application prepared and filed by a US licensed attorney"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Monitoring of your trademark application"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Phone consultation with Attorney Cat"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, " "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "#bottom"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["Button"], {
-        href: "#bottom",
-        style: {
-          color: "#ffffff"
-        }
-      }, "Start Your Application")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Starting at $1000 + government filing fee ($275)")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        backgroundImage: assets_homeoffice_jpg__WEBPACK_IMPORTED_MODULE_24___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        id: "services"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_ServicesIOffer__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        id: "services"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        backgroundImage: assets_mountainSplash_jpg__WEBPACK_IMPORTED_MODULE_15___default.a,
-        overlayColor: "rgba(0,0,0,0.2)"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "Legal advice doesn't have to be intimidating and out of reach."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", null, " ", "Whether you're in Asia, Europe, Americas, or anywhere else in the world... we can process your American trademark for you.", " "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "We work with business owners, creatives, and influencers of all kinds to protect their work. You made it... don't let someone else steal it and profit off what you've done!"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "Our boutique law firm offers bespoke legal services for entreprenuers, influencers, and business owners. We offer high quality legal services at affordable prices for business owners just like you."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "#bottom"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["Button"], {
-        style: {
-          color: "#ffffff"
-        }
-      }, "Start Your Application Today"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        id: "about"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_PictureTextBlock__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        id: "about",
-        pictureLeft: true,
-        backgroundImage: assets_catprofileshot_png__WEBPACK_IMPORTED_MODULE_26___default.a
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", null, "Meet Our Founder"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Prior to law, Attorney Catherine Tang had an extensive background in marketing and business development. Like you, she is an entrepreneur and business owner starting her own company at 15 years old."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Catherine has worked with companies like Yelp, MySpace, YouTube, and countless other small businesses. She is uniquely situated to help entrepreneurs, influencers, and business owners navigate their legal and growth challenges having been in all their shoes."), " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "She decided to pursue a law degree because she knew the how much business and every day life is intertwined with law and that knowledge of the law has the power to make a difference in the world."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "She embarked her law school journey with two kids under two years old, her youngest being only 3 months old when she started her first day, while continuing to manage a business in the medical field.", " "), " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "After graduating in the top of her law school class, she worked for one of the largest international corporate law firms in the Asia and quickly realized that working law firm hours in \u201Cbig law\u201D environments would not allow her to achieve her own goals of both being able to be present for her family, and also to help others grow their business so she quit to do what she enjoys most: start a company and grow it organically, and helping others do the same.", " "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "#bottom"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["Button"], {
-        style: {
-          color: "#ffffff"
-        }
-      }, "Book a Consult Today")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Initial Consultations with Attorney Cat are Free")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        backgroundImage: assets_nypic6_jpg__WEBPACK_IMPORTED_MODULE_22___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        id: "reviews"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Testimonials__WEBPACK_IMPORTED_MODULE_14__["default"], null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        backgroundImage: assets_nypic_jpg__WEBPACK_IMPORTED_MODULE_19___default.a
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        name: "bottom",
-        id: "bottom"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("section", {
-        name: "bottom",
-        id: "bottom"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null));
+      return (
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+          style: {
+            textAlign: "center"
+          }
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_10__["default"], {
+          image: assets_cover_cat_jpg__WEBPACK_IMPORTED_MODULE_25___default.a
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(WhiteBreak, null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["PageContents"], null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_PictureTextBlock__WEBPACK_IMPORTED_MODULE_11__["default"], {
+          id: "laptopStock",
+          pictureLeft: true,
+          backgroundImage: assets_laptopStock_jpg__WEBPACK_IMPORTED_MODULE_16___default.a
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", null, "Do You Need An American Trademark Registration?"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "We can help!"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "In 2019, the United States passed a law requiring all persons not living in the U.S. to use an American licensed attorney to process their US trademark application."),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "The Law Offices of Catherine Tang can help you register your trademark today. We assist with all stages of your trademark and business needs, from initial trademark registration and USPTO office action reponses, to growing and protecting your business."),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Conveniently located in both the United States and Asia, we work in your time zone to provide you with a seamless trademark registration process."),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("center", null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          href: "#bottom"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["Button"], {
+          style: {
+            color: "#ffffff"
+          }
+        }, " Get Started Now ")))),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_PictureTextBlock__WEBPACK_IMPORTED_MODULE_11__["default"], {
+          pictureRight: true,
+          backgroundImage: assets_pinkCouch_jpg__WEBPACK_IMPORTED_MODULE_17___default.a
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", null, "Our Comprehensive Search & Application Package"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Complete search on federal, state, and federal databases for potential conflicts."),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Attorney drafted opinion letter prepared by Catherine Tang"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Trademark application prepared and filed by a US licensed attorney"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Monitoring of your trademark application"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Phone consultation with Attorney Cat"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, " "),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("center", null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          href: "#bottom"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["Button"], {
+          href: "#bottom",
+          style: {
+            color: "#ffffff"
+          }
+        }, "Start Your Application")),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Starting at $1000 + government filing fee ($275)")))),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          backgroundImage: assets_homeoffice_jpg__WEBPACK_IMPORTED_MODULE_24___default.a
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          id: "services"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_ServicesIOffer__WEBPACK_IMPORTED_MODULE_13__["default"], {
+          id: "services"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          backgroundImage: assets_mountainSplash_jpg__WEBPACK_IMPORTED_MODULE_15___default.a,
+          overlayColor: "rgba(0,0,0,0.2)"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "Legal advice doesn't have to be intimidating and out of reach."),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", null, " ", "Whether you're in Asia, Europe, Americas, or anywhere else in the world... we can process your American trademark for you.", " "),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "We work with business owners, creatives, and influencers of all kinds to protect their work. You made it... don't let someone else steal it and profit off what you've done!"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "Our boutique law firm offers bespoke legal services for entreprenuers, influencers, and business owners. We offer high quality legal services at affordable prices for business owners just like you."),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          href: "#bottom"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["Button"], {
+          style: {
+            color: "#ffffff"
+          }
+        }, "Start Your Application Today"))),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          id: "about"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_PictureTextBlock__WEBPACK_IMPORTED_MODULE_11__["default"], {
+          id: "about",
+          pictureLeft: true,
+          backgroundImage: assets_catprofileshot_png__WEBPACK_IMPORTED_MODULE_26___default.a
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", null, "Meet Our Founder"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Prior to law, Attorney Catherine Tang had an extensive background in marketing and business development. Like you, she is an entrepreneur and business owner starting her own company at 15 years old."),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Catherine has worked with companies like Yelp, MySpace, YouTube, and countless other small businesses. She is uniquely situated to help entrepreneurs, influencers, and business owners navigate their legal and growth challenges having been in all their shoes."), " ",
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "She decided to pursue a law degree because she knew the how much business and every day life is intertwined with law and that knowledge of the law has the power to make a difference in the world."),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "She embarked her law school journey with two kids under two years old, her youngest being only 3 months old when she started her first day, while continuing to manage a business in the medical field.", " "), " ",
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "After graduating in the top of her law school class, she worked for one of the largest international corporate law firms in the Asia and quickly realized that working law firm hours in \u201Cbig law\u201D environments would not allow her to achieve her own goals of both being able to be present for her family, and also to help others grow their business so she quit to do what she enjoys most: start a company and grow it organically, and helping others do the same.", " "),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("center", null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          href: "#bottom"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["Button"], {
+          style: {
+            color: "#ffffff"
+          }
+        }, "Book a Consult Today")),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Initial Consultations with Attorney Cat are Free")))),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          backgroundImage: assets_nypic6_jpg__WEBPACK_IMPORTED_MODULE_22___default.a
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          id: "reviews"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Testimonials__WEBPACK_IMPORTED_MODULE_14__["default"], null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_TextOverPictureBlock__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          backgroundImage: assets_nypic_jpg__WEBPACK_IMPORTED_MODULE_19___default.a
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          name: "bottom",
+          id: "bottom"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("section", {
+          name: "bottom",
+          id: "bottom"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null))
+      );
     }
   }]);
 
@@ -1413,31 +1683,51 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(pages_components_Hero__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        image: assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_12___default.a,
-        size: "small"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["PageContents"], {
-        style: {
-          padding: "15px"
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
-        style: {
-          textAlign: "center"
-        }
-      }, "Blog Time"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), assets_posts_js__WEBPACK_IMPORTED_MODULE_13__["default"].map(function (postJson, index) {
-        var post = postJson || {};
-        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_PostSummary__WEBPACK_IMPORTED_MODULE_10__["default"], {
-          key: post.id,
-          title: post.title,
-          date: post.date,
-          summary: post.summary,
-          image: post.image,
-          id: post.id
-        });
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "All Posts:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "#top",
-        id: "bottom"
-      }, "Scroll to top!"));
+      return (
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(pages_components_Hero__WEBPACK_IMPORTED_MODULE_11__["default"], {
+          image: assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_12___default.a,
+          size: "small"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_9__["PageContents"], {
+          style: {
+            padding: "15px"
+          }
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+          style: {
+            textAlign: "center"
+          }
+        }, "Blog Time"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), assets_posts_js__WEBPACK_IMPORTED_MODULE_13__["default"].map(function (postJson, index) {
+          var post = postJson || {};
+          return (
+            /*#__PURE__*/
+            react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_PostSummary__WEBPACK_IMPORTED_MODULE_10__["default"], {
+              key: post.id,
+              title: post.title,
+              date: post.date,
+              summary: post.summary,
+              image: post.image,
+              id: post.id
+            })
+          );
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "All Posts:",
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+          href: "#top",
+          id: "bottom"
+        }, "Scroll to top!"))
+      );
     }
   }]);
 
@@ -1481,28 +1771,49 @@ function Post(_ref) {
       post = _useRouteData.post;
 
   var postToRender = post || {};
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(pages_components_Hero__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    image: assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
-    size: "small"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/blog/"
-  }, '<', " Back"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_4__["PageContents"], {
-    style: {
-      padding: "15px"
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    style: {
-      textAlign: "center"
-    }
-  }, postToRender.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    style: {
-      textAlign: "center"
-    }
-  }, postToRender.date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    dangerouslySetInnerHTML: {
-      __html: postToRender.content
-    }
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(pages_components_Hero__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      image: assets_ny2_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
+      size: "small"
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "/blog/"
+    }, '<', " Back"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_4__["PageContents"], {
+      style: {
+        padding: "15px"
+      }
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      style: {
+        textAlign: "center"
+      }
+    }, postToRender.title),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      style: {
+        textAlign: "center"
+      }
+    }, postToRender.date),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      dangerouslySetInnerHTML: {
+        __html: postToRender.content
+      }
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))
+  );
 }
 
 /***/ }),
@@ -1630,39 +1941,66 @@ function (_React$Component) {
     value: function render() {
       var _React$createElement;
 
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_9__["Section"], {
-        backgroundColor: "#85c6d4",
-        color: "black"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_9__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
-        style: {
-          color: "#b73954"
-        }
-      }, "Book your FREE consultation today!"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", {
-        style: {
-          color: "white"
-        }
-      }, "Just fill out the information below:"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
-        onSubmit: this.submitForm
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
-        name: "name",
-        placeholder: "Name"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
-        name: "email",
-        placeholder: "Email"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
-        name: "phone",
-        placeholder: "Phone Number"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
-        name: "whatsapp",
-        placeholder: "Whatsapp"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(InputArea, (_React$createElement = {
-        name: "comments",
-        placeholder: "Describe Your Issue"
-      }, _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(_React$createElement, "name", "Text1"), _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(_React$createElement, "rows", "5"), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(InputButton, {
-        type: "submit",
-        color: "white",
-        value: "SEND EMAIL"
-      }))));
+      return (
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_9__["Section"], {
+          backgroundColor: "#85c6d4",
+          color: "black"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_9__["SectionContent"], null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+          style: {
+            color: "#b73954"
+          }
+        }, "Book your FREE consultation today!"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", {
+          style: {
+            color: "white"
+          }
+        }, "Just fill out the information below:"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
+          onSubmit: this.submitForm
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
+          name: "name",
+          placeholder: "Name"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
+          name: "email",
+          placeholder: "Email"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
+          name: "phone",
+          placeholder: "Phone Number"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Input, {
+          name: "whatsapp",
+          placeholder: "Whatsapp"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(InputArea, (_React$createElement = {
+          name: "comments",
+          placeholder: "Describe Your Issue"
+        }, _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(_React$createElement, "name", "Text1"), _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(_React$createElement, "rows", "5"), _React$createElement)),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(InputButton, {
+          type: "submit",
+          color: "white",
+          value: "SEND EMAIL"
+        }))))
+      );
     }
   }]);
 
@@ -1770,15 +2108,36 @@ function PostSummary(_ref) {
       date = _ref.date,
       id = _ref.id;
   var postImage = image ? __webpack_require__(84)("./".concat(image)) : assets_placeholderBlog_png__WEBPACK_IMPORTED_MODULE_5___default.a;
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostContainer, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostImage, {
-    img: postImage
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(WhiteBreak, null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Wording, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/blog/post/".concat(id)
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, " ", "".concat(title), " ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Date, null, " ", "".concat(date), " "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " ", "".concat(summary), " "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/blog/post/".concat(id)
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-    small: true
-  }, " Read More "))));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostContainer, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostImage, {
+      img: postImage
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(WhiteBreak, null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Wording, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "/blog/post/".concat(id)
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, null, " ", "".concat(title), " ")),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Date, null, " ", "".concat(date), " "),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " ", "".concat(summary), " "),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "/blog/post/".concat(id)
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_core__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+      small: true
+    }, " Read More "))))
+  );
 }
 
 /***/ }),
@@ -1870,44 +2229,117 @@ var Qualification = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div"
 var Icon = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("img")(_templateObject4());
 var BoldHeading = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("h4")(_templateObject5());
 function ServicesIOffer(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Section"], {
-    backgroundColor: "white",
-    color: "black"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    style: {
-      color: "#85c6d4"
-    }
-  }, "Trademark Services"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " ", "You've built a brand... now protect it. Whether you're an American business owner or foreign based, Attorney Cat can help you register your trademark with the USPTO. We provide legal services to anyone who wants to register a ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "trademark"), "in the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "United States"), ", as well as a broad range of legal services for residents of ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "California"), ", and companys expanding in", " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "Asia"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(IconRow, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(IconGroup, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Qualification, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Icon, {
-    src: assets_cert_purp_png__WEBPACK_IMPORTED_MODULE_7___default.a
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    style: {
-      color: "#85c6d4"
-    }
-  }, "Trademark Search"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "A trademark search helps identify if someone else is already using your name, logo, or slogan. We make sure you are not infringing on someone elses trademark before you file."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We conduct a comprehensive search on federal, state, common law, and internet databases to check if you're clear to start your application."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Attorney Cat will prepare an attorney drafted opinion letter on the likelihood of success on your application saving you time and money.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Qualification, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Icon, {
-    src: assets_reiki_png__WEBPACK_IMPORTED_MODULE_4___default.a
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    style: {
-      color: "#85c6d4"
-    }
-  }, "Trademark Registration"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Your package includes free phone consultations with Attorney Cat."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " ", "Once your search has been cleared, Attorney Cat will call you to discuss your results with you and proceed with your USPTO application.", " "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We prepare and file your trademark registration with the UPSTO then monitor and report the status of your application."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "All packages include minor office action reponses at no additional cost."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(IconGroup, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Qualification, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Icon, {
-    src: assets_cert_green_png__WEBPACK_IMPORTED_MODULE_6___default.a
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    style: {
-      color: "#85c6d4"
-    }
-  }, "USPTO Office Actions"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "So you've applied for at trademark and it's been denied. No problem! An office action can be overcome by an experienced intellectual property attorney. We can submit a USPTO office action response on your behalf due to a likelihood of confusion, or any other office action.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Qualification, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Icon, {
-    src: assets_firstplace_png__WEBPACK_IMPORTED_MODULE_5___default.a
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    style: {
-      color: "#85c6d4"
-    }
-  }, "Legal & Marketing Strategy"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Not only does Catherine provide legal services, she utilizes her business background to provide legal AND marketing strategy to help your business florish. A lot of attorneys can register a trademark for you. Few have experience growing and running companies themselves to know what you're going through and what you need to provide an all encompassing legal partner for your company.")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "#bottom"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Button"], {
-    style: {
-      color: "#ffffff"
-    }
-  }, "Book a Consult Today", " "))));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Section"], {
+      backgroundColor: "white",
+      color: "black"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["SectionContent"], null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+      style: {
+        color: "#85c6d4"
+      }
+    }, "Trademark Services"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " ", "You've built a brand... now protect it. Whether you're an American business owner or foreign based, Attorney Cat can help you register your trademark with the USPTO. We provide legal services to anyone who wants to register a ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "trademark"), "in the ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "United States"), ", as well as a broad range of legal services for residents of ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "California"), ", and companys expanding in", " ",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("b", null, "Asia"), "."),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(IconRow, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(IconGroup, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Qualification, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Icon, {
+      src: assets_cert_purp_png__WEBPACK_IMPORTED_MODULE_7___default.a
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+      style: {
+        color: "#85c6d4"
+      }
+    }, "Trademark Search"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "A trademark search helps identify if someone else is already using your name, logo, or slogan. We make sure you are not infringing on someone elses trademark before you file."),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We conduct a comprehensive search on federal, state, common law, and internet databases to check if you're clear to start your application."),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Attorney Cat will prepare an attorney drafted opinion letter on the likelihood of success on your application saving you time and money.")),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Qualification, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Icon, {
+      src: assets_reiki_png__WEBPACK_IMPORTED_MODULE_4___default.a
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+      style: {
+        color: "#85c6d4"
+      }
+    }, "Trademark Registration"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Your package includes free phone consultations with Attorney Cat."),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " ", "Once your search has been cleared, Attorney Cat will call you to discuss your results with you and proceed with your USPTO application.", " "),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We prepare and file your trademark registration with the UPSTO then monitor and report the status of your application."),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "All packages include minor office action reponses at no additional cost."))),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(IconGroup, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Qualification, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Icon, {
+      src: assets_cert_green_png__WEBPACK_IMPORTED_MODULE_6___default.a
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+      style: {
+        color: "#85c6d4"
+      }
+    }, "USPTO Office Actions"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "So you've applied for at trademark and it's been denied. No problem! An office action can be overcome by an experienced intellectual property attorney. We can submit a USPTO office action response on your behalf due to a likelihood of confusion, or any other office action.")),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Qualification, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Icon, {
+      src: assets_firstplace_png__WEBPACK_IMPORTED_MODULE_5___default.a
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+      style: {
+        color: "#85c6d4"
+      }
+    }, "Legal & Marketing Strategy"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Not only does Catherine provide legal services, she utilizes her business background to provide legal AND marketing strategy to help your business florish. A lot of attorneys can register a trademark for you. Few have experience growing and running companies themselves to know what you're going through and what you need to provide an all encompassing legal partner for your company.")))),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+      href: "#bottom"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Button"], {
+      style: {
+        color: "#ffffff"
+      }
+    }, "Book a Consult Today", " "))))
+  );
 }
 
 /***/ }),
@@ -1964,14 +2396,87 @@ var Row = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div")(_templat
 var Testimonial = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("div")(_templateObject2());
 var BoldHeading = _emotion_styled__WEBPACK_IMPORTED_MODULE_2___default()("h4")(_templateObject3());
 function Testimonials(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Section"], {
-    backgroundColor: "white",
-    color: "black"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    style: {
-      color: "#85c6d4"
-    }
-  }, "Testimonials"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was able to navigate the complexity of my issue within minutes and provide accurate and detailed advice. Her advice led me to the exact outcome I had hoped for. For any future issues, I will be using the Law Offices of Catherine Tang.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Tierra, Security Professional"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Honolulu, Hawaii")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "I am a business owner and had a great experience meeting with Catherine who helped me re-do a contract that needed serious help. She caught so many issues that my previous attorneys missed. Appreciate the support and patience she took with understanding my needs and breaking it down for me in terms for a non-lawyer type person. Thanks so much, highly recommended and I will definitely be using her firm again for my business needs.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Richard, Business Owner"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Illinois & Thailand")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was incredibly helpful in providing advice in a challenging situation. Her responses were quick, professional & detailed. I would highly recommended Attorney Cat.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Leia, Marketing Manager"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Australia & Thailand")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["SectionContent"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine is amazing - she has helped my business review and negotiate contracts, broke down the trademark process in an easy to understand way, gave tons of valuable advice, and then even referred me clients! She's not only a fantastic lawyer, but someone who goes above and beyond and truly cares for those that she works with.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Vince, Startup Founder"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Vancouver, Canada")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine helped me with several contract reviews. She was easy to talk to and super helpful! All the legal jargon you see on paper, she can define that to simple english. My go-to attorney for all trademark and business needs.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Alex, Senior Producer"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Los Angeles, California")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine is everything you could want in a lawyer... AND MORE! No one else I would trust with my businesses and their trademarks. She has helped me grow with awesome tips, and she's incredibly intelligent and pleasant to work with.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Jessica, Founder"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Bay Area, California")))));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["Section"], {
+      backgroundColor: "white",
+      color: "black"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["SectionContent"], null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+      style: {
+        color: "#85c6d4"
+      }
+    }, "Testimonials"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was able to navigate the complexity of my issue within minutes and provide accurate and detailed advice. Her advice led me to the exact outcome I had hoped for. For any future issues, I will be using the Law Offices of Catherine Tang.",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Tierra, Security Professional"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Honolulu, Hawaii")),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "I am a business owner and had a great experience meeting with Catherine who helped me re-do a contract that needed serious help. She caught so many issues that my previous attorneys missed. Appreciate the support and patience she took with understanding my needs and breaking it down for me in terms for a non-lawyer type person. Thanks so much, highly recommended and I will definitely be using her firm again for my business needs.",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Richard, Business Owner"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Illinois & Thailand")),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine was incredibly helpful in providing advice in a challenging situation. Her responses were quick, professional & detailed. I would highly recommended Attorney Cat.",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Leia, Marketing Manager"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Australia & Thailand")))),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_core__WEBPACK_IMPORTED_MODULE_3__["SectionContent"], null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Row, null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine is amazing - she has helped my business review and negotiate contracts, broke down the trademark process in an easy to understand way, gave tons of valuable advice, and then even referred me clients! She's not only a fantastic lawyer, but someone who goes above and beyond and truly cares for those that she works with.",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Vince, Startup Founder"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Vancouver, Canada")),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine helped me with several contract reviews. She was easy to talk to and super helpful! All the legal jargon you see on paper, she can define that to simple english. My go-to attorney for all trademark and business needs.",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Alex, Senior Producer"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Los Angeles, California")),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Testimonial, null, "Catherine is everything you could want in a lawyer... AND MORE! No one else I would trust with my businesses and their trademarks. She has helped me grow with awesome tips, and she's incredibly intelligent and pleasant to work with.",
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, "- Jessica, Founder"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Bay Area, California")))))
+  );
 }
 
 /***/ }),
@@ -2095,99 +2600,184 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_8__["Root"], null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_burger_menu__WEBPACK_IMPORTED_MODULE_13__["slide"], {
-        isOpen: this.state.menuOpen
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        onClick: this.showSettings,
-        to: "/#top"
-      }, "Home"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        onClick: this.showSettings,
-        href: "http://blog.usaatty.com/"
-      }, "Blog"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        onClick: this.showSettings,
-        to: "/#services"
-      }, "Services"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        onClick: this.showSettings,
-        to: "/#about"
-      }, "About"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        onClick: this.showSettings,
-        to: "/#reviews"
-      }, "Reviews"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        onClick: this.showSettings,
-        href: "#bottom",
-        to: "#bottom"
-      }, "Contact")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(NavBar, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        to: "/"
-      }, "Home"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "http://blog.usaatty.com/"
-      }, "Blog"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        to: "/#services"
-      }, "Services"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        to: "/#about"
-      }, "About"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        to: "/#reviews"
-      }, "Reviews"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
-        href: "#bottom",
-        to: "#bottom"
-      }, "Contact"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
-        style: {
-          marginLeft: "auto"
+      return (
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_8__["Root"], null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_burger_menu__WEBPACK_IMPORTED_MODULE_13__["slide"], {
+          isOpen: this.state.menuOpen
         },
-        target: "_blank",
-        href: "https://wa.me/18083979999"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faWhatsapp"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
-        target: "_blank",
-        href: "http://line.me/ti/p/~amojuris"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faLine"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
-        target: "_blank",
-        href: "https://msng.link/o/?ctang88=wc"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faWeixin"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        target: "_blank",
-        href: "https://www.linkedin.com/in/cattang/"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faLinkedin"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        target: "_blank",
-        href: "https://instagram.com/americanattorney"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faInstagram"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        target: "_blank",
-        href: "https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faYoutube"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        target: "_blank",
-        href: "https://facebook.com/usaatty"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faFacebook"]
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
-        target: "_blank",
-        href: "mailto:mail@usaatty.com"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_17__["faEnvelope"]
-      })))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "content"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Suspense, {
-        fallback: react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("em", null, "Loading...")
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Router"], null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(containers_Dynamic__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        path: "dynamic"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_8__["Routes"], {
-        path: "*"
-      })))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(pages_components_ContactForm__WEBPACK_IMPORTED_MODULE_12__["default"], null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(pages_components_Contact__WEBPACK_IMPORTED_MODULE_11__["ContactSection"], null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "calendly-inline-widget",
-        "data-url": "https://calendly.com/attorneycat",
-        style: {
-          minWidth: "320px",
-          height: "630px"
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(pages_components_Contact__WEBPACK_IMPORTED_MODULE_11__["ContactDetails"], null));
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          onClick: this.showSettings,
+          to: "/#top"
+        }, "Home"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          onClick: this.showSettings,
+          href: "http://blog.usaatty.com/"
+        }, "Blog"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          onClick: this.showSettings,
+          to: "/#services"
+        }, "Services"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          onClick: this.showSettings,
+          to: "/#about"
+        }, "About"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          onClick: this.showSettings,
+          to: "/#reviews"
+        }, "Reviews"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          onClick: this.showSettings,
+          href: "#bottom",
+          to: "#bottom"
+        }, "Contact")),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(NavBar, null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          to: "/"
+        }, "Home"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          href: "http://blog.usaatty.com/"
+        }, "Blog"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          to: "/#services"
+        }, "Services"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          to: "/#about"
+        }, "About"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          to: "/#reviews"
+        }, "Reviews"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+          href: "#bottom",
+          to: "#bottom"
+        }, "Contact"),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
+          style: {
+            marginLeft: "auto"
+          },
+          target: "_blank",
+          href: "https://wa.me/18083979999"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
+          icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faWhatsapp"]
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
+          target: "_blank",
+          href: "http://line.me/ti/p/~amojuris"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
+          icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faLine"]
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
+          target: "_blank",
+          href: "https://msng.link/o/?ctang88=wc"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
+          icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faWeixin"]
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          target: "_blank",
+          href: "https://www.linkedin.com/in/cattang/"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
+          icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faLinkedin"]
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          target: "_blank",
+          href: "https://instagram.com/americanattorney"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
+          icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faInstagram"]
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          target: "_blank",
+          href: "https://www.youtube.com/channel/UCFArqSbKHRiZrRo8LRhpe3Q?view_as=subscriber"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
+          icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faYoutube"]
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+          target: "_blank",
+          href: "https://facebook.com/usaatty"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
+          icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_16__["faFacebook"]
+        })),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileVisibleLink, {
+          target: "_blank",
+          href: "mailto:mail@usaatty.com"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_15__["FontAwesomeIcon"], {
+          icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_17__["faEnvelope"]
+        })))),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+          className: "content"
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Suspense, {
+          fallback:
+          /*#__PURE__*/
+          react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("em", null, "Loading...")
+        },
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_9__["Router"], null,
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(containers_Dynamic__WEBPACK_IMPORTED_MODULE_10__["default"], {
+          path: "dynamic"
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_8__["Routes"], {
+          path: "*"
+        })))),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(pages_components_ContactForm__WEBPACK_IMPORTED_MODULE_12__["default"], null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(pages_components_Contact__WEBPACK_IMPORTED_MODULE_11__["ContactSection"], null),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+          className: "calendly-inline-widget",
+          "data-url": "https://calendly.com/attorneycat",
+          style: {
+            minWidth: "320px",
+            height: "630px"
+          }
+        }),
+        /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(pages_components_Contact__WEBPACK_IMPORTED_MODULE_11__["ContactDetails"], null))
+      );
     }
   }]);
 
@@ -2251,7 +2841,11 @@ if (typeof document !== 'undefined') {
   var renderMethod = target.hasChildNodes() ? react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.hydrate : react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render;
 
   var render = function render(Comp) {
-    renderMethod(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__["AppContainer"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Comp, null)), target);
+    renderMethod(
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__["AppContainer"], null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Comp, null)), target);
   }; // Render!
 
 
@@ -2275,7 +2869,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "404 - Oh no's! We couldn't find that page :("));
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null,
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "404 - Oh no's! We couldn't find that page :("))
+  );
 });
 
 /***/ }),
@@ -2288,7 +2887,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "This is a dynamic page! It will not be statically exported, but is available at runtime");
+  return (
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "This is a dynamic page! It will not be statically exported, but is available at runtime")
+  );
 });
 
 /***/ }),
@@ -2664,25 +3266,25 @@ module.exports = require("@babel/runtime/helpers/defineProperty");
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(65);
-/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Users_tobiasgu_dev_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(65);
+/* harmony import */ var _Users_tobiasgu_dev_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_tobiasgu_dev_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
 
 var plugins = [{
-  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-source-filesystem",
+  location: "/Users/tobiasgu/dev/americanattorney/node_modules/react-static-plugin-source-filesystem",
   plugins: [],
   hooks: {}
 }, {
-  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-reach-router",
+  location: "/Users/tobiasgu/dev/americanattorney/node_modules/react-static-plugin-reach-router",
   plugins: [],
-  hooks: _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default()({})
+  hooks: _Users_tobiasgu_dev_americanattorney_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default()({})
 }, {
-  location: "/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static-plugin-sitemap/dist",
+  location: "/Users/tobiasgu/dev/americanattorney/node_modules/react-static-plugin-sitemap/dist",
   plugins: [],
   hooks: {}
 }, {
-  location: "/Users/tobiasgu/dev/american_attorney/americanattorney",
+  location: "/Users/tobiasgu/dev/americanattorney",
   plugins: [],
   hooks: {}
 }]; // Export em!
@@ -2693,7 +3295,7 @@ var plugins = [{
 /* 57 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static/lib/browser");
+module.exports = require("/Users/tobiasgu/dev/americanattorney/node_modules/react-static/lib/browser");
 
 /***/ }),
 /* 58 */
@@ -2708,8 +3310,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
-/* harmony import */ var _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
+/* harmony import */ var _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -2738,7 +3340,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(_Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
+Object(_Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
 var universalOptions = {
   loading: function loading() {
     return null;
@@ -2749,258 +3351,258 @@ var universalOptions = {
   },
   ignoreBabelRename: true
 };
-var t_0 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js",
+var t_0 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404 */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/404 */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/404.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/404";
   }
 }), universalOptions);
-t_0.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js';
-var t_1 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js",
+t_0.template = '/Users/tobiasgu/dev/americanattorney/src/pages/404.js';
+var t_1 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/blog/components/PostSummary.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/blog/components/PostSummary */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/blog/components/PostSummary.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(24);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/blog/components/PostSummary";
   }
 }), universalOptions);
-t_1.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js';
-var t_2 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js",
+t_1.template = '/Users/tobiasgu/dev/americanattorney/src/pages/blog/components/PostSummary.js';
+var t_2 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/blog/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/blog/index */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/blog/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(21);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/blog/index";
   }
 }), universalOptions);
-t_2.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js';
-var t_3 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx",
+t_2.template = '/Users/tobiasgu/dev/americanattorney/src/pages/blog/index.js';
+var t_3 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/components/Contact.jsx",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/components/Contact.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(19);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/components/Contact.jsx";
   }
 }), universalOptions);
-t_3.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx';
-var t_4 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx",
+t_3.template = '/Users/tobiasgu/dev/americanattorney/src/pages/components/Contact.jsx';
+var t_4 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/components/ContactForm.jsx",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/components/ContactForm.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(23);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/components/ContactForm.jsx";
   }
 }), universalOptions);
-t_4.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx';
-var t_5 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js",
+t_4.template = '/Users/tobiasgu/dev/americanattorney/src/pages/components/ContactForm.jsx';
+var t_5 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/components/core/index.js",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 3))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/components/core/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(3);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/components/core/index";
   }
 }), universalOptions);
-t_5.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js';
-var t_6 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx",
+t_5.template = '/Users/tobiasgu/dev/americanattorney/src/pages/components/core/index.js';
+var t_6 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/components/Hero.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx */).then(__webpack_require__.bind(null, 10))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/components/Hero.jsx */).then(__webpack_require__.bind(null, 10))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/components/Hero.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(10);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/components/Hero.jsx";
   }
 }), universalOptions);
-t_6.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx';
-var t_7 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx",
+t_6.template = '/Users/tobiasgu/dev/americanattorney/src/pages/components/Hero.jsx';
+var t_7 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/components/PictureTextBlock.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx */).then(__webpack_require__.bind(null, 12))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/components/PictureTextBlock.jsx */).then(__webpack_require__.bind(null, 12))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/components/PictureTextBlock.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(12);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/components/PictureTextBlock.jsx";
   }
 }), universalOptions);
-t_7.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx';
-var t_8 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx",
+t_7.template = '/Users/tobiasgu/dev/americanattorney/src/pages/components/PictureTextBlock.jsx';
+var t_8 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/components/ServicesIOffer.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/components/ServicesIOffer.jsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/components/ServicesIOffer.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(25);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/components/ServicesIOffer.jsx";
   }
 }), universalOptions);
-t_8.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx';
-var t_9 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx",
+t_8.template = '/Users/tobiasgu/dev/americanattorney/src/pages/components/ServicesIOffer.jsx';
+var t_9 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/components/Testimonials.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx */).then(__webpack_require__.bind(null, 26))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/components/Testimonials.jsx */).then(__webpack_require__.bind(null, 26))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/components/Testimonials.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(26);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/components/Testimonials.jsx";
   }
 }), universalOptions);
-t_9.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx';
-var t_10 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx",
+t_9.template = '/Users/tobiasgu/dev/americanattorney/src/pages/components/Testimonials.jsx';
+var t_10 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/components/TextOverPictureBlock.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx */).then(__webpack_require__.bind(null, 11))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/components/TextOverPictureBlock.jsx */).then(__webpack_require__.bind(null, 11))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/components/TextOverPictureBlock.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(11);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/components/TextOverPictureBlock.jsx";
   }
 }), universalOptions);
-t_10.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx';
-var t_11 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js",
+t_10.template = '/Users/tobiasgu/dev/americanattorney/src/pages/components/TextOverPictureBlock.jsx';
+var t_11 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/index */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(20);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/index";
   }
 }), universalOptions);
-t_11.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js';
-var t_12 = _Users_tobiasgu_dev_american_attorney_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js",
+t_11.template = '/Users/tobiasgu/dev/americanattorney/src/pages/index.js';
+var t_12 = _Users_tobiasgu_dev_americanattorney_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/tobiasgu/dev/americanattorney/src/pages/post/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/tobiasgu/dev/americanattorney/src/pages/post/index */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/tobiasgu/dev/americanattorney/src/pages/post/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(22);
   },
   chunkName: function chunkName() {
-    return "Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index";
+    return "Users/tobiasgu/dev/americanattorney/src/pages/post/index";
   }
 }), universalOptions);
-t_12.template = '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js'; // Template Map
+t_12.template = '/Users/tobiasgu/dev/americanattorney/src/pages/post/index.js'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js': t_0,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/components/PostSummary.js': t_1,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/blog/index.js': t_2,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Contact.jsx': t_3,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ContactForm.jsx': t_4,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/core/index.js': t_5,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Hero.jsx': t_6,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/PictureTextBlock.jsx': t_7,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/ServicesIOffer.jsx': t_8,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/Testimonials.jsx': t_9,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/components/TextOverPictureBlock.jsx': t_10,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/index.js': t_11,
-  '/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/post/index.js': t_12
+  '/Users/tobiasgu/dev/americanattorney/src/pages/404.js': t_0,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/blog/components/PostSummary.js': t_1,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/blog/index.js': t_2,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/components/Contact.jsx': t_3,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/components/ContactForm.jsx': t_4,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/components/core/index.js': t_5,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/components/Hero.jsx': t_6,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/components/PictureTextBlock.jsx': t_7,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/components/ServicesIOffer.jsx': t_8,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/components/Testimonials.jsx': t_9,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/components/TextOverPictureBlock.jsx': t_10,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/index.js': t_11,
+  '/Users/tobiasgu/dev/americanattorney/src/pages/post/index.js': t_12
 }); // Not Found Template
 
-var notFoundTemplate = "/Users/tobiasgu/dev/american_attorney/americanattorney/src/pages/404.js";
+var notFoundTemplate = "/Users/tobiasgu/dev/americanattorney/src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
@@ -3206,7 +3808,7 @@ var _require = __webpack_require__(57),
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/tobiasgu/dev/american_attorney/americanattorney/artifacts/react-static-browser-plugins.js", function () {
+  module.hot.accept("/Users/tobiasgu/dev/americanattorney/artifacts/react-static-browser-plugins.js", function () {
     registerPlugins(__webpack_require__(56)["default"]);
   });
 }
@@ -3230,7 +3832,7 @@ var _require2 = __webpack_require__(58),
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/tobiasgu/dev/american_attorney/americanattorney/artifacts/react-static-templates.js", function () {
+  module.hot.accept("/Users/tobiasgu/dev/americanattorney/artifacts/react-static-templates.js", function () {
     var _require3 = __webpack_require__(58),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
@@ -3747,7 +4349,7 @@ module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 /* 81 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/tobiasgu/dev/american_attorney/americanattorney/node_modules/react-static/lib/browser/hooks/useStaticInfo");
+module.exports = require("/Users/tobiasgu/dev/americanattorney/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
 /* 82 */
